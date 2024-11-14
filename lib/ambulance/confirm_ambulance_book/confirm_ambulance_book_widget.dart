@@ -77,9 +77,7 @@ class _ConfirmAmbulanceBookWidgetState
                   ),
                   Expanded(
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        'fcwul6e9' /* Book Ambulance */,
-                      ),
+                      'Book Ambulance',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
                             color: FlutterFlowTheme.of(context).primaryText,
@@ -165,10 +163,7 @@ class _ConfirmAmbulanceBookWidgetState
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'wyhyu60h' /* General Ambulance */,
-                                                ),
+                                                'General Ambulance',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -235,10 +230,7 @@ class _ConfirmAmbulanceBookWidgetState
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  's65wyxms' /* ICU Ambulance */,
-                                                ),
+                                                'ICU Ambulance',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -305,10 +297,7 @@ class _ConfirmAmbulanceBookWidgetState
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'apwuqlph' /* Freezing Ambulance */,
-                                                ),
+                                                'Freezing Ambulance',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -339,9 +328,7 @@ class _ConfirmAmbulanceBookWidgetState
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 8.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    '9hw9w21w' /* Map Direction  */,
-                                  ),
+                                  'Map Direction ',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -366,9 +353,7 @@ class _ConfirmAmbulanceBookWidgetState
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 8.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'ofyiw0s7' /* Pickup Point:  */,
-                                  ),
+                                  'Pickup Point: ',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -381,9 +366,7 @@ class _ConfirmAmbulanceBookWidgetState
                                 ),
                               ),
                               Text(
-                                FFLocalizations.of(context).getText(
-                                  '0ecfkdqb' /* Badda, 8 Bukit Batok Street 41... */,
-                                ),
+                                'Badda, 8 Bukit Batok Street 41, Bangladesh, 361025',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -397,9 +380,7 @@ class _ConfirmAmbulanceBookWidgetState
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 8.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'krhlv7ez' /* Destination Point: */,
-                                  ),
+                                  'Destination Point:',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -412,9 +393,7 @@ class _ConfirmAmbulanceBookWidgetState
                                 ),
                               ),
                               Text(
-                                FFLocalizations.of(context).getText(
-                                  '947jb9im' /* House # 34/35, Road # 14/A (Ne... */,
-                                ),
+                                'House # 34/35, Road # 14/A (New), Dhanmondi R/A, Dhaka-1209',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -428,9 +407,7 @@ class _ConfirmAmbulanceBookWidgetState
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 8.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'wtp2pjxz' /* Price */,
-                                  ),
+                                  'Price',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -443,9 +420,7 @@ class _ConfirmAmbulanceBookWidgetState
                                 ),
                               ),
                               Text(
-                                FFLocalizations.of(context).getText(
-                                  'wl55jqfs' /* $250 */,
-                                ),
+                                '\$250',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -482,9 +457,7 @@ class _ConfirmAmbulanceBookWidgetState
                                     onPressed: () async {
                                       context.pushNamed('Ambulance');
                                     },
-                                    text: FFLocalizations.of(context).getText(
-                                      'gn9v4v9c' /* Cancel */,
-                                    ),
+                                    text: 'Cancel',
                                     options: FFButtonOptions(
                                       width: 200.0,
                                       height: 50.0,
@@ -542,9 +515,7 @@ class _ConfirmAmbulanceBookWidgetState
                                           },
                                         );
                                       },
-                                      text: FFLocalizations.of(context).getText(
-                                        'jhbhsnyg' /* Confirm */,
-                                      ),
+                                      text: 'Confirm',
                                       options: FFButtonOptions(
                                         width: 200.0,
                                         height: 50.0,

@@ -44,15 +44,9 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
     _model.textFieldFocusNode5 ??= FocusNode();
     _model.textFieldFocusNode5!.addListener(() => safeSetState(() {}));
     WidgetsBinding.instance.addPostFrameCallback((_) => safeSetState(() {
-          _model.textController1?.text = FFLocalizations.of(context).getText(
-            'c3zbtxgg' /* Ibne Riead */,
-          );
-          _model.textController2?.text = FFLocalizations.of(context).getText(
-            'v8z936t1' /* ibneriead@mail.com */,
-          );
-          _model.textController3?.text = FFLocalizations.of(context).getText(
-            '6kn6uxch' /* 2365 2568 5645 */,
-          );
+          _model.textController1?.text = 'Ibne Riead';
+          _model.textController2?.text = 'ibneriead@mail.com';
+          _model.textController3?.text = '2365 2568 5645';
         }));
   }
 
@@ -88,9 +82,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'zxg6ygue' /* Edit Profile */,
-            ),
+            'Edit Profile',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -161,9 +153,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          'v46sff7z' /* Ibne Riead */,
-                                        ),
+                                        'Ibne Riead',
                                         style: FlutterFlowTheme.of(context)
                                             .titleLarge
                                             .override(
@@ -177,9 +167,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                             ),
                                       ),
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          '6u38j20c' /* Phone Number: 01855671615 */,
-                                        ),
+                                        'Phone Number: 01855671615',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -192,9 +180,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                             ),
                                       ),
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          '9b3tvph3' /* User ID: #74957485 */,
-                                        ),
+                                        'User ID: #74957485',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -225,9 +211,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 0.0, 0.0, 12.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
-                              'o5mktuyd' /* Personal Details */,
-                            ),
+                            'Personal Details',
                             style: FlutterFlowTheme.of(context)
                                 .labelLarge
                                 .override(
@@ -253,9 +237,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                           autofocus: false,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: FFLocalizations.of(context).getText(
-                              '681q0uf0' /* Full Name* */,
-                            ),
+                            labelText: 'Full Name*',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -264,9 +246,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                       FlutterFlowTheme.of(context).primaryText,
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              'kxts2s98' /* Enter your full name */,
-                            ),
+                            hintText: 'Enter your full name',
                             hintStyle: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -328,9 +308,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                           autofocus: false,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: FFLocalizations.of(context).getText(
-                              'jvbnmu20' /* Email (optional) */,
-                            ),
+                            labelText: 'Email (optional)',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -339,9 +317,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                       FlutterFlowTheme.of(context).primaryText,
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              'v49e08s3' /* Enter your email */,
-                            ),
+                            hintText: 'Enter your email',
                             hintStyle: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -403,9 +379,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                           autofocus: false,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: FFLocalizations.of(context).getText(
-                              '3yhsy9n2' /* Phone Number* */,
-                            ),
+                            labelText: 'Phone Number*',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -414,9 +388,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                       FlutterFlowTheme.of(context).primaryText,
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              'i1gn5by5' /* Enter your phone number */,
-                            ),
+                            hintText: 'Enter your phone number',
                             hintStyle: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -472,19 +444,9 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                             child: FlutterFlowDropDown<String>(
                               controller: _model.dropDownValueController1 ??=
                                   FormFieldController<String>(
-                                _model.dropDownValue1 ??=
-                                    FFLocalizations.of(context).getText(
-                                  'h5ezsg9y' /* Male */,
-                                ),
+                                _model.dropDownValue1 ??= 'Male',
                               ),
-                              options: [
-                                FFLocalizations.of(context).getText(
-                                  'caebz5lq' /* Male */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  'g030pf70' /* Female */,
-                                )
-                              ],
+                              options: ['Male', 'Female'],
                               onChanged: (val) => safeSetState(
                                   () => _model.dropDownValue1 = val),
                               width: 300.0,
@@ -495,9 +457,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                     fontFamily: 'Nunito',
                                     letterSpacing: 0.0,
                                   ),
-                              hintText: FFLocalizations.of(context).getText(
-                                'kn6s5z8p' /* Select gender */,
-                              ),
+                              hintText: 'Select gender',
                               icon: Icon(
                                 Icons.keyboard_arrow_down_rounded,
                                 color:
@@ -529,24 +489,12 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                               controller: _model.dropDownValueController2 ??=
                                   FormFieldController<String>(null),
                               options: [
-                                FFLocalizations.of(context).getText(
-                                  'wbk3q8qa' /* 0-10 */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  'prjy6cn6' /* 11-18 */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  '3vvhyni6' /* 19-35 */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  'zdz8wr6p' /* 36-58 */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  'pr7xm7au' /* 58-75 */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  'td599n7i' /* 76+ */,
-                                )
+                                '0-10',
+                                '11-18',
+                                '19-35',
+                                '36-58',
+                                '58-75',
+                                '76+'
                               ],
                               onChanged: (val) => safeSetState(
                                   () => _model.dropDownValue2 = val),
@@ -558,9 +506,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                     fontFamily: 'Nunito',
                                     letterSpacing: 0.0,
                                   ),
-                              hintText: FFLocalizations.of(context).getText(
-                                'buhke55d' /* Select age */,
-                              ),
+                              hintText: 'Select age',
                               icon: Icon(
                                 Icons.keyboard_arrow_down_rounded,
                                 color:
@@ -592,30 +538,14 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                               controller: _model.dropDownValueController3 ??=
                                   FormFieldController<String>(null),
                               options: [
-                                FFLocalizations.of(context).getText(
-                                  're7cl5pn' /* A+ */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  '3071gc2h' /* A- */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  'bz7y76g9' /* B+ */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  'y3sinue7' /* B- */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  'jxv4h4e8' /* 0+ */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  '75yzln5i' /* 0- */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  'l227er8k' /* AB+ */,
-                                ),
-                                FFLocalizations.of(context).getText(
-                                  'j5kd9yom' /* AB- */,
-                                )
+                                'A+',
+                                'A-',
+                                'B+',
+                                'B-',
+                                '0+',
+                                '0-',
+                                'AB+',
+                                'AB-'
                               ],
                               onChanged: (val) => safeSetState(
                                   () => _model.dropDownValue3 = val),
@@ -627,9 +557,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                     fontFamily: 'Nunito',
                                     letterSpacing: 0.0,
                                   ),
-                              hintText: FFLocalizations.of(context).getText(
-                                'riypvsj5' /* Blood Group */,
-                              ),
+                              hintText: 'Blood Group',
                               icon: Icon(
                                 Icons.keyboard_arrow_down_rounded,
                                 color:
@@ -666,9 +594,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                           autofocus: false,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: FFLocalizations.of(context).getText(
-                              'h7w7u98f' /* Weight */,
-                            ),
+                            labelText: 'Weight',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -677,9 +603,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                       FlutterFlowTheme.of(context).primaryText,
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              'gnucbhyx' /* Enter your weight */,
-                            ),
+                            hintText: 'Enter your weight',
                             hintStyle: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -741,9 +665,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                           autofocus: false,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: FFLocalizations.of(context).getText(
-                              '83xy3ogq' /* Height */,
-                            ),
+                            labelText: 'Height',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -752,9 +674,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                                       FlutterFlowTheme.of(context).primaryText,
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              'vcefxznn' /* Enter your Height */,
-                            ),
+                            hintText: 'Enter your Height',
                             hintStyle: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -809,9 +729,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                     onPressed: () async {
                       context.safePop();
                     },
-                    text: FFLocalizations.of(context).getText(
-                      'ncrx91as' /* Update */,
-                    ),
+                    text: 'Update',
                     options: FFButtonOptions(
                       width: MediaQuery.sizeOf(context).width * 1.0,
                       height: 50.0,

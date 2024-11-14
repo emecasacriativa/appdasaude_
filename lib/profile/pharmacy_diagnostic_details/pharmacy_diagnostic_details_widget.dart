@@ -183,9 +183,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                             Align(
                               alignment: AlignmentDirectional(-1.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
-                                  '02e6p1c8' /* 4.5 (100+ Ratings) */,
-                                ),
+                                '4.5 (100+ Ratings)',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -250,9 +248,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                           child: Align(
                             alignment: AlignmentDirectional(-1.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
-                                'xvkwrxj4' /* Free delivery */,
-                              ),
+                              'Free delivery',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -269,9 +265,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                         Align(
                           alignment: AlignmentDirectional(-1.0, 0.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
-                              'nh3qtylg' /* Map Direction */,
-                            ),
+                            'Map Direction',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -318,24 +312,16 @@ class _PharmacyDiagnosticDetailsWidgetState
                               padding: EdgeInsets.all(4.0),
                               tabs: [
                                 Tab(
-                                  text: FFLocalizations.of(context).getText(
-                                    '6ksd2g34' /* Medicine */,
-                                  ),
+                                  text: 'Medicine',
                                 ),
                                 Tab(
-                                  text: FFLocalizations.of(context).getText(
-                                    'numdgyiw' /* About Us */,
-                                  ),
+                                  text: 'About Us',
                                 ),
                                 Tab(
-                                  text: FFLocalizations.of(context).getText(
-                                    'x61mr3ku' /* Open and Closed */,
-                                  ),
+                                  text: 'Open and Closed',
                                 ),
                                 Tab(
-                                  text: FFLocalizations.of(context).getText(
-                                    'fus1osix' /* Rating */,
-                                  ),
+                                  text: 'Rating',
                                 ),
                               ],
                               controller: _model.tabBarController,
@@ -376,11 +362,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                             autofocus: false,
                                             obscureText: false,
                                             decoration: InputDecoration(
-                                              labelText:
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                'nooqs2ys' /* Search */,
-                                              ),
+                                              labelText: 'Search',
                                               labelStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
@@ -644,9 +626,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 0.0, 10.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              '35ksu6bc' /* About Us */,
-                                            ),
+                                            'About Us',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -660,9 +640,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                           ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            '00bku2px' /* Pellentesque egestas sit tinci... */,
-                                          ),
+                                          'Pellentesque egestas sit tincidunt porta leo a con se ctetur. At nisl semper urna vitae sed\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Odio vitae scelerisque sed ut. Tellus viverra facil isi sagittis hac. Ac imperdiet ultrices fringilla curabit ur nullam nibh amet, eu. \n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Et consequat aliquet massa mattis nec, suscipit erat. Cras dui, purus neque consectetur. Lectus non ac tempus aliquam urna, sit donec. Eu aliquet et eget penatibus egestas mattis sed. Dolor ipsum eu et molestie. Neque nibh vulputate molestie amet morbi odio. At elementum, rhoncus, magna ipsum, et morbi dictum porttitor. Tincidunt imperdiet bibendum nec volutpat amet, sed pulvinar pellentesque consectetur. Urna nunc, id nibh facilisis amet urna non. Nisi justo, eu risus id. Ut duis faucibus arcu nibh.',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -691,9 +669,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 0.0, 0.0, 10.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'c7n8t35a' /* Open - Closed */,
-                                            ),
+                                            'Open - Closed',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -717,10 +693,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'sqdxdhai' /* Monday */,
-                                                  ),
+                                                  'Monday',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -734,10 +707,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'zzfc9hjk' /* Tuesday */,
-                                                  ),
+                                                  'Tuesday',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -751,10 +721,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'ocv91md4' /* Wednesday */,
-                                                  ),
+                                                  'Wednesday',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -768,10 +735,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'r5v6t3ta' /* Thursday */,
-                                                  ),
+                                                  'Thursday',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -785,10 +749,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '3ifzb1q9' /* Friday */,
-                                                  ),
+                                                  'Friday',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -802,10 +763,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '7uyb80dj' /* Saturday */,
-                                                  ),
+                                                  'Saturday',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -819,10 +777,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '20qf8bf0' /* Sunday */,
-                                                  ),
+                                                  'Sunday',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -843,10 +798,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                   CrossAxisAlignment.end,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'aly1r7od' /* 10:00 AM - 10:00 PM */,
-                                                  ),
+                                                  '10:00 AM - 10:00 PM',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -860,10 +812,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '4yxfjbdr' /* 10:00 AM - 10:00 PM */,
-                                                  ),
+                                                  '10:00 AM - 10:00 PM',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -877,10 +826,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '7ulusekf' /* 10:00 AM - 10:00 PM */,
-                                                  ),
+                                                  '10:00 AM - 10:00 PM',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -894,10 +840,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'tchz9k4u' /* 10:00 AM - 10:00 PM */,
-                                                  ),
+                                                  '10:00 AM - 10:00 PM',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -911,10 +854,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '6h88fh54' /* 10:00 AM - 10:00 PM */,
-                                                  ),
+                                                  '10:00 AM - 10:00 PM',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -928,10 +868,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'g0v1dvao' /* 10:00 AM - 10:00 PM */,
-                                                  ),
+                                                  '10:00 AM - 10:00 PM',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -945,10 +882,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '6v3mvbwh' /* Closed */,
-                                                  ),
+                                                  'Closed',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -986,10 +920,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                   .fromSTEB(
                                                       0.0, 24.0, 0.0, 12.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'ku3pfc4o' /* Reviews(60) */,
-                                                ),
+                                                'Reviews(60)',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -1018,10 +949,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                                     size: 16.0,
                                                   ),
                                                   Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      'awpzfqn5' /* 4.9 */,
-                                                    ),
+                                                    '4.9',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -1099,9 +1027,7 @@ class _PharmacyDiagnosticDetailsWidgetState
                                   onPressed: () async {
                                     context.pushNamed('BookAppointment');
                                   },
-                                  text: FFLocalizations.of(context).getText(
-                                    'q6rx04mc' /* Upload Prescription */,
-                                  ),
+                                  text: 'Upload Prescription',
                                   options: FFButtonOptions(
                                     width: 200.0,
                                     height: 50.0,

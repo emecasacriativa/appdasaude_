@@ -75,9 +75,7 @@ class _DiagnosticsWidgetState extends State<DiagnosticsWidget> {
                   ),
                   Expanded(
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        '2bw5uy00' /* Diagnostics */,
-                      ),
+                      'Diagnostics',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
                             color: FlutterFlowTheme.of(context).primaryText,
@@ -161,9 +159,7 @@ class _DiagnosticsWidgetState extends State<DiagnosticsWidget> {
                                       alignment:
                                           AlignmentDirectional(-1.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'c97y5v6w' /* Services Up To */,
-                                        ),
+                                        'Services Up To',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -182,9 +178,7 @@ class _DiagnosticsWidgetState extends State<DiagnosticsWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 8.0, 0.0, 12.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            '4j1vjeeu' /* 30% OFF */,
-                                          ),
+                                          '30% OFF',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -201,9 +195,7 @@ class _DiagnosticsWidgetState extends State<DiagnosticsWidget> {
                                       onPressed: () {
                                         print('Button pressed ...');
                                       },
-                                      text: FFLocalizations.of(context).getText(
-                                        '7q833ft9' /* View More */,
-                                      ),
+                                      text: 'View More',
                                       options: FFButtonOptions(
                                         height: 40.0,
                                         padding: EdgeInsetsDirectional.fromSTEB(
@@ -256,9 +248,7 @@ class _DiagnosticsWidgetState extends State<DiagnosticsWidget> {
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'phwgnuou' /* Categories */,
-                                      ),
+                                      'Categories',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -272,9 +262,7 @@ class _DiagnosticsWidgetState extends State<DiagnosticsWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'uhhjs686' /* View All */,
-                                    ),
+                                    'View All',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -376,9 +364,7 @@ class _DiagnosticsWidgetState extends State<DiagnosticsWidget> {
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        '9xmm1pxo' /* Nearby Diagnostics */,
-                                      ),
+                                      'Nearby Diagnostics',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -392,9 +378,7 @@ class _DiagnosticsWidgetState extends State<DiagnosticsWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'gq33r05u' /* View All */,
-                                    ),
+                                    'View All',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -520,9 +504,7 @@ class _DiagnosticsWidgetState extends State<DiagnosticsWidget> {
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'yggj7g6e' /* Popular Diagnostics */,
-                                      ),
+                                      'Popular Diagnostics',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -536,9 +518,7 @@ class _DiagnosticsWidgetState extends State<DiagnosticsWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'mrm8gey2' /* View All */,
-                                    ),
+                                    'View All',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(

@@ -128,9 +128,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       18.0, 7.0, 18.0, 7.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'h1vr8edg' /* Upcoming */,
-                                    ),
+                                    'Upcoming',
                                     style: FlutterFlowTheme.of(context)
                                         .labelLarge
                                         .override(
@@ -177,9 +175,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       18.0, 7.0, 18.0, 7.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'widui3yf' /* Past */,
-                                    ),
+                                    'Past',
                                     style: FlutterFlowTheme.of(context)
                                         .labelLarge
                                         .override(
@@ -231,9 +227,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'q2xlhapo' /* Today - 12 July 2022 */,
-                                            ),
+                                            'Today - 12 July 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -321,9 +315,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'xji0a5ej' /* Today - 12 July 2022 */,
-                                            ),
+                                            'Today - 12 July 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -419,9 +411,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              't12d13uj' /* Today - 12 July 2022 */,
-                                            ),
+                                            'Today - 12 July 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -529,9 +519,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'lxoni2kl' /* Today - 12 July 2022 */,
-                                            ),
+                                            'Today - 12 July 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -647,9 +635,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'uyibfadm' /* Today - 12 July 2022 */,
-                                            ),
+                                            'Today - 12 July 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -729,11 +715,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'boauccg8' /* Name: Shaidul islma */,
-                                                                    ),
+                                                                    'Name: Shaidul islma',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -772,10 +754,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          't6wmnlpt' /* 2715 Ash Dr. San Jose, South  */,
-                                                                        ),
+                                                                        '2715 Ash Dr. San Jose, South ',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -788,11 +767,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ],
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'pcg6h47i' /* Date: 26 Jun 2022 - 27 Jun 202... */,
-                                                                    ),
+                                                                    'Date: 26 Jun 2022 - 27 Jun 2022',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -823,10 +798,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            'np10vf6o' /* Day: 3 Day Pack */,
-                                                                          ),
+                                                                          'Day: 3 Day Pack',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -838,10 +810,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'epjp0teh' /* In Progress */,
-                                                                        ),
+                                                                        'In Progress',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -933,11 +902,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '614rxqji' /* Name: Ibne Riead */,
-                                                                    ),
+                                                                    'Name: Ibne Riead',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -976,10 +941,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          '4zuzzzpy' /* 2715 Ash Dr. San Jose, South  */,
-                                                                        ),
+                                                                        '2715 Ash Dr. San Jose, South ',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -992,11 +954,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ],
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'wukorg32' /* Date: 26 Jun 2022 - 7 Jul 2022 */,
-                                                                    ),
+                                                                    'Date: 26 Jun 2022 - 7 Jul 2022',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -1027,10 +985,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            '5u47knc4' /* Day: 6 Day Pack */,
-                                                                          ),
+                                                                          'Day: 6 Day Pack',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -1042,10 +997,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'krkz3x60' /* Accepted */,
-                                                                        ),
+                                                                        'Accepted',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -1137,11 +1089,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'q1k2rtu9' /* Name: Jack Song */,
-                                                                    ),
+                                                                    'Name: Jack Song',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -1180,10 +1128,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'u72zlzxu' /* 2715 Ash Dr. San Jose, South  */,
-                                                                        ),
+                                                                        '2715 Ash Dr. San Jose, South ',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -1196,11 +1141,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ],
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'hqwrbzud' /* Date: 26 Jun 2022 - 7 Jul 2022 */,
-                                                                    ),
+                                                                    'Date: 26 Jun 2022 - 7 Jul 2022',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -1231,10 +1172,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            'ktcffog6' /* Day: 2 Day Pack */,
-                                                                          ),
+                                                                          'Day: 2 Day Pack',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -1246,10 +1184,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'c0mtgmgk' /* Accepted */,
-                                                                        ),
+                                                                        'Accepted',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -1287,9 +1222,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'cygzcceg' /* Today - 12 July 2022 */,
-                                            ),
+                                            'Today - 12 July 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -1369,11 +1302,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'lu05zdg1' /* Name: Ibne Riead */,
-                                                                    ),
+                                                                    'Name: Ibne Riead',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -1412,10 +1341,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'sl6fix5q' /* 2715 Ash Dr. San Jose, South  */,
-                                                                        ),
+                                                                        '2715 Ash Dr. San Jose, South ',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -1428,11 +1354,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ],
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'bmdwe8zk' /* Date: 26 Jun 2022 - 7 Jul 2022 */,
-                                                                    ),
+                                                                    'Date: 26 Jun 2022 - 7 Jul 2022',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -1463,10 +1385,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            '7doxwaiv' /* Day: 7 Day Pack */,
-                                                                          ),
+                                                                          'Day: 7 Day Pack',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -1478,10 +1397,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          '9uno7412' /* Cancelled */,
-                                                                        ),
+                                                                        'Cancelled',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -1573,11 +1489,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'hmto5jla' /* Name: Jack Song */,
-                                                                    ),
+                                                                    'Name: Jack Song',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -1616,10 +1528,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'shjtyzz9' /* 2715 Ash Dr. San Jose, South  */,
-                                                                        ),
+                                                                        '2715 Ash Dr. San Jose, South ',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -1632,11 +1541,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ],
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'dokf2iqs' /* Date: 26 Jun 2022 - 7 Jul 2022 */,
-                                                                    ),
+                                                                    'Date: 26 Jun 2022 - 7 Jul 2022',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -1667,10 +1572,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            'gigt4qpv' /* Day: 4 Day Pack */,
-                                                                          ),
+                                                                          'Day: 4 Day Pack',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -1682,10 +1584,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'rbc9thgd' /* Accepted */,
-                                                                        ),
+                                                                        'Accepted',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -1731,9 +1630,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'l81xmn6w' /* Today - 12 July 2022 */,
-                                            ),
+                                            'Today - 12 July 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -1822,11 +1719,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'vv3b9m29' /* General Ambulance */,
-                                                                    ),
+                                                                    'General Ambulance',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -1849,10 +1742,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             .max,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'cqf9c9ah' /* Pickup Point: 2715 Ash Dr. San */,
-                                                                        ),
+                                                                        'Pickup Point: 2715 Ash Dr. San',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -1865,11 +1755,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ],
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'qt33gudr' /* Destination Point: 2715 Ash Dr... */,
-                                                                    ),
+                                                                    'Destination Point: 2715 Ash Dr. San',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -1900,10 +1786,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            'fm4jibtk' /* Date: 26 Jun 2022 */,
-                                                                          ),
+                                                                          'Date: 26 Jun 2022',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -1915,10 +1798,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'gqbma7qr' /* In Progress */,
-                                                                        ),
+                                                                        'In Progress',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -2019,11 +1899,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'yg0viiee' /* ICU Ambulance */,
-                                                                    ),
+                                                                    'ICU Ambulance',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2046,10 +1922,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             .max,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'laprlri8' /* Pickup Point: 2715 Ash Dr. San */,
-                                                                        ),
+                                                                        'Pickup Point: 2715 Ash Dr. San',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -2062,11 +1935,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ],
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'ha7ukox8' /* Destination Point: 2715 Ash Dr... */,
-                                                                    ),
+                                                                    'Destination Point: 2715 Ash Dr. San',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2097,10 +1966,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            '5cyw2380' /* Date: 26 Jun 2022 */,
-                                                                          ),
+                                                                          'Date: 26 Jun 2022',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -2112,10 +1978,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'n8newp8v' /* Accepted */,
-                                                                        ),
+                                                                        'Accepted',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -2216,11 +2079,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '90y9h3rx' /* Freezing Ambulance */,
-                                                                    ),
+                                                                    'Freezing Ambulance',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2243,10 +2102,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             .max,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'ys1l8p08' /* Pickup Point: 2715 Ash Dr. San */,
-                                                                        ),
+                                                                        'Pickup Point: 2715 Ash Dr. San',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -2259,11 +2115,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ],
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'ij9k1h51' /* Destination Point: 2715 Ash Dr... */,
-                                                                    ),
+                                                                    'Destination Point: 2715 Ash Dr. San',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2294,10 +2146,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            '6qutq7gs' /* Date: 26 Jun 2022 */,
-                                                                          ),
+                                                                          'Date: 26 Jun 2022',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -2309,10 +2158,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          '9jilpw3t' /* Accepted */,
-                                                                        ),
+                                                                        'Accepted',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -2350,9 +2196,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'zp70w3ju' /* Today - 12 July 2022 */,
-                                            ),
+                                            'Today - 12 July 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -2433,11 +2277,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     .start,
                                                             children: [
                                                               Text(
-                                                                FFLocalizations.of(
-                                                                        context)
-                                                                    .getText(
-                                                                  'cn0jb1j1' /* Freezing Ambulance */,
-                                                                ),
+                                                                'Freezing Ambulance',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -2462,11 +2302,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .max,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'rwahhoix' /* Pickup Point: 2715 Ash Dr. San */,
-                                                                    ),
+                                                                    'Pickup Point: 2715 Ash Dr. San',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2484,11 +2320,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                 ],
                                                               ),
                                                               Text(
-                                                                FFLocalizations.of(
-                                                                        context)
-                                                                    .getText(
-                                                                  '73ne4w47' /* Destination Point: 2715 Ash Dr... */,
-                                                                ),
+                                                                'Destination Point: 2715 Ash Dr. San',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -2520,11 +2352,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             6.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      FFLocalizations.of(
-                                                                              context)
-                                                                          .getText(
-                                                                        'u2vivubo' /* Date: 26 Jun 2022 */,
-                                                                      ),
+                                                                      'Date: 26 Jun 2022',
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyMedium
@@ -2541,11 +2369,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ),
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'tgmmz4r5' /* Cancelled */,
-                                                                    ),
+                                                                    'Cancelled',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2645,11 +2469,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     .start,
                                                             children: [
                                                               Text(
-                                                                FFLocalizations.of(
-                                                                        context)
-                                                                    .getText(
-                                                                  'ejqsbs6n' /* Freezing Ambulance */,
-                                                                ),
+                                                                'Freezing Ambulance',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -2674,11 +2494,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .max,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '3eps06y9' /* Pickup Point: 2715 Ash Dr. San */,
-                                                                    ),
+                                                                    'Pickup Point: 2715 Ash Dr. San',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2696,11 +2512,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                 ],
                                                               ),
                                                               Text(
-                                                                FFLocalizations.of(
-                                                                        context)
-                                                                    .getText(
-                                                                  'xl14y3d2' /* Destination Point: 2715 Ash Dr... */,
-                                                                ),
+                                                                'Destination Point: 2715 Ash Dr. San',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -2732,11 +2544,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             6.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      FFLocalizations.of(
-                                                                              context)
-                                                                          .getText(
-                                                                        'zjb7u0i5' /* Date: 26 Jun 2022 */,
-                                                                      ),
+                                                                      'Date: 26 Jun 2022',
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyMedium
@@ -2753,11 +2561,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ),
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'oyoh0e06' /* Accepted */,
-                                                                    ),
+                                                                    'Accepted',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2805,9 +2609,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'od7i2qx1' /* Today - 12 July 2022 */,
-                                            ),
+                                            'Today - 12 July 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -2888,11 +2690,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'c8ao8jtt' /* Napa Extend Tablet */,
-                                                                    ),
+                                                                    'Napa Extend Tablet',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -2918,10 +2716,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             .spaceBetween,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'qg94hums' /* 10 Tablets */,
-                                                                        ),
+                                                                        '10 Tablets',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -2932,10 +2727,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'w2yduwz1' /* Amount: $6.99 */,
-                                                                        ),
+                                                                        'Amount: \$6.99',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -2963,10 +2755,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            'uh758c87' /* Qty: 01 */,
-                                                                          ),
+                                                                          'Qty: 01',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -2978,10 +2767,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'y6z717kw' /* Processed */,
-                                                                        ),
+                                                                        'Processed',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -3074,11 +2860,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '6o3i0k1o' /* Napa Extend Tablet */,
-                                                                    ),
+                                                                    'Napa Extend Tablet',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3104,10 +2886,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             .spaceBetween,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'gj2n7it4' /* 10 Tablets */,
-                                                                        ),
+                                                                        '10 Tablets',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -3118,10 +2897,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          '59fbapvs' /* Amount: $6.99 */,
-                                                                        ),
+                                                                        'Amount: \$6.99',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -3149,10 +2925,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            'n2g1ar93' /* Qty: 01 */,
-                                                                          ),
+                                                                          'Qty: 01',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -3164,10 +2937,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          '7rt9wbwc' /* Delivered */,
-                                                                        ),
+                                                                        'Delivered',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -3260,11 +3030,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '4jgdrcwy' /* Napa Extend Tablet */,
-                                                                    ),
+                                                                    'Napa Extend Tablet',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3290,10 +3056,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             .spaceBetween,
                                                                     children: [
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'v9y698v2' /* 10 Tablets */,
-                                                                        ),
+                                                                        '10 Tablets',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -3304,10 +3067,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          '2rlvjpbd' /* Amount: $6.99 */,
-                                                                        ),
+                                                                        'Amount: \$6.99',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -3335,10 +3095,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             0.0),
                                                                         child:
                                                                             Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            'xgfib715' /* Qty: 01 */,
-                                                                          ),
+                                                                          'Qty: 01',
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyMedium
                                                                               .override(
@@ -3350,10 +3107,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                       ),
                                                                       Text(
-                                                                        FFLocalizations.of(context)
-                                                                            .getText(
-                                                                          'rvq6dewk' /* Delivered */,
-                                                                        ),
+                                                                        'Delivered',
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyMedium
                                                                             .override(
@@ -3391,9 +3145,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              '82h3c7u1' /* Today - 12 July 2022 */,
-                                            ),
+                                            'Today - 12 July 2022',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -3465,11 +3217,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     .start,
                                                             children: [
                                                               Text(
-                                                                FFLocalizations.of(
-                                                                        context)
-                                                                    .getText(
-                                                                  'f074vljd' /* Napa Extend Tablet */,
-                                                                ),
+                                                                'Napa Extend Tablet',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -3497,11 +3245,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .spaceBetween,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'ils9ymq4' /* 10 Tablets */,
-                                                                    ),
+                                                                    '10 Tablets',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3517,11 +3261,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'zbp9oksu' /* Amount: $6.99 */,
-                                                                    ),
+                                                                    'Amount: \$6.99',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3554,11 +3294,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             6.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      FFLocalizations.of(
-                                                                              context)
-                                                                          .getText(
-                                                                        'ib02e46s' /* Qty: 01 */,
-                                                                      ),
+                                                                      'Qty: 01',
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyMedium
@@ -3575,11 +3311,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ),
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'zlzevde1' /* Canceled */,
-                                                                    ),
+                                                                    'Canceled',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3670,11 +3402,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     .start,
                                                             children: [
                                                               Text(
-                                                                FFLocalizations.of(
-                                                                        context)
-                                                                    .getText(
-                                                                  '52qx3fu5' /* Napa Extend Tablet */,
-                                                                ),
+                                                                'Napa Extend Tablet',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -3702,11 +3430,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         .spaceBetween,
                                                                 children: [
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'ihe8wzwx' /* 10 Tablets */,
-                                                                    ),
+                                                                    '10 Tablets',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3722,11 +3446,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                         ),
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'ofmjmqh6' /* Amount: $6.99 */,
-                                                                    ),
+                                                                    'Amount: \$6.99',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium
@@ -3759,11 +3479,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                             6.0,
                                                                             0.0),
                                                                     child: Text(
-                                                                      FFLocalizations.of(
-                                                                              context)
-                                                                          .getText(
-                                                                        'v8qvxtr2' /* Qty: 01 */,
-                                                                      ),
+                                                                      'Qty: 01',
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyMedium
@@ -3780,11 +3496,7 @@ class _MyAppointmentsWidgetState extends State<MyAppointmentsWidget> {
                                                                     ),
                                                                   ),
                                                                   Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'pzi8cf99' /* Canceled */,
-                                                                    ),
+                                                                    'Canceled',
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyMedium

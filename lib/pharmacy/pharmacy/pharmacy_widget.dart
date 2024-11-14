@@ -63,9 +63,7 @@ class _PharmacyWidgetState extends State<PharmacyWidget> {
                     child: Align(
                       alignment: AlignmentDirectional(-1.0, 0.0),
                       child: Text(
-                        FFLocalizations.of(context).getText(
-                          '073z06ho' /* Pharmacy */,
-                        ),
+                        'Pharmacy',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Nunito',
                               color: FlutterFlowTheme.of(context).primaryText,
@@ -164,9 +162,7 @@ class _PharmacyWidgetState extends State<PharmacyWidget> {
                                       alignment:
                                           AlignmentDirectional(-1.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'apqki48d' /* Services Up to */,
-                                        ),
+                                        'Services Up to',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -185,9 +181,7 @@ class _PharmacyWidgetState extends State<PharmacyWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 8.0, 0.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'wa6sbzsx' /* 30% OFF */,
-                                          ),
+                                          '30% OFF',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -207,10 +201,7 @@ class _PharmacyWidgetState extends State<PharmacyWidget> {
                                         onPressed: () {
                                           print('Button pressed ...');
                                         },
-                                        text:
-                                            FFLocalizations.of(context).getText(
-                                          'tvf23you' /* See Doctor */,
-                                        ),
+                                        text: 'See Doctor',
                                         options: FFButtonOptions(
                                           height: 40.0,
                                           padding:
@@ -263,9 +254,7 @@ class _PharmacyWidgetState extends State<PharmacyWidget> {
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        's4iv9g0q' /* Categories */,
-                                      ),
+                                      'Categories',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -279,9 +268,7 @@ class _PharmacyWidgetState extends State<PharmacyWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'xszujbb6' /* View All */,
-                                    ),
+                                    'View All',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -383,9 +370,7 @@ class _PharmacyWidgetState extends State<PharmacyWidget> {
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        '90qvd205' /* Nearby Pharmacy */,
-                                      ),
+                                      'Nearby Pharmacy',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -399,9 +384,7 @@ class _PharmacyWidgetState extends State<PharmacyWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      '3hsprjey' /* View All */,
-                                    ),
+                                    'View All',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(

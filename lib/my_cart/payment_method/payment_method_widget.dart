@@ -61,9 +61,7 @@ class _PaymentMethodWidgetState extends State<PaymentMethodWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'cyl0kesa' /* Payment Methord */,
-            ),
+            'Payment Methord',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -109,9 +107,7 @@ class _PaymentMethodWidgetState extends State<PaymentMethodWidget> {
                               Align(
                                 alignment: AlignmentDirectional(-1.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'ooxguc7y' /* Your Payment Cards */,
-                                  ),
+                                  'Your Payment Cards',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -171,9 +167,7 @@ class _PaymentMethodWidgetState extends State<PaymentMethodWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'ta5lhl39' /* Use as the payment methord */,
-                                    ),
+                                    'Use as the payment methord',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -231,9 +225,7 @@ class _PaymentMethodWidgetState extends State<PaymentMethodWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      '15wjzecp' /* Use as the payment methord */,
-                                    ),
+                                    'Use as the payment methord',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -289,9 +281,7 @@ class _PaymentMethodWidgetState extends State<PaymentMethodWidget> {
                               },
                             ).then((value) => safeSetState(() {}));
                           },
-                          text: FFLocalizations.of(context).getText(
-                            'y594tq7z' /* Add New Card */,
-                          ),
+                          text: 'Add New Card',
                           options: FFButtonOptions(
                             width: 200.0,
                             height: 50.0,

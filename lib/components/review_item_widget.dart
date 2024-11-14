@@ -141,9 +141,7 @@ class _ReviewItemWidgetState extends State<ReviewItemWidget> {
                     ],
                   ),
                   Text(
-                    FFLocalizations.of(context).getText(
-                      'j3kqgpbd' /* 31 Min Ago */,
-                    ),
+                    '31 Min Ago',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Nunito',
                           color: FlutterFlowTheme.of(context).secondaryText,

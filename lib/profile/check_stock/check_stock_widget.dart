@@ -58,9 +58,7 @@ class _CheckStockWidgetState extends State<CheckStockWidget> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    FFLocalizations.of(context).getText(
-                      '3rujmlr4' /* Check Stock */,
-                    ),
+                    'Check Stock',
                     style: FlutterFlowTheme.of(context).titleLarge.override(
                           fontFamily: 'Nunito',
                           fontSize: 18.0,
@@ -87,9 +85,7 @@ class _CheckStockWidgetState extends State<CheckStockWidget> {
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
                 child: Text(
-                  FFLocalizations.of(context).getText(
-                    '4g9ngkjy' /* Program */,
-                  ),
+                  'Program',
                   style: FlutterFlowTheme.of(context).bodyLarge.override(
                         fontFamily: 'Nunito',
                         letterSpacing: 0.0,
@@ -98,9 +94,7 @@ class _CheckStockWidgetState extends State<CheckStockWidget> {
                 ),
               ),
               Text(
-                FFLocalizations.of(context).getText(
-                  'pajp0da7' /* Total 4 weeks | 1 week left */,
-                ),
+                'Total 4 weeks | 1 week left',
                 style: FlutterFlowTheme.of(context).labelMedium.override(
                       fontFamily: 'Nunito',
                       letterSpacing: 0.0,
@@ -109,9 +103,7 @@ class _CheckStockWidgetState extends State<CheckStockWidget> {
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
                 child: Text(
-                  FFLocalizations.of(context).getText(
-                    '3ovz78sl' /* Quantity */,
-                  ),
+                  'Quantity',
                   style: FlutterFlowTheme.of(context).bodyLarge.override(
                         fontFamily: 'Nunito',
                         letterSpacing: 0.0,
@@ -120,9 +112,7 @@ class _CheckStockWidgetState extends State<CheckStockWidget> {
                 ),
               ),
               Text(
-                FFLocalizations.of(context).getText(
-                  'paovg5kt' /* Total 120 capsules | 40 capsul... */,
-                ),
+                'Total 120 capsules | 40 capsules left',
                 style: FlutterFlowTheme.of(context).labelMedium.override(
                       fontFamily: 'Nunito',
                       letterSpacing: 0.0,
@@ -134,9 +124,7 @@ class _CheckStockWidgetState extends State<CheckStockWidget> {
                   onPressed: () async {
                     Navigator.pop(context);
                   },
-                  text: FFLocalizations.of(context).getText(
-                    'ans4nrcr' /* Add Stock */,
-                  ),
+                  text: 'Add Stock',
                   options: FFButtonOptions(
                     width: double.infinity,
                     height: 50.0,

@@ -74,9 +74,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'uodom7ci' /* Diagnostics Details */,
-            ),
+            'Diagnostics Details',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -149,9 +147,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                       ),
                                 ),
                                 Text(
-                                  FFLocalizations.of(context).getText(
-                                    'eybe5186' /* 25 May 22 - 10:00 AM */,
-                                  ),
+                                  '25 May 22 - 10:00 AM',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -184,9 +180,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                     ),
                                     if (widget!.status == 1)
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          'b2sf94je' /* Accepted */,
-                                        ),
+                                        'Accepted',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -198,9 +192,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                       ),
                                     if (widget!.status == 2)
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          'nij4u0w2' /* In Progress */,
-                                        ),
+                                        'In Progress',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -212,9 +204,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                       ),
                                     if (widget!.status == 3)
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          's609s70w' /* Cancelled */,
-                                        ),
+                                        'Cancelled',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -292,10 +282,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     12.0, 0.0, 0.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'qb87jc8n' /* Covid RT PCR */,
-                                              ),
+                                              'Covid RT PCR',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .labelLarge
@@ -339,9 +326,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              '51ejjuxj' /* Hospital  */,
-                                            ),
+                                            'Hospital ',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -354,9 +339,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'mgtw8r1d' /* National Institute of Cancer R... */,
-                                            ),
+                                            'National Institute of Cancer Research& Hospital',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -396,9 +379,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            '87wto9qf' /* Visit time */,
-                                          ),
+                                          'Visit time',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -411,9 +392,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                               ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'ojq9v7a8' /* Afternoon */,
-                                          ),
+                                          'Afternoon',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -425,9 +404,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                               ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'ujm1xr7d' /* Today - 12 July, 2022 */,
-                                          ),
+                                          'Today - 12 July, 2022',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -439,9 +416,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                               ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'yzdlqiix' /* 01:00 PM */,
-                                          ),
+                                          '01:00 PM',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -481,9 +456,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'rj6ai8d7' /* Patient information */,
-                                          ),
+                                          'Patient information',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -504,10 +477,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '4niakphc' /* Name */,
-                                                  ),
+                                                  'Name',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -521,10 +491,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'xc242nm0' /* Age */,
-                                                  ),
+                                                  'Age',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -538,10 +505,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'e9bmvo0g' /* Gender */,
-                                                  ),
+                                                  'Gender',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -555,10 +519,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'h7mvx1il' /* Phone */,
-                                                  ),
+                                                  'Phone',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -579,10 +540,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'oh47ydmo' /* : */,
-                                                  ),
+                                                  ':',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -596,10 +554,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'knltqblv' /* : */,
-                                                  ),
+                                                  ':',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -613,10 +568,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '79form6q' /* : */,
-                                                  ),
+                                                  ':',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -630,10 +582,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'qn1d98oo' /* : */,
-                                                  ),
+                                                  ':',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -654,10 +603,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'frwh9ogr' /* Guy Hawkins */,
-                                                  ),
+                                                  'Guy Hawkins',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -671,10 +617,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'ly40il9z' /* 25 */,
-                                                  ),
+                                                  '25',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -688,10 +631,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '3l90i1g5' /* Male */,
-                                                  ),
+                                                  'Male',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -705,10 +645,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'ahq0n4nw' /* 01855671645 */,
-                                                  ),
+                                                  '01855671645',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -753,9 +690,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'ipodpq55' /* Consultation Fees */,
-                                          ),
+                                          'Consultation Fees',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -776,10 +711,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '1ze8pol0' /* Paid */,
-                                                  ),
+                                                  'Paid',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -793,51 +725,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'kebc7vmv' /* Fees */,
-                                                  ),
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Nunito',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
-                                                ),
-                                              ].divide(SizedBox(height: 4.0)),
-                                            ),
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'd2rr2ror' /* : */,
-                                                  ),
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Nunito',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '0t2bqwyu' /* : */,
-                                                  ),
+                                                  'Fees',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -858,10 +746,42 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '8lmrigzg' /* Video Call */,
-                                                  ),
+                                                  ':',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        fontFamily: 'Nunito',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .secondaryText,
+                                                        letterSpacing: 0.0,
+                                                      ),
+                                                ),
+                                                Text(
+                                                  ':',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        fontFamily: 'Nunito',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .secondaryText,
+                                                        letterSpacing: 0.0,
+                                                      ),
+                                                ),
+                                              ].divide(SizedBox(height: 4.0)),
+                                            ),
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
+                                              children: [
+                                                Text(
+                                                  'Video Call',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -875,10 +795,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'ynr0gix6' /* $15 */,
-                                                  ),
+                                                  '\$15',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -932,9 +849,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                             onPressed: () async {
                               context.pushNamed('BookAppointment');
                             },
-                            text: FFLocalizations.of(context).getText(
-                              'pqndz53f' /* Cancel */,
-                            ),
+                            text: 'Cancel',
                             options: FFButtonOptions(
                               width: 200.0,
                               height: 50.0,
@@ -979,9 +894,7 @@ class _DiagnosticsDetilsWidgetState extends State<DiagnosticsDetilsWidget> {
                                 }.withoutNulls,
                               );
                             },
-                            text: FFLocalizations.of(context).getText(
-                              '422xd3v6' /* Write a Review */,
-                            ),
+                            text: 'Write a Review',
                             options: FFButtonOptions(
                               width: 200.0,
                               height: 50.0,

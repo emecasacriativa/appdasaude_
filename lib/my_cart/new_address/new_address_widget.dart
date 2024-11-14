@@ -87,9 +87,7 @@ class _NewAddressWidgetState extends State<NewAddressWidget> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    FFLocalizations.of(context).getText(
-                      '6ditxw9z' /* Add New Address */,
-                    ),
+                    'Add New Address',
                     style: FlutterFlowTheme.of(context).bodyLarge.override(
                           fontFamily: 'Nunito',
                           letterSpacing: 0.0,
@@ -123,9 +121,7 @@ class _NewAddressWidgetState extends State<NewAddressWidget> {
                 autofocus: false,
                 obscureText: false,
                 decoration: InputDecoration(
-                  labelText: FFLocalizations.of(context).getText(
-                    't7biget4' /* Full Name */,
-                  ),
+                  labelText: 'Full Name',
                   labelStyle: FlutterFlowTheme.of(context).labelMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).primaryText,
@@ -184,9 +180,7 @@ class _NewAddressWidgetState extends State<NewAddressWidget> {
                 autofocus: false,
                 obscureText: false,
                 decoration: InputDecoration(
-                  labelText: FFLocalizations.of(context).getText(
-                    'y7p7vgpf' /* Country */,
-                  ),
+                  labelText: 'Country',
                   labelStyle: FlutterFlowTheme.of(context).labelMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).primaryText,
@@ -245,9 +239,7 @@ class _NewAddressWidgetState extends State<NewAddressWidget> {
                 autofocus: false,
                 obscureText: false,
                 decoration: InputDecoration(
-                  labelText: FFLocalizations.of(context).getText(
-                    '3t5e8m8e' /* Street Address */,
-                  ),
+                  labelText: 'Street Address',
                   labelStyle: FlutterFlowTheme.of(context).labelMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).primaryText,
@@ -310,9 +302,7 @@ class _NewAddressWidgetState extends State<NewAddressWidget> {
                       autofocus: false,
                       obscureText: false,
                       decoration: InputDecoration(
-                        labelText: FFLocalizations.of(context).getText(
-                          '4gdj9aa7' /* Town / City */,
-                        ),
+                        labelText: 'Town / City',
                         labelStyle: FlutterFlowTheme.of(context)
                             .labelMedium
                             .override(
@@ -378,9 +368,7 @@ class _NewAddressWidgetState extends State<NewAddressWidget> {
                       autofocus: false,
                       obscureText: false,
                       decoration: InputDecoration(
-                        labelText: FFLocalizations.of(context).getText(
-                          'r8ncphds' /* Postcode */,
-                        ),
+                        labelText: 'Postcode',
                         labelStyle: FlutterFlowTheme.of(context)
                             .labelMedium
                             .override(
@@ -447,9 +435,7 @@ class _NewAddressWidgetState extends State<NewAddressWidget> {
                 autofocus: false,
                 obscureText: false,
                 decoration: InputDecoration(
-                  labelText: FFLocalizations.of(context).getText(
-                    '2q8p1box' /* Email */,
-                  ),
+                  labelText: 'Email',
                   labelStyle: FlutterFlowTheme.of(context).labelMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).primaryText,
@@ -508,9 +494,7 @@ class _NewAddressWidgetState extends State<NewAddressWidget> {
                 autofocus: false,
                 obscureText: false,
                 decoration: InputDecoration(
-                  labelText: FFLocalizations.of(context).getText(
-                    'h8l1kb5p' /* Mobile Number */,
-                  ),
+                  labelText: 'Mobile Number',
                   labelStyle: FlutterFlowTheme.of(context).labelMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).primaryText,
@@ -563,9 +547,7 @@ class _NewAddressWidgetState extends State<NewAddressWidget> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    FFLocalizations.of(context).getText(
-                      'x1kk0a6y' /* Use as Billing address */,
-                    ),
+                    'Use as Billing address',
                     style: FlutterFlowTheme.of(context).labelLarge.override(
                           fontFamily: 'Nunito',
                           letterSpacing: 0.0,
@@ -599,9 +581,7 @@ class _NewAddressWidgetState extends State<NewAddressWidget> {
                   FFAppState().update(() {});
                   Navigator.pop(context);
                 },
-                text: FFLocalizations.of(context).getText(
-                  'c856oa6t' /* Save */,
-                ),
+                text: 'Save',
                 options: FFButtonOptions(
                   width: double.infinity,
                   height: 50.0,

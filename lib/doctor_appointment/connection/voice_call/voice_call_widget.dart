@@ -105,9 +105,7 @@ class _VoiceCallWidgetState extends State<VoiceCallWidget> {
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 8.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        '743u6gys' /* Dr. Josiah Toor */,
-                      ),
+                      'Dr. Josiah Toor',
                       style:
                           FlutterFlowTheme.of(context).headlineSmall.override(
                                 fontFamily: 'Nunito',
@@ -118,9 +116,7 @@ class _VoiceCallWidgetState extends State<VoiceCallWidget> {
                     ),
                   ),
                   Text(
-                    FFLocalizations.of(context).getText(
-                      '8s6cqh6v' /* Calling... */,
-                    ),
+                    'Calling...',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Nunito',
                           color: FlutterFlowTheme.of(context).secondaryText,

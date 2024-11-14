@@ -136,9 +136,7 @@ class _PharmacyItemWidgetState extends State<PharmacyItemWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.0, 0.0),
                         child: Text(
-                          FFLocalizations.of(context).getText(
-                            '8bspgq7k' /* Free delivery */,
-                          ),
+                          'Free delivery',
                           style: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -166,9 +164,7 @@ class _PharmacyItemWidgetState extends State<PharmacyItemWidget> {
                       Align(
                         alignment: AlignmentDirectional(-1.0, 0.0),
                         child: Text(
-                          FFLocalizations.of(context).getText(
-                            'dpyz8x7t' /* 4.5 */,
-                          ),
+                          '4.5',
                           style: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(

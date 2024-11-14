@@ -65,9 +65,7 @@ class _ChooseRoleWidgetState extends State<ChooseRoleWidget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 40.0, 0.0, 0.0),
                   child: Text(
-                    FFLocalizations.of(context).getText(
-                      '3zzx8zb0' /* Find Your Doctor */,
-                    ),
+                    'Find Your Doctor',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Nunito',
                           fontSize: 28.0,
@@ -80,9 +78,7 @@ class _ChooseRoleWidgetState extends State<ChooseRoleWidget> {
                   padding:
                       EdgeInsetsDirectional.fromSTEB(20.0, 12.0, 20.0, 0.0),
                   child: Text(
-                    FFLocalizations.of(context).getText(
-                      'jksli9ai' /* Lorem ipsum dolor sit amet, co... */,
-                    ),
+                    'Lorem ipsum dolor sit amet, consectetur adipi scing elit. Lectus sed ',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Nunito',
@@ -100,9 +96,7 @@ class _ChooseRoleWidgetState extends State<ChooseRoleWidget> {
                     onPressed: () async {
                       context.pushNamed('PatientSignIn');
                     },
-                    text: FFLocalizations.of(context).getText(
-                      'd7yktbsc' /* Are you a Doctor? */,
-                    ),
+                    text: 'Are you a Doctor?',
                     options: FFButtonOptions(
                       width: double.infinity,
                       height: 50.0,
@@ -135,9 +129,7 @@ class _ChooseRoleWidgetState extends State<ChooseRoleWidget> {
                     onPressed: () async {
                       context.pushNamed('PatientSignIn');
                     },
-                    text: FFLocalizations.of(context).getText(
-                      'ozfiq741' /* Are you a Patient? */,
-                    ),
+                    text: 'Are you a Patient?',
                     options: FFButtonOptions(
                       width: double.infinity,
                       height: 50.0,

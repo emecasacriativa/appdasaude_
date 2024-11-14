@@ -29,7 +29,7 @@ export '/doctor_appointment/book_appointment/payment/payment_widget.dart'
     show PaymentWidget;
 export '/home_page/notifications/notifications_widget.dart'
     show NotificationsWidget;
-export '/doctor_appointment/book_appointment/my_appointments/my_appointments_widget.dart'
+export '/doctor_appointment/my_appointments/my_appointments_widget.dart'
     show MyAppointmentsWidget;
 export '/doctor_appointment/book_appointment/online_appointment_details/online_appointment_details_widget.dart'
     show OnlineAppointmentDetailsWidget;

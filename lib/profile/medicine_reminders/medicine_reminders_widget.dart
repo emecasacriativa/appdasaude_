@@ -65,9 +65,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'fe96xl9s' /* Medicine Reminders */,
-            ),
+            'Medicine Reminders',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -113,9 +111,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'fxzmmngd' /* 12 July, 2022 */,
-                                  ),
+                                  '12 July, 2022',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -280,10 +276,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                   .fromSTEB(
                                                       18.0, 7.0, 18.0, 7.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'btcr6ait' /* Today */,
-                                                ),
+                                                'Today',
                                                 style: FlutterFlowTheme.of(
                                                         context)
                                                     .labelLarge
@@ -342,10 +335,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                   .fromSTEB(
                                                       18.0, 7.0, 18.0, 7.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'q10vykvw' /* Week */,
-                                                ),
+                                                'Week',
                                                 style: FlutterFlowTheme.of(
                                                         context)
                                                     .labelLarge
@@ -405,10 +395,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                   .fromSTEB(
                                                       18.0, 7.0, 18.0, 7.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'zqydsurt' /* Month */,
-                                                ),
+                                                'Month',
                                                 style: FlutterFlowTheme.of(
                                                         context)
                                                     .labelLarge
@@ -467,10 +454,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                       .spaceBetween,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'n0klnr11' /* Omega 3 */,
-                                                  ),
+                                                  'Omega 3',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelLarge
@@ -495,10 +479,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                               ],
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '3mh1atdd' /* 1 capsule  | 300 mg */,
-                                              ),
+                                              '1 capsule  | 300 mg',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
@@ -529,11 +510,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                             .fromSTEB(14.0, 5.0,
                                                                 14.0, 5.0),
                                                     child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'r2l6ftky' /* Before Eating */,
-                                                      ),
+                                                      'Before Eating',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -551,10 +528,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                   ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'qqskc3ys' /* Breakfast */,
-                                                  ),
+                                                  'Breakfast',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelMedium
@@ -606,11 +580,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                       );
                                                     },
                                                     child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'gq85as8c' /* View Details */,
-                                                      ),
+                                                      'View Details',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .labelMedium
@@ -662,10 +632,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                       .spaceBetween,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'sibbhzeh' /* Multi Vitamin */,
-                                                  ),
+                                                  'Multi Vitamin',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelLarge
@@ -690,10 +657,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                               ],
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'wn3aiiul' /* 2 capsule  | 300 mg */,
-                                              ),
+                                              '2 capsule  | 300 mg',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
@@ -724,11 +688,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                             .fromSTEB(14.0, 5.0,
                                                                 14.0, 5.0),
                                                     child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'pkxzvj37' /* Before Eating */,
-                                                      ),
+                                                      'Before Eating',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -746,10 +706,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                   ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'iccbwzbr' /* Lunch */,
-                                                  ),
+                                                  'Lunch',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelMedium
@@ -801,11 +758,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                       );
                                                     },
                                                     child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'kjpyan4z' /* View Details */,
-                                                      ),
+                                                      'View Details',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .labelMedium
@@ -857,10 +810,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                       .spaceBetween,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'acsb4mr8' /* Magnesium */,
-                                                  ),
+                                                  'Magnesium',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelLarge
@@ -885,10 +835,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                               ],
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '4zic4x97' /* 1 capsule  | 400 mg */,
-                                              ),
+                                              '1 capsule  | 400 mg',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
@@ -919,11 +866,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                             .fromSTEB(14.0, 5.0,
                                                                 14.0, 5.0),
                                                     child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'u9znx2fl' /* After Eating */,
-                                                      ),
+                                                      'After Eating',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -941,10 +884,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                   ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'e7r2ksa6' /* Dinner */,
-                                                  ),
+                                                  'Dinner',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelMedium
@@ -996,11 +936,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                       );
                                                     },
                                                     child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        '0bu5aoo3' /* View Details */,
-                                                      ),
+                                                      'View Details',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .labelMedium
@@ -1052,10 +988,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                       .spaceBetween,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '5qfwg0nd' /* Zink */,
-                                                  ),
+                                                  'Zink',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelLarge
@@ -1080,10 +1013,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                               ],
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '7gzhrees' /* 1 capsule  | 400 mg */,
-                                              ),
+                                              '1 capsule  | 400 mg',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .labelMedium
@@ -1114,11 +1044,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                             .fromSTEB(14.0, 5.0,
                                                                 14.0, 5.0),
                                                     child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'y7m4zv20' /* Before Eating */,
-                                                      ),
+                                                      'Before Eating',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyMedium
@@ -1136,10 +1062,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                   ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'nybzdftf' /* Breakfast */,
-                                                  ),
+                                                  'Breakfast',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .labelMedium
@@ -1191,11 +1114,7 @@ class _MedicineRemindersWidgetState extends State<MedicineRemindersWidget> {
                                                       );
                                                     },
                                                     child: Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'adoi98tk' /* View Details */,
-                                                      ),
+                                                      'View Details',
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .labelMedium

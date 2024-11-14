@@ -151,9 +151,7 @@ class _HospitalItemWidgetState extends State<HospitalItemWidget> {
               onPressed: () async {
                 await widget.btnAction?.call();
               },
-              text: FFLocalizations.of(context).getText(
-                'uweot2ah' /* Order now */,
-              ),
+              text: 'Order now',
               options: FFButtonOptions(
                 width: double.infinity,
                 height: 34.0,

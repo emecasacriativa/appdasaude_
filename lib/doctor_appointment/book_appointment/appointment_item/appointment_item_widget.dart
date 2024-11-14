@@ -104,9 +104,7 @@ class _AppointmentItemWidgetState extends State<AppointmentItemWidget> {
                             ),
                       ),
                       Text(
-                        FFLocalizations.of(context).getText(
-                          '813dzdk9' /* 25 May 22 - 10:00 AM */,
-                        ),
+                        '25 May 22 - 10:00 AM',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Nunito',
                               color: FlutterFlowTheme.of(context).secondaryText,
@@ -137,9 +135,7 @@ class _AppointmentItemWidgetState extends State<AppointmentItemWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 6.0, 0.0, 0.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
-                                '5owwzik5' /* Video Call -  */,
-                              ),
+                              'Video Call - ',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -153,9 +149,7 @@ class _AppointmentItemWidgetState extends State<AppointmentItemWidget> {
                           ),
                           if (widget!.status == 1)
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'hicdhjxa' /* Accepted */,
-                              ),
+                              'Accepted',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -167,9 +161,7 @@ class _AppointmentItemWidgetState extends State<AppointmentItemWidget> {
                             ),
                           if (widget!.status == 2)
                             Text(
-                              FFLocalizations.of(context).getText(
-                                '1t3ak6jw' /* In Progress */,
-                              ),
+                              'In Progress',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -181,9 +173,7 @@ class _AppointmentItemWidgetState extends State<AppointmentItemWidget> {
                             ),
                           if (widget!.status == 3)
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'y0cl61b6' /* Cancelled */,
-                              ),
+                              'Cancelled',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(

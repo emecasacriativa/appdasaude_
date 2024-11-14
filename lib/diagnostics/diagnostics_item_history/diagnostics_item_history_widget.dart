@@ -108,9 +108,7 @@ class _DiagnosticsItemHistoryWidgetState
                             ),
                       ),
                       Text(
-                        FFLocalizations.of(context).getText(
-                          'ff6lloft' /* 25 May 22 - 10:00 AM */,
-                        ),
+                        '25 May 22 - 10:00 AM',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Nunito',
                               color: FlutterFlowTheme.of(context).secondaryText,
@@ -142,9 +140,7 @@ class _DiagnosticsItemHistoryWidgetState
                           ),
                           if (widget!.status == 1)
                             Text(
-                              FFLocalizations.of(context).getText(
-                                '8gwjm0kx' /* Accepted */,
-                              ),
+                              'Accepted',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -156,9 +152,7 @@ class _DiagnosticsItemHistoryWidgetState
                             ),
                           if (widget!.status == 2)
                             Text(
-                              FFLocalizations.of(context).getText(
-                                '54wjty6r' /* In Progress */,
-                              ),
+                              'In Progress',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -170,9 +164,7 @@ class _DiagnosticsItemHistoryWidgetState
                             ),
                           if (widget!.status == 3)
                             Text(
-                              FFLocalizations.of(context).getText(
-                                '94ok29uh' /* Cancelled */,
-                              ),
+                              'Cancelled',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(

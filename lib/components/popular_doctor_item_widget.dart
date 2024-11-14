@@ -222,9 +222,7 @@ class _PopularDoctorItemWidgetState extends State<PopularDoctorItemWidget> {
                     }.withoutNulls,
                   );
                 },
-                text: FFLocalizations.of(context).getText(
-                  'n6w9ooel' /* Book Now */,
-                ),
+                text: 'Book Now',
                 options: FFButtonOptions(
                   width: double.infinity,
                   height: 34.0,

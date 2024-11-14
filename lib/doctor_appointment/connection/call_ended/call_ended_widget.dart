@@ -90,9 +90,7 @@ class _CallEndedWidgetState extends State<CallEndedWidget> {
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 8.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        'cowwi70a' /* Dr. Josiah Toor */,
-                      ),
+                      'Dr. Josiah Toor',
                       style:
                           FlutterFlowTheme.of(context).headlineSmall.override(
                                 fontFamily: 'Nunito',
@@ -103,9 +101,7 @@ class _CallEndedWidgetState extends State<CallEndedWidget> {
                     ),
                   ),
                   Text(
-                    FFLocalizations.of(context).getText(
-                      'c6es9fi7' /* Time end for video calling app... */,
-                    ),
+                    'Time end for video calling appointment ',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Nunito',
@@ -115,9 +111,7 @@ class _CallEndedWidgetState extends State<CallEndedWidget> {
                         ),
                   ),
                   Text(
-                    FFLocalizations.of(context).getText(
-                      '18mh4f2u' /* 12:08 min */,
-                    ),
+                    '12:08 min',
                     textAlign: TextAlign.center,
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Nunito',
@@ -149,9 +143,7 @@ class _CallEndedWidgetState extends State<CallEndedWidget> {
                           }.withoutNulls,
                         );
                       },
-                      text: FFLocalizations.of(context).getText(
-                        'ns9lsk8t' /* Write a Review */,
-                      ),
+                      text: 'Write a Review',
                       options: FFButtonOptions(
                         width: MediaQuery.sizeOf(context).width * 1.0,
                         height: 50.0,
@@ -180,9 +172,7 @@ class _CallEndedWidgetState extends State<CallEndedWidget> {
                       onPressed: () async {
                         context.pushNamed('HomePage');
                       },
-                      text: FFLocalizations.of(context).getText(
-                        'qfqroaxu' /* Back to Home */,
-                      ),
+                      text: 'Back to Home',
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 50.0,

@@ -72,9 +72,7 @@ class _WriteReviewWidgetState extends State<WriteReviewWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'ke8tzi2b' /* Write a Review */,
-            ),
+            'Write a Review',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -125,9 +123,7 @@ class _WriteReviewWidgetState extends State<WriteReviewWidget> {
                       ),
                     ),
                     Text(
-                      FFLocalizations.of(context).getText(
-                        'lpwxhj9d' /* haw was your exprience with  */,
-                      ),
+                      'haw was your exprience with ',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
@@ -158,9 +154,7 @@ class _WriteReviewWidgetState extends State<WriteReviewWidget> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        FFLocalizations.of(context).getText(
-                          '04ybgdn1' /* Select Rating */,
-                        ),
+                        'Select Rating',
                         style: FlutterFlowTheme.of(context).bodyLarge.override(
                               fontFamily: 'Nunito',
                               letterSpacing: 0.0,
@@ -199,9 +193,7 @@ class _WriteReviewWidgetState extends State<WriteReviewWidget> {
                           autofocus: false,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: FFLocalizations.of(context).getText(
-                              'jrh9vbui' /* Write a Comment */,
-                            ),
+                            labelText: 'Write a Comment',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -210,9 +202,7 @@ class _WriteReviewWidgetState extends State<WriteReviewWidget> {
                                       FlutterFlowTheme.of(context).primaryText,
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              'vt7dtz95' /* Review */,
-                            ),
+                            hintText: 'Review',
                             hintStyle: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -269,9 +259,7 @@ class _WriteReviewWidgetState extends State<WriteReviewWidget> {
                   onPressed: () async {
                     context.pushNamed('HomePage');
                   },
-                  text: FFLocalizations.of(context).getText(
-                    'whg6o6q8' /* Submit Review */,
-                  ),
+                  text: 'Submit Review',
                   options: FFButtonOptions(
                     width: MediaQuery.sizeOf(context).width * 1.0,
                     height: 50.0,

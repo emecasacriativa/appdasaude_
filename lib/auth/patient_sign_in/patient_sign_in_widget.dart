@@ -68,9 +68,7 @@ class _PatientSignInWidgetState extends State<PatientSignInWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              's7tlgpiw' /* Sign in */,
-            ),
+            'Sign in',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -92,9 +90,7 @@ class _PatientSignInWidgetState extends State<PatientSignInWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Text(
-                    FFLocalizations.of(context).getText(
-                      'y12a2ilx' /* Lorem ipsum dolor sit amet, co... */,
-                    ),
+                    'Lorem ipsum dolor sit amet, consectetur adi piscing elit. Quis sapien arcu',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Nunito',
                           color: FlutterFlowTheme.of(context).secondaryText,
@@ -118,9 +114,7 @@ class _PatientSignInWidgetState extends State<PatientSignInWidget> {
                         autofocus: false,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            'er9xn6n4' /* Mobile Number */,
-                          ),
+                          labelText: 'Mobile Number',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -193,9 +187,7 @@ class _PatientSignInWidgetState extends State<PatientSignInWidget> {
                         autofocus: false,
                         obscureText: !_model.passwordVisibility,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            'ddhtqizy' /* Password */,
-                          ),
+                          labelText: 'Password',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -272,9 +264,7 @@ class _PatientSignInWidgetState extends State<PatientSignInWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
                       child: Text(
-                        FFLocalizations.of(context).getText(
-                          'gdqhqslm' /* Forgot password? */,
-                        ),
+                        'Forgot password?',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Nunito',
                               color: FlutterFlowTheme.of(context).secondaryText,
@@ -291,9 +281,7 @@ class _PatientSignInWidgetState extends State<PatientSignInWidget> {
                       onPressed: () async {
                         context.pushNamed('HomePage');
                       },
-                      text: FFLocalizations.of(context).getText(
-                        'jjf3544a' /* Sign In */,
-                      ),
+                      text: 'Sign In',
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 50.0,
@@ -332,15 +320,11 @@ class _PatientSignInWidgetState extends State<PatientSignInWidget> {
                       text: TextSpan(
                         children: [
                           TextSpan(
-                            text: FFLocalizations.of(context).getText(
-                              'nihmfxfp' /* Dont’t have an account?  */,
-                            ),
+                            text: 'Dont’t have an account? ',
                             style: TextStyle(),
                           ),
                           TextSpan(
-                            text: FFLocalizations.of(context).getText(
-                              '6qx5a1wd' /* Sign up */,
-                            ),
+                            text: 'Sign up',
                             style: TextStyle(
                               color: FlutterFlowTheme.of(context).primary,
                               fontSize: 13.0,

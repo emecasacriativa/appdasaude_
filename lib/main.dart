@@ -18,8 +18,6 @@ void main() async {
 
   await FlutterFlowTheme.initialize();
 
-  await FFLocalizations.initialize();
-
   final appState = FFAppState(); // Initialize FFAppState
   await appState.initializePersistedState();
 
@@ -39,7 +37,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  Locale? _locale = FFLocalizations.getStoredLocale();
+  Locale? _locale;
 
   ThemeMode _themeMode = FlutterFlowTheme.themeMode;
 
@@ -61,7 +59,6 @@ class _MyAppState extends State<MyApp> {
 
   void setLocale(String language) {
     safeSetState(() => _locale = createLocale(language));
-    FFLocalizations.storeLocale(language);
   }
 
   void setThemeMode(ThemeMode mode) => safeSetState(() {
@@ -78,10 +75,11 @@ class _MyAppState extends State<MyApp> {
         GlobalMaterialLocalizations.delegate,
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
+        FallbackMaterialLocalizationDelegate(),
+        FallbackCupertinoLocalizationDelegate(),
       ],
       locale: _locale,
       supportedLocales: const [
-        Locale('en'),
         Locale('pt'),
       ],
       theme: ThemeData(
@@ -152,9 +150,7 @@ class _NavBarPageState extends State<NavBarPage> {
               FFIcons.khome,
               size: 24.0,
             ),
-            label: FFLocalizations.of(context).getText(
-              '0rfamapr' /* Home */,
-            ),
+            label: 'Home',
             tooltip: '',
           ),
           BottomNavigationBarItem(
@@ -162,9 +158,7 @@ class _NavBarPageState extends State<NavBarPage> {
               FFIcons.kpills,
               size: 24.0,
             ),
-            label: FFLocalizations.of(context).getText(
-              'x3wrs9eg' /* Pharmacy */,
-            ),
+            label: 'Pharmacy',
             tooltip: '',
           ),
           BottomNavigationBarItem(
@@ -172,9 +166,7 @@ class _NavBarPageState extends State<NavBarPage> {
               FFIcons.kshoppingCart,
               size: 24.0,
             ),
-            label: FFLocalizations.of(context).getText(
-              'bc0lzp4h' /* Home */,
-            ),
+            label: 'Home',
             tooltip: '',
           ),
           BottomNavigationBarItem(
@@ -182,9 +174,7 @@ class _NavBarPageState extends State<NavBarPage> {
               FFIcons.kdocument,
               size: 24.0,
             ),
-            label: FFLocalizations.of(context).getText(
-              'd21vbswe' /* Home */,
-            ),
+            label: 'Home',
             tooltip: '',
           ),
           BottomNavigationBarItem(
@@ -192,9 +182,7 @@ class _NavBarPageState extends State<NavBarPage> {
               FFIcons.kuser,
               size: 24.0,
             ),
-            label: FFLocalizations.of(context).getText(
-              '9dpfkwxn' /* Home */,
-            ),
+            label: 'Home',
             tooltip: '',
           ),
           BottomNavigationBarItem(
@@ -202,9 +190,7 @@ class _NavBarPageState extends State<NavBarPage> {
               FFIcons.kdocument,
               size: 24.0,
             ),
-            label: FFLocalizations.of(context).getText(
-              'x476e4yh' /* Home */,
-            ),
+            label: 'Home',
             tooltip: '',
           )
         ],

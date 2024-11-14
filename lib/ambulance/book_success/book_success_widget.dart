@@ -63,9 +63,7 @@ class _BookSuccessWidgetState extends State<BookSuccessWidget> {
                 ),
               ),
               Text(
-                FFLocalizations.of(context).getText(
-                  'pgfxz55r' /* Success! */,
-                ),
+                'Success!',
                 style: FlutterFlowTheme.of(context).headlineLarge.override(
                       fontFamily: 'Nunito',
                       fontSize: 28.0,
@@ -78,9 +76,7 @@ class _BookSuccessWidgetState extends State<BookSuccessWidget> {
                 text: TextSpan(
                   children: [
                     TextSpan(
-                      text: FFLocalizations.of(context).getText(
-                        't0t5dqj7' /* Your booking was successful. */,
-                      ),
+                      text: 'Your booking was successful.',
                       style: TextStyle(
                         color: FlutterFlowTheme.of(context).secondaryText,
                         fontWeight: FontWeight.normal,
@@ -101,9 +97,7 @@ class _BookSuccessWidgetState extends State<BookSuccessWidget> {
                   onPressed: () async {
                     context.goNamed('HomePage');
                   },
-                  text: FFLocalizations.of(context).getText(
-                    '6s0jlw2y' /* Back to Home */,
-                  ),
+                  text: 'Back to Home',
                   options: FFButtonOptions(
                     width: double.infinity,
                     height: 50.0,

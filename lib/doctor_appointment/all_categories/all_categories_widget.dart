@@ -62,9 +62,7 @@ class _AllCategoriesWidgetState extends State<AllCategoriesWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              '2f3w6etp' /* Categories */,
-            ),
+            'Categories',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,

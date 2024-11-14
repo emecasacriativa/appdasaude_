@@ -93,9 +93,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'do6lk6kn' /* Current Location */,
-                                    ),
+                                    'Current Location',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -116,9 +114,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         size: 16.0,
                                       ),
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          'dmgrk9tc' /* United States */,
-                                        ),
+                                        'United States',
                                         style: FlutterFlowTheme.of(context)
                                             .titleSmall
                                             .override(
@@ -174,9 +170,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           autofocus: false,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: FFLocalizations.of(context).getText(
-                              'nakre3m5' /* Search */,
-                            ),
+                            labelText: 'Search',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -280,9 +274,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   20.0, 0.0, 0.0, 0.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
-                                  'ihgkw6y9' /* Featured Services */,
-                                ),
+                                'Featured Services',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -331,9 +323,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         alignment:
                                             AlignmentDirectional(-1.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'nif6p25w' /* Doctor Appointment */,
-                                          ),
+                                          'Doctor Appointment',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -353,11 +343,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0.0, 8.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'h8pep6nv' /* Online consultancy of 
-popular... */
-                                              ,
-                                            ),
+                                            'Online consultancy of \npopular doctor',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -424,10 +410,7 @@ popular... */
                                             alignment:
                                                 AlignmentDirectional(-1.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'xw2dy6py' /* Diagnostics  */,
-                                              ),
+                                              'Diagnostics ',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -480,10 +463,7 @@ popular... */
                                             alignment:
                                                 AlignmentDirectional(-1.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'ylf9m5z9' /* Pharmacy */,
-                                              ),
+                                              'Pharmacy',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -536,10 +516,7 @@ popular... */
                                             alignment:
                                                 AlignmentDirectional(-1.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'x58tz2np' /* Ambulance */,
-                                              ),
+                                              'Ambulance',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -592,12 +569,7 @@ popular... */
                                             alignment:
                                                 AlignmentDirectional(-1.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '534c23io' /* Nursing 
-Care */
-                                                ,
-                                              ),
+                                              'Nursing \nCare',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -650,10 +622,7 @@ Care */
                                             alignment:
                                                 AlignmentDirectional(-1.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '2acc84ni' /* Uber */,
-                                              ),
+                                              'Uber',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -686,9 +655,7 @@ Care */
                                 Align(
                                   alignment: AlignmentDirectional(-1.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'mvcca57p' /* Popular Doctor */,
-                                    ),
+                                    'Popular Doctor',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -710,9 +677,7 @@ Care */
                                     context.pushNamed('PopularDoctor');
                                   },
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'ptb0clg5' /* View All */,
-                                    ),
+                                    'View All',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -778,9 +743,7 @@ Care */
                                 Align(
                                   alignment: AlignmentDirectional(-1.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'a7pi2ukh' /* Diagnostics */,
-                                    ),
+                                    'Diagnostics',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -794,9 +757,7 @@ Care */
                                   ),
                                 ),
                                 Text(
-                                  FFLocalizations.of(context).getText(
-                                    '8zvykzbu' /* View All */,
-                                  ),
+                                  'View All',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -863,9 +824,7 @@ Care */
                                 Align(
                                   alignment: AlignmentDirectional(-1.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'hrbwiwl2' /* Product List */,
-                                    ),
+                                    'Product List',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -879,9 +838,7 @@ Care */
                                   ),
                                 ),
                                 Text(
-                                  FFLocalizations.of(context).getText(
-                                    'bkoxg44v' /* View All */,
-                                  ),
+                                  'View All',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(

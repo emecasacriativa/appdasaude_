@@ -45,9 +45,7 @@ class _RedirectUberWidgetState extends State<RedirectUberWidget> {
           backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
           automaticallyImplyLeading: false,
           title: Text(
-            FFLocalizations.of(context).getText(
-              'koudbzwj' /* My History */,
-            ),
+            'My History',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -145,9 +143,7 @@ class _RedirectUberWidgetState extends State<RedirectUberWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'z62j0pnr' /* Appointment History */,
-                                            ),
+                                            'Appointment History',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -234,9 +230,7 @@ class _RedirectUberWidgetState extends State<RedirectUberWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              '4xfz4wrq' /* Diagnostic History */,
-                                            ),
+                                            'Diagnostic History',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -323,9 +317,7 @@ class _RedirectUberWidgetState extends State<RedirectUberWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'ew27s45x' /* Prescription History */,
-                                            ),
+                                            'Prescription History',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -412,9 +404,7 @@ class _RedirectUberWidgetState extends State<RedirectUberWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              '447ihidx' /* Nursing Care History */,
-                                            ),
+                                            'Nursing Care History',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -501,9 +491,7 @@ class _RedirectUberWidgetState extends State<RedirectUberWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'mow0b3si' /* Ambulance History */,
-                                            ),
+                                            'Ambulance History',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(

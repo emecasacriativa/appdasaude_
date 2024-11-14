@@ -34,8 +34,6 @@ T valueOrDefault<T>(T? value, T defaultValue) =>
     (value is String && value.isEmpty) || value == null ? defaultValue : value;
 
 void _setTimeagoLocales() {
-  timeago.setLocaleMessages('en', timeago.EnMessages());
-  timeago.setLocaleMessages('en_short', timeago.EnShortMessages());
   timeago.setLocaleMessages('pt', timeago.PtBrMessages());
   timeago.setLocaleMessages('pt_short', timeago.PtBrShortMessages());
 }

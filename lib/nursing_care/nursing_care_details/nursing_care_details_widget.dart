@@ -61,9 +61,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'ma0w2khr' /* Nursing Care Details */,
-            ),
+            'Nursing Care Details',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -123,9 +121,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        'rwvkhmon' /* Your Service */,
-                                      ),
+                                      'Your Service',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -145,10 +141,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '68cmb1t3' /* Package Type */,
-                                              ),
+                                              'Package Type',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -162,51 +155,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'zv6jy3vc' /* Package Name */,
-                                              ),
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Nunito',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
-                                            ),
-                                          ].divide(SizedBox(height: 4.0)),
-                                        ),
-                                        Column(
-                                          mainAxisSize: MainAxisSize.max,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                          children: [
-                                            Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'n8uysmi3' /* : */,
-                                              ),
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Nunito',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
-                                            ),
-                                            Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'pql5kfut' /* : */,
-                                              ),
+                                              'Package Name',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -227,10 +176,42 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'snkh5un4' /* Home Care */,
-                                              ),
+                                              ':',
+                                              style:
+                                                  FlutterFlowTheme.of(context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        fontFamily: 'Nunito',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .secondaryText,
+                                                        letterSpacing: 0.0,
+                                                      ),
+                                            ),
+                                            Text(
+                                              ':',
+                                              style:
+                                                  FlutterFlowTheme.of(context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        fontFamily: 'Nunito',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .secondaryText,
+                                                        letterSpacing: 0.0,
+                                                      ),
+                                            ),
+                                          ].divide(SizedBox(height: 4.0)),
+                                        ),
+                                        Column(
+                                          mainAxisSize: MainAxisSize.max,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              'Home Care',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -244,10 +225,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'o1lkug04' /* 1 Day Pack */,
-                                              ),
+                                              '1 Day Pack',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -291,9 +269,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        'gv31u9qz' /* Order Details */,
-                                      ),
+                                      'Order Details',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -313,10 +289,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'xhjix6v2' /* Patient Name */,
-                                              ),
+                                              'Patient Name',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -330,10 +303,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'gs8swru3' /* Date */,
-                                              ),
+                                              'Date',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -347,10 +317,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'bd82mkvf' /* Total Day */,
-                                              ),
+                                              'Total Day',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -364,10 +331,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '30l12pdy' /* Address */,
-                                              ),
+                                              'Address',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -388,10 +352,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '9z92qai1' /* : */,
-                                              ),
+                                              ':',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -405,10 +366,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'h6y0hdau' /* : */,
-                                              ),
+                                              ':',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -422,10 +380,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'csum4404' /* : */,
-                                              ),
+                                              ':',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -439,10 +394,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '0g6jmy5j' /* : */,
-                                              ),
+                                              ':',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -463,10 +415,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'z1axzadh' /* Guy Hawkins */,
-                                              ),
+                                              'Guy Hawkins',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -480,10 +429,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'lrtm3fie' /* 26 Jun2022 - 26 Jun 2022 */,
-                                              ),
+                                              '26 Jun2022 - 26 Jun 2022',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -497,10 +443,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '3pv6wvh2' /* 1 Day */,
-                                              ),
+                                              '1 Day',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -514,10 +457,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                                                       ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '2figjygc' /* House # 34/35 */,
-                                              ),
+                                              'House # 34/35',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -545,9 +485,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 0.0, 0.0, 8.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
-                                  'd2xnbq23' /* Select Payment Methord */,
-                                ),
+                                'Select Payment Methord',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -598,9 +536,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                           onPressed: () async {
                             context.goNamed('NursingCare');
                           },
-                          text: FFLocalizations.of(context).getText(
-                            'o5aik8an' /* Cancel */,
-                          ),
+                          text: 'Cancel',
                           options: FFButtonOptions(
                             width: 200.0,
                             height: 50.0,
@@ -633,9 +569,7 @@ class _NursingCareDetailsWidgetState extends State<NursingCareDetailsWidget> {
                           onPressed: () async {
                             context.goNamed('NurseBook');
                           },
-                          text: FFLocalizations.of(context).getText(
-                            'lznhhdgt' /* Reschedule */,
-                          ),
+                          text: 'Reschedule',
                           options: FFButtonOptions(
                             width: 200.0,
                             height: 50.0,

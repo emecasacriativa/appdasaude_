@@ -122,9 +122,7 @@ class _PharmacyProductItemWidgetState extends State<PharmacyProductItemWidget> {
                     padding:
                         EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        'c8tm5tl7' /* Per Pice  */,
-                      ),
+                      'Per Pice ',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
                             color: FlutterFlowTheme.of(context).secondaryText,
@@ -163,9 +161,7 @@ class _PharmacyProductItemWidgetState extends State<PharmacyProductItemWidget> {
               onPressed: () {
                 print('Button pressed ...');
               },
-              text: FFLocalizations.of(context).getText(
-                'cm2sa4tr' /* Add to Cart */,
-              ),
+              text: 'Add to Cart',
               options: FFButtonOptions(
                 width: double.infinity,
                 height: 34.0,

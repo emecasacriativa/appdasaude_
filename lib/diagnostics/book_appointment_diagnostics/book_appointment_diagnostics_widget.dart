@@ -73,9 +73,7 @@ class _BookAppointmentDiagnosticsWidgetState
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'l4xihj0l' /* Book Appointment */,
-            ),
+            'Book Appointment',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -121,9 +119,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'miyrj3ac' /* Specialist Doctor */,
-                                  ),
+                                  'Specialist Doctor',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -229,9 +225,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'q19nvhv4' /* 12 July, 2022 */,
-                                  ),
+                                  '12 July, 2022',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -359,9 +353,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'ipk7j3kp' /* Available Time */,
-                                  ),
+                                  'Available Time',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -420,10 +412,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                                   size: 20.0,
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'jmiqmv2a' /* Morning */,
-                                                  ),
+                                                  'Morning',
                                                   style:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -495,10 +484,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                                   size: 20.0,
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'zipnkspp' /* Afternoon */,
-                                                  ),
+                                                  'Afternoon',
                                                   style:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -570,10 +556,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                                   size: 20.0,
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'jkvzstnj' /* Evening */,
-                                                  ),
+                                                  'Evening',
                                                   style:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -685,9 +668,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'u9enx1ic' /* Check-up Fees */,
-                                  ),
+                                  'Check-up Fees',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -749,10 +730,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     12.0, 0.0, 0.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'i05qzhf8' /* Covid RT PCR */,
-                                              ),
+                                              'Covid RT PCR',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .labelLarge
@@ -774,9 +752,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                           ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            '6guzs8a0' /* 5$ */,
-                                          ),
+                                          '5\$',
                                           style: FlutterFlowTheme.of(context)
                                               .titleMedium
                                               .override(
@@ -804,9 +780,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 24.0, 0.0, 12.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'j4nmax3b' /* Your Preferred Service */,
-                                      ),
+                                      'Your Preferred Service',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -820,12 +794,8 @@ class _BookAppointmentDiagnosticsWidgetState
                                   ),
                                   FlutterFlowRadioButton(
                                     options: [
-                                      FFLocalizations.of(context).getText(
-                                        'cdtnwrnk' /* Through Hospital (Physically I... */,
-                                      ),
-                                      FFLocalizations.of(context).getText(
-                                        'xkhvdmwf' /* Home Service (Collect my test ... */,
-                                      )
+                                      'Through Hospital (Physically I will come and give my test sample)',
+                                      'Home Service (Collect my test sample)'
                                     ].toList(),
                                     onChanged: (val) => safeSetState(() {}),
                                     controller:
@@ -878,9 +848,7 @@ class _BookAppointmentDiagnosticsWidgetState
                                       }.withoutNulls,
                                     );
                                   },
-                                  text: FFLocalizations.of(context).getText(
-                                    'p4ead67u' /* Continue */,
-                                  ),
+                                  text: 'Continue',
                                   options: FFButtonOptions(
                                     width:
                                         MediaQuery.sizeOf(context).width * 1.0,

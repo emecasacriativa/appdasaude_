@@ -65,9 +65,7 @@ class _RateUsWidgetState extends State<RateUsWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'fdf69w2g' /* Rate Us */,
-            ),
+            'Rate Us',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -102,9 +100,7 @@ class _RateUsWidgetState extends State<RateUsWidget> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
-                        '4iqn9gta' /* How was your exprience with  */,
-                      ),
+                      'How was your exprience with ',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
@@ -114,9 +110,7 @@ class _RateUsWidgetState extends State<RateUsWidget> {
                           ),
                     ),
                     Text(
-                      FFLocalizations.of(context).getText(
-                        'zcp3yw93' /* Doctor Appontmet App? */,
-                      ),
+                      'Doctor Appontmet App?',
                       textAlign: TextAlign.center,
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
@@ -134,9 +128,7 @@ class _RateUsWidgetState extends State<RateUsWidget> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        FFLocalizations.of(context).getText(
-                          '9gn8thpe' /* Select Rating */,
-                        ),
+                        'Select Rating',
                         style: FlutterFlowTheme.of(context).bodyLarge.override(
                               fontFamily: 'Nunito',
                               letterSpacing: 0.0,
@@ -175,9 +167,7 @@ class _RateUsWidgetState extends State<RateUsWidget> {
                           autofocus: false,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: FFLocalizations.of(context).getText(
-                              'cqw8j60o' /* Write a Comment */,
-                            ),
+                            labelText: 'Write a Comment',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -186,9 +176,7 @@ class _RateUsWidgetState extends State<RateUsWidget> {
                                       FlutterFlowTheme.of(context).primaryText,
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              'bnd82u3k' /* Review */,
-                            ),
+                            hintText: 'Review',
                             hintStyle: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -245,9 +233,7 @@ class _RateUsWidgetState extends State<RateUsWidget> {
                   onPressed: () async {
                     context.safePop();
                   },
-                  text: FFLocalizations.of(context).getText(
-                    'cf6e2fyq' /* Submit Review */,
-                  ),
+                  text: 'Submit Review',
                   options: FFButtonOptions(
                     width: MediaQuery.sizeOf(context).width * 1.0,
                     height: 50.0,

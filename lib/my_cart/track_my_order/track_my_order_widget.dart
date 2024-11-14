@@ -60,9 +60,7 @@ class _TrackMyOrderWidgetState extends State<TrackMyOrderWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              '3x3hhtew' /* Track My Order */,
-            ),
+            'Track My Order',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -171,9 +169,7 @@ class _TrackMyOrderWidgetState extends State<TrackMyOrderWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        '0jzcdl7s' /* Ibne Riead */,
-                                      ),
+                                      'Ibne Riead',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
@@ -185,9 +181,7 @@ class _TrackMyOrderWidgetState extends State<TrackMyOrderWidget> {
                                           ),
                                     ),
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        'nlmlr8do' /* Pharmecy Courier */,
-                                      ),
+                                      'Pharmecy Courier',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -214,9 +208,7 @@ class _TrackMyOrderWidgetState extends State<TrackMyOrderWidget> {
                                     size: 16.0,
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      '5v313t6o' /* 4.9 (60) */,
-                                    ),
+                                    '4.9 (60)',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -270,9 +262,7 @@ class _TrackMyOrderWidgetState extends State<TrackMyOrderWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        'th2phk6c' /* Address */,
-                                      ),
+                                      'Address',
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
@@ -281,9 +271,7 @@ class _TrackMyOrderWidgetState extends State<TrackMyOrderWidget> {
                                           ),
                                     ),
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        'jk7wulab' /* 421 Duke street, M54ader */,
-                                      ),
+                                      '421 Duke street, M54ader',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
@@ -316,9 +304,7 @@ class _TrackMyOrderWidgetState extends State<TrackMyOrderWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        'hizftnsn' /* Delivery Time */,
-                                      ),
+                                      'Delivery Time',
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
@@ -327,9 +313,7 @@ class _TrackMyOrderWidgetState extends State<TrackMyOrderWidget> {
                                           ),
                                     ),
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        'pq0bl62u' /* 20-30 minutes */,
-                                      ),
+                                      '20-30 minutes',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(
@@ -362,9 +346,7 @@ class _TrackMyOrderWidgetState extends State<TrackMyOrderWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        'wmvxjjbk' /* Order#  */,
-                                      ),
+                                      'Order# ',
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
@@ -373,9 +355,7 @@ class _TrackMyOrderWidgetState extends State<TrackMyOrderWidget> {
                                           ),
                                     ),
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        '1vym53sf' /* 141428 */,
-                                      ),
+                                      '141428',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyLarge
                                           .override(

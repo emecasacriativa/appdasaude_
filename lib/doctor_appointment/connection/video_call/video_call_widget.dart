@@ -135,9 +135,7 @@ class _VideoCallWidgetState extends State<VideoCallWidget> {
                         ),
                       ),
                       Text(
-                        FFLocalizations.of(context).getText(
-                          'b3g2v1hq' /* 12:08 Min */,
-                        ),
+                        '12:08 Min',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Nunito',
                               color: FlutterFlowTheme.of(context)

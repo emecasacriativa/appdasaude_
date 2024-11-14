@@ -64,9 +64,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'rdh6ggnk' /* Forgot Password */,
-            ),
+            'Forgot Password',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -87,9 +85,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Text(
-                  FFLocalizations.of(context).getText(
-                    'km82zmkd' /* Lorem ipsum dolor sit amet, co... */,
-                  ),
+                  'Lorem ipsum dolor sit amet, consectetur adi piscing elit. Quis sapien arcu',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).secondaryText,
@@ -112,9 +108,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                       autofocus: false,
                       obscureText: !_model.passwordVisibility,
                       decoration: InputDecoration(
-                        labelText: FFLocalizations.of(context).getText(
-                          'nttxmzjq' /* Email */,
-                        ),
+                        labelText: 'Email',
                         labelStyle: FlutterFlowTheme.of(context)
                             .labelMedium
                             .override(
@@ -190,9 +184,7 @@ class _ForgotPasswordWidgetState extends State<ForgotPasswordWidget> {
                     onPressed: () async {
                       context.safePop();
                     },
-                    text: FFLocalizations.of(context).getText(
-                      'e7kp9662' /* Reset Password */,
-                    ),
+                    text: 'Reset Password',
                     options: FFButtonOptions(
                       width: double.infinity,
                       height: 50.0,

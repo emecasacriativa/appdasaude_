@@ -83,9 +83,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                   ),
                   Expanded(
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        '939wv37s' /* Book Ambulance */,
-                      ),
+                      'Book Ambulance',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
                             color: FlutterFlowTheme.of(context).primaryText,
@@ -167,9 +165,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'e3k1bm3n' /* General Ambulance */,
-                                            ),
+                                            'General Ambulance',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -234,9 +230,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'y237dikd' /* ICU Ambulance */,
-                                            ),
+                                            'ICU Ambulance',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -301,9 +295,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'w4e0he3x' /* Freezing Ambulance */,
-                                            ),
+                                            'Freezing Ambulance',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -334,9 +326,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 24.0, 0.0, 12.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
-                                  'yg7suksw' /* Pickup Point */,
-                                ),
+                                'Pickup Point',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -362,21 +352,11 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                                         _model.dropDownValueController1 ??=
                                             FormFieldController<String>(null),
                                     options: [
-                                      FFLocalizations.of(context).getText(
-                                        'rzb0gb2a' /* Badda */,
-                                      ),
-                                      FFLocalizations.of(context).getText(
-                                        '2dt8lq2e' /* Bangshal */,
-                                      ),
-                                      FFLocalizations.of(context).getText(
-                                        '03ly5g05' /* Biman Bandar */,
-                                      ),
-                                      FFLocalizations.of(context).getText(
-                                        '9m3vnjl8' /* Dhanmondi */,
-                                      ),
-                                      FFLocalizations.of(context).getText(
-                                        'oq9fw6rv' /* Canteonment */,
-                                      )
+                                      'Badda',
+                                      'Bangshal',
+                                      'Biman Bandar',
+                                      'Dhanmondi',
+                                      'Canteonment'
                                     ],
                                     onChanged: (val) => safeSetState(
                                         () => _model.dropDownValue1 = val),
@@ -388,10 +368,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                                           fontFamily: 'Nunito',
                                           letterSpacing: 0.0,
                                         ),
-                                    hintText:
-                                        FFLocalizations.of(context).getText(
-                                      '9gj7k6l5' /* Select Area */,
-                                    ),
+                                    hintText: 'Select Area',
                                     icon: Icon(
                                       Icons.keyboard_arrow_down_rounded,
                                       color: FlutterFlowTheme.of(context)
@@ -428,9 +405,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
-                                labelText: FFLocalizations.of(context).getText(
-                                  'ichfe6ox' /* Detail Address  */,
-                                ),
+                                labelText: 'Detail Address ',
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
@@ -439,9 +414,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                                           .primaryText,
                                       letterSpacing: 0.0,
                                     ),
-                                hintText: FFLocalizations.of(context).getText(
-                                  '9mzlt2bd' /* Enter your address */,
-                                ),
+                                hintText: 'Enter your address',
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -500,9 +473,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 24.0, 0.0, 12.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
-                                  '4qvoq6ns' /* Destination Point */,
-                                ),
+                                'Destination Point',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -528,21 +499,11 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                                         _model.dropDownValueController2 ??=
                                             FormFieldController<String>(null),
                                     options: [
-                                      FFLocalizations.of(context).getText(
-                                        'zt7uxtyi' /* Badda */,
-                                      ),
-                                      FFLocalizations.of(context).getText(
-                                        '0undds87' /* Bangshal */,
-                                      ),
-                                      FFLocalizations.of(context).getText(
-                                        'f95ziqss' /* Biman Bandar */,
-                                      ),
-                                      FFLocalizations.of(context).getText(
-                                        'd89kv0u8' /* Dhanmondi */,
-                                      ),
-                                      FFLocalizations.of(context).getText(
-                                        '3pea3ak3' /* Canteonment */,
-                                      )
+                                      'Badda',
+                                      'Bangshal',
+                                      'Biman Bandar',
+                                      'Dhanmondi',
+                                      'Canteonment'
                                     ],
                                     onChanged: (val) => safeSetState(
                                         () => _model.dropDownValue2 = val),
@@ -554,10 +515,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                                           fontFamily: 'Nunito',
                                           letterSpacing: 0.0,
                                         ),
-                                    hintText:
-                                        FFLocalizations.of(context).getText(
-                                      '4c70buzw' /* Select Area */,
-                                    ),
+                                    hintText: 'Select Area',
                                     icon: Icon(
                                       Icons.keyboard_arrow_down_rounded,
                                       color: FlutterFlowTheme.of(context)
@@ -594,9 +552,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
-                                labelText: FFLocalizations.of(context).getText(
-                                  's3cxp54v' /* Detail Address  */,
-                                ),
+                                labelText: 'Detail Address ',
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
@@ -605,9 +561,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                                           .primaryText,
                                       letterSpacing: 0.0,
                                     ),
-                                hintText: FFLocalizations.of(context).getText(
-                                  'p6hgx32h' /* Enter your address */,
-                                ),
+                                hintText: 'Enter your address',
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -666,9 +620,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 24.0, 0.0, 4.0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
-                                  '4ytef93z' /* Total Payable */,
-                                ),
+                                'Total Payable',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -685,9 +637,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                           Align(
                             alignment: AlignmentDirectional(-1.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
-                                'w0s2mdo0' /* $250.00 */,
-                              ),
+                              '\$250.00',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -715,9 +665,7 @@ class _BookAmbulanceWidgetState extends State<BookAmbulanceWidget> {
                                   }.withoutNulls,
                                 );
                               },
-                              text: FFLocalizations.of(context).getText(
-                                'xy8whkms' /* Continue */,
-                              ),
+                              text: 'Continue',
                               options: FFButtonOptions(
                                 width: MediaQuery.sizeOf(context).width * 1.0,
                                 height: 50.0,

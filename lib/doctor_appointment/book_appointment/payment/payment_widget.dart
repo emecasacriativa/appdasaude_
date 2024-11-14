@@ -80,9 +80,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              '5m6nj0tu' /* Payment */,
-            ),
+            'Payment',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -144,9 +142,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                               Align(
                                 alignment: AlignmentDirectional(-1.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'ygdwt0ur' /* Select Payment Methord */,
-                                  ),
+                                  'Select Payment Methord',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -168,9 +164,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                                   context.pushNamed('PaymentMethod');
                                 },
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'z39g8q5q' /* Change */,
-                                  ),
+                                  'Change',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -227,9 +221,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                             autofocus: false,
                             obscureText: false,
                             decoration: InputDecoration(
-                              labelText: FFLocalizations.of(context).getText(
-                                'mjmhoceu' /* Name */,
-                              ),
+                              labelText: 'Name',
                               labelStyle: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
@@ -238,9 +230,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                                         .primaryText,
                                     letterSpacing: 0.0,
                                   ),
-                              hintText: FFLocalizations.of(context).getText(
-                                'sb9fegky' /* Enter card holder name */,
-                              ),
+                              hintText: 'Enter card holder name',
                               hintStyle: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -306,9 +296,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
-                                labelText: FFLocalizations.of(context).getText(
-                                  'vgghc0ck' /* Card Number */,
-                                ),
+                                labelText: 'Card Number',
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
@@ -317,9 +305,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                                           .primaryText,
                                       letterSpacing: 0.0,
                                     ),
-                                hintText: FFLocalizations.of(context).getText(
-                                  'k1zee7xl' /* Enter card number */,
-                                ),
+                                hintText: 'Enter card number',
                                 hintStyle: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -391,10 +377,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                                   autofocus: false,
                                   obscureText: false,
                                   decoration: InputDecoration(
-                                    labelText:
-                                        FFLocalizations.of(context).getText(
-                                      'v85qi0f6' /* Expire Date */,
-                                    ),
+                                    labelText: 'Expire Date',
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .override(
@@ -403,10 +386,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                                               .primaryText,
                                           letterSpacing: 0.0,
                                         ),
-                                    hintText:
-                                        FFLocalizations.of(context).getText(
-                                      'fqqkxyoe' /* MM/YY */,
-                                    ),
+                                    hintText: 'MM/YY',
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -477,10 +457,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                                   autofocus: false,
                                   obscureText: false,
                                   decoration: InputDecoration(
-                                    labelText:
-                                        FFLocalizations.of(context).getText(
-                                      'g6fz00nc' /* CVV */,
-                                    ),
+                                    labelText: 'CVV',
                                     labelStyle: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .override(
@@ -489,10 +466,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                                               .primaryText,
                                           letterSpacing: 0.0,
                                         ),
-                                    hintText:
-                                        FFLocalizations.of(context).getText(
-                                      'ywo87c6l' /* Enter CVV number */,
-                                    ),
+                                    hintText: 'Enter CVV number',
                                     hintStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -578,9 +552,7 @@ class _PaymentWidgetState extends State<PaymentWidget> {
                         },
                       );
                     },
-                    text: FFLocalizations.of(context).getText(
-                      's9lary2x' /* Pay Now */,
-                    ),
+                    text: 'Pay Now',
                     options: FFButtonOptions(
                       width: MediaQuery.sizeOf(context).width * 1.0,
                       height: 50.0,

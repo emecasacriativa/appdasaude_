@@ -78,9 +78,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              '23w5ovk4' /* Book Nurse */,
-            ),
+            'Book Nurse',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -107,9 +105,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                     Align(
                       alignment: AlignmentDirectional(-1.0, 0.0),
                       child: Text(
-                        FFLocalizations.of(context).getText(
-                          '8qto8a3u' /* Select Date */,
-                        ),
+                        'Select Date',
                         style: FlutterFlowTheme.of(context).labelLarge.override(
                               fontFamily: 'Nunito',
                               color: FlutterFlowTheme.of(context).primaryText,
@@ -135,9 +131,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
-                                labelText: FFLocalizations.of(context).getText(
-                                  '8oysqae6' /* Start Date */,
-                                ),
+                                labelText: 'Start Date',
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
@@ -212,9 +206,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
-                                labelText: FFLocalizations.of(context).getText(
-                                  'jqtxbnef' /* End Date */,
-                                ),
+                                labelText: 'End Date',
                                 labelStyle: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
@@ -290,9 +282,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                         autofocus: false,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            'zhqf88pj' /* Phone Number* */,
-                          ),
+                          labelText: 'Phone Number*',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -300,9 +290,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 letterSpacing: 0.0,
                               ),
-                          hintText: FFLocalizations.of(context).getText(
-                            'gs1b4unw' /* Enter your phone number */,
-                          ),
+                          hintText: 'Enter your phone number',
                           hintStyle: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -363,9 +351,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                         autofocus: false,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            '9gd3qv6e' /* Email (optional) */,
-                          ),
+                          labelText: 'Email (optional)',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -373,9 +359,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 letterSpacing: 0.0,
                               ),
-                          hintText: FFLocalizations.of(context).getText(
-                            '8aojd9gk' /* Enter your email */,
-                          ),
+                          hintText: 'Enter your email',
                           hintStyle: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -430,14 +414,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                           child: FlutterFlowDropDown<String>(
                             controller: _model.dropDownValueController1 ??=
                                 FormFieldController<String>(null),
-                            options: [
-                              FFLocalizations.of(context).getText(
-                                'dw6ttymr' /* Male */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                'psips4a0' /* Female */,
-                              )
-                            ],
+                            options: ['Male', 'Female'],
                             onChanged: (val) =>
                                 safeSetState(() => _model.dropDownValue1 = val),
                             width: 300.0,
@@ -448,9 +425,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                                   fontFamily: 'Nunito',
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              '69poq74i' /* Select gender */,
-                            ),
+                            hintText: 'Select gender',
                             icon: Icon(
                               Icons.keyboard_arrow_down_rounded,
                               color: FlutterFlowTheme.of(context).secondaryText,
@@ -475,24 +450,12 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                             controller: _model.dropDownValueController2 ??=
                                 FormFieldController<String>(null),
                             options: [
-                              FFLocalizations.of(context).getText(
-                                'pl3w2djx' /* 0-10 */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                'acfg1olu' /* 11-18 */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                'dvwfjs9o' /* 19-35 */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                'mufl5we5' /* 36-58 */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                'toye0ypd' /* 58-75 */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                '1wcdr98u' /* 76+ */,
-                              )
+                              '0-10',
+                              '11-18',
+                              '19-35',
+                              '36-58',
+                              '58-75',
+                              '76+'
                             ],
                             onChanged: (val) =>
                                 safeSetState(() => _model.dropDownValue2 = val),
@@ -504,9 +467,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                                   fontFamily: 'Nunito',
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              'zozkir2i' /* Select age */,
-                            ),
+                            hintText: 'Select age',
                             icon: Icon(
                               Icons.keyboard_arrow_down_rounded,
                               color: FlutterFlowTheme.of(context).secondaryText,
@@ -541,9 +502,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                         autofocus: false,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            'p8cxsejt' /* Enter your address */,
-                          ),
+                          labelText: 'Enter your address',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -551,9 +510,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 letterSpacing: 0.0,
                               ),
-                          hintText: FFLocalizations.of(context).getText(
-                            'vqf5o7pe' /* Address* */,
-                          ),
+                          hintText: 'Address*',
                           hintStyle: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -616,9 +573,7 @@ class _NurseBookWidgetState extends State<NurseBookWidget> {
                       }.withoutNulls,
                     );
                   },
-                  text: FFLocalizations.of(context).getText(
-                    'w34f0h92' /* Continue */,
-                  ),
+                  text: 'Continue',
                   options: FFButtonOptions(
                     width: MediaQuery.sizeOf(context).width * 1.0,
                     height: 50.0,

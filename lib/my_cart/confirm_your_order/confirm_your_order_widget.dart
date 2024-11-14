@@ -64,9 +64,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              '47j7ke1b' /* Confirm Your Order */,
-            ),
+            'Confirm Your Order',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -112,9 +110,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                               Align(
                                 alignment: AlignmentDirectional(-1.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'bkubs7lk' /* Total Item (3) */,
-                                  ),
+                                  'Total Item (3)',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -279,11 +275,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                                                     .spaceBetween,
                                                             children: [
                                                               Text(
-                                                                FFLocalizations.of(
-                                                                        context)
-                                                                    .getText(
-                                                                  '2vkze9mg' /* 01 Bottel */,
-                                                                ),
+                                                                '01 Bottel',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -300,11 +292,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                                                     ),
                                                               ),
                                                               Text(
-                                                                FFLocalizations.of(
-                                                                        context)
-                                                                    .getText(
-                                                                  '73qeggki' /* Qty: 01 */,
-                                                                ),
+                                                                'Qty: 01',
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
@@ -346,9 +334,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                       alignment:
                                           AlignmentDirectional(-1.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'qv86886v' /* Pharmacy  */,
-                                        ),
+                                        'Pharmacy ',
                                         style: FlutterFlowTheme.of(context)
                                             .labelLarge
                                             .override(
@@ -373,9 +359,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                               Align(
                                 alignment: AlignmentDirectional(-1.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'r01z84fh' /* Maan Pharmacy Ltd. */,
-                                  ),
+                                  'Maan Pharmacy Ltd.',
                                   style: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
@@ -396,9 +380,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'ricdwz67' /*  2715 Ash Dr. San Jose, South ... */,
-                                      ),
+                                      ' 2715 Ash Dr. San Jose, South Dakota 83475',
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
@@ -427,9 +409,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                         alignment:
                                             AlignmentDirectional(-1.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'unlz2hzq' /* Shipping Address  */,
-                                          ),
+                                          'Shipping Address ',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -459,9 +439,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                                 .pushNamed('ShippingAddress');
                                           },
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'ia8z11nn' /* Change */,
-                                            ),
+                                            'Change',
                                             textAlign: TextAlign.end,
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -483,9 +461,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                               Align(
                                 alignment: AlignmentDirectional(-1.0, 0.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    '32gw54nd' /* 8 Bukit Batok Street 41, Bangl... */,
-                                  ),
+                                  '8 Bukit Batok Street 41, Bangladesh, \n361025',
                                   style: FlutterFlowTheme.of(context)
                                       .labelMedium
                                       .override(
@@ -512,9 +488,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                         alignment:
                                             AlignmentDirectional(-1.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'r432ww5s' /* Payment Method */,
-                                          ),
+                                          'Payment Method',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -543,9 +517,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                             context.pushNamed('PaymentMethod');
                                           },
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'ndzwnqca' /* Change */,
-                                            ),
+                                            'Change',
                                             textAlign: TextAlign.end,
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
@@ -583,9 +555,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 24.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'ypv7l480' /* Your Order */,
-                                      ),
+                                      'Your Order',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -606,9 +576,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                           MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'y2l4qbm5' /* Subtotal */,
-                                          ),
+                                          'Subtotal',
                                           style: FlutterFlowTheme.of(context)
                                               .labelMedium
                                               .override(
@@ -617,9 +585,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                               ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'ehkj1cck' /* $12.98 */,
-                                          ),
+                                          '\$12.98',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -639,9 +605,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                           MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'klz4z2mm' /* Delivery Fee */,
-                                          ),
+                                          'Delivery Fee',
                                           style: FlutterFlowTheme.of(context)
                                               .labelMedium
                                               .override(
@@ -650,9 +614,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                               ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'alrc4smx' /* $2.00 */,
-                                          ),
+                                          '\$2.00',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -672,9 +634,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                           MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'ztxbcy5y' /* VAT */,
-                                          ),
+                                          'VAT',
                                           style: FlutterFlowTheme.of(context)
                                               .labelMedium
                                               .override(
@@ -683,9 +643,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                               ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            '5an4auat' /* $0.00 */,
-                                          ),
+                                          '\$0.00',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -709,9 +667,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                           MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'xfmikmt4' /* Total Amount */,
-                                          ),
+                                          'Total Amount',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
@@ -721,9 +677,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                                               ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            '2928rko8' /* $14.98 */,
-                                          ),
+                                          '\$14.98',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyLarge
                                               .override(
@@ -773,9 +727,7 @@ class _ConfirmYourOrderWidgetState extends State<ConfirmYourOrderWidget> {
                               }(),
                             );
                           },
-                          text: FFLocalizations.of(context).getText(
-                            'usyllm3p' /* Place Order */,
-                          ),
+                          text: 'Place Order',
                           options: FFButtonOptions(
                             width: 200.0,
                             height: 50.0,

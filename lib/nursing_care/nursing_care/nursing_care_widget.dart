@@ -69,9 +69,7 @@ class _NursingCareWidgetState extends State<NursingCareWidget> {
                   ),
                   Expanded(
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        '71d564lg' /* Nursing Care */,
-                      ),
+                      'Nursing Care',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
                             color: FlutterFlowTheme.of(context).primaryText,
@@ -136,9 +134,7 @@ class _NursingCareWidgetState extends State<NursingCareWidget> {
                                 Align(
                                   alignment: AlignmentDirectional(-1.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      '90t96nvr' /* About Nussing Care */,
-                                    ),
+                                    'About Nussing Care',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -156,11 +152,7 @@ class _NursingCareWidgetState extends State<NursingCareWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 8.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        '14lru3sp' /* Lorem ipsum dolor sit amet i
-s... */
-                                        ,
-                                      ),
+                                      'Lorem ipsum dolor sit amet i\ns consectetur adipiscin...',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -180,9 +172,7 @@ s... */
                                     onPressed: () {
                                       print('Button pressed ...');
                                     },
-                                    text: FFLocalizations.of(context).getText(
-                                      'p5o6e8dl' /* Read More */,
-                                    ),
+                                    text: 'Read More',
                                     options: FFButtonOptions(
                                       height: 40.0,
                                       padding: EdgeInsetsDirectional.fromSTEB(
@@ -275,10 +265,7 @@ s... */
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'fnfpck9k' /* Full Day Packs */,
-                                                ),
+                                                'Full Day Packs',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -361,10 +348,7 @@ s... */
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  '0gmb9nvs' /* Half Day Packs */,
-                                                ),
+                                                'Half Day Packs',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge

@@ -64,9 +64,7 @@ class _NearbyPharmacyWidgetState extends State<NearbyPharmacyWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              '6g5nif0q' /* Nearby Pharmacy */,
-            ),
+            'Nearby Pharmacy',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,

@@ -134,9 +134,7 @@ class _DiagnosticsItemWidgetState extends State<DiagnosticsItemWidget> {
                   onPressed: () async {
                     await widget.btnAction?.call();
                   },
-                  text: FFLocalizations.of(context).getText(
-                    'rjx6uzso' /* Book Now */,
-                  ),
+                  text: 'Book Now',
                   options: FFButtonOptions(
                     width: double.infinity,
                     height: 34.0,

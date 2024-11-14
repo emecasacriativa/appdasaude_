@@ -80,9 +80,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'nejyh015' /* Patient’s Details */,
-            ),
+            'Patient’s Details',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -119,9 +117,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                         autofocus: false,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            'akjvjdwu' /* Full Name* */,
-                          ),
+                          labelText: 'Full Name*',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -129,9 +125,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 letterSpacing: 0.0,
                               ),
-                          hintText: FFLocalizations.of(context).getText(
-                            'y3jhc3xy' /* Enter your full name */,
-                          ),
+                          hintText: 'Enter your full name',
                           hintStyle: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -192,9 +186,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                         autofocus: false,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            'uo0ozyo4' /* Phone Number* */,
-                          ),
+                          labelText: 'Phone Number*',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -202,9 +194,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 letterSpacing: 0.0,
                               ),
-                          hintText: FFLocalizations.of(context).getText(
-                            '6oju8qtp' /* Enter your phone number */,
-                          ),
+                          hintText: 'Enter your phone number',
                           hintStyle: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -265,9 +255,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                         autofocus: false,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            'n35el8is' /* Email (optional) */,
-                          ),
+                          labelText: 'Email (optional)',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -275,9 +263,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 letterSpacing: 0.0,
                               ),
-                          hintText: FFLocalizations.of(context).getText(
-                            'kactybyu' /* Enter your email */,
-                          ),
+                          hintText: 'Enter your email',
                           hintStyle: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -332,14 +318,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                           child: FlutterFlowDropDown<String>(
                             controller: _model.dropDownValueController1 ??=
                                 FormFieldController<String>(null),
-                            options: [
-                              FFLocalizations.of(context).getText(
-                                'qkfe3ce1' /* Male */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                'ybz0a8xq' /* Female */,
-                              )
-                            ],
+                            options: ['Male', 'Female'],
                             onChanged: (val) =>
                                 safeSetState(() => _model.dropDownValue1 = val),
                             width: 300.0,
@@ -350,9 +329,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                                   fontFamily: 'Nunito',
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              'pty3o7m2' /* Select gender */,
-                            ),
+                            hintText: 'Select gender',
                             icon: Icon(
                               Icons.keyboard_arrow_down_rounded,
                               color: FlutterFlowTheme.of(context).secondaryText,
@@ -377,24 +354,12 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                             controller: _model.dropDownValueController2 ??=
                                 FormFieldController<String>(null),
                             options: [
-                              FFLocalizations.of(context).getText(
-                                'z1xf8ybb' /* 0-10 */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                'p1gyqzqp' /* 11-18 */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                'vebep82o' /* 19-35 */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                'cfngbmum' /* 36-58 */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                '7cfzq062' /* 58-75 */,
-                              ),
-                              FFLocalizations.of(context).getText(
-                                '4lsmxzvn' /* 76+ */,
-                              )
+                              '0-10',
+                              '11-18',
+                              '19-35',
+                              '36-58',
+                              '58-75',
+                              '76+'
                             ],
                             onChanged: (val) =>
                                 safeSetState(() => _model.dropDownValue2 = val),
@@ -406,9 +371,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                                   fontFamily: 'Nunito',
                                   letterSpacing: 0.0,
                                 ),
-                            hintText: FFLocalizations.of(context).getText(
-                              'j4zcby5q' /* Select age */,
-                            ),
+                            hintText: 'Select age',
                             icon: Icon(
                               Icons.keyboard_arrow_down_rounded,
                               color: FlutterFlowTheme.of(context).secondaryText,
@@ -443,9 +406,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                         autofocus: false,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            'af95lvu7' /* Write Your Problem* */,
-                          ),
+                          labelText: 'Write Your Problem*',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -453,9 +414,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                                 color: FlutterFlowTheme.of(context).primaryText,
                                 letterSpacing: 0.0,
                               ),
-                          hintText: FFLocalizations.of(context).getText(
-                            'lopxpuvu' /*  Tell your doctor about your p... */,
-                          ),
+                          hintText: ' Tell your doctor about your problem',
                           hintStyle: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -518,9 +477,7 @@ class _PatientsDetailsWidgetState extends State<PatientsDetailsWidget> {
                       }.withoutNulls,
                     );
                   },
-                  text: FFLocalizations.of(context).getText(
-                    'b4ym041s' /* Continue */,
-                  ),
+                  text: 'Continue',
                   options: FFButtonOptions(
                     width: MediaQuery.sizeOf(context).width * 1.0,
                     height: 50.0,

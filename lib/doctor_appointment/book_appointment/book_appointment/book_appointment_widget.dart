@@ -65,9 +65,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'faued724' /* Book Appointment */,
-            ),
+            'Book Appointment',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -127,9 +125,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           18.0, 7.0, 18.0, 7.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          '0t9wwfgb' /* Online */,
-                                        ),
+                                        'Online',
                                         style: FlutterFlowTheme.of(context)
                                             .labelLarge
                                             .override(
@@ -177,9 +173,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           18.0, 7.0, 18.0, 7.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          '3hoiqxgf' /* Hospital */,
-                                        ),
+                                        'Hospital',
                                         style: FlutterFlowTheme.of(context)
                                             .labelLarge
                                             .override(
@@ -227,9 +221,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0.0, 24.0, 0.0, 12.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'bkvgn7te' /* Select Hospital */,
-                                        ),
+                                        'Select Hospital',
                                         style: FlutterFlowTheme.of(context)
                                             .labelLarge
                                             .override(
@@ -244,12 +236,8 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                     ),
                                     FlutterFlowRadioButton(
                                       options: [
-                                        FFLocalizations.of(context).getText(
-                                          'm9fp8q7o' /* National Institute of Research... */,
-                                        ),
-                                        FFLocalizations.of(context).getText(
-                                          'gvycazew' /* Dhaka Medical College Hospital */,
-                                        )
+                                        'National Institute of Research & Hospital,',
+                                        'Dhaka Medical College Hospital'
                                       ].toList(),
                                       onChanged: (val) => safeSetState(() {}),
                                       controller:
@@ -292,9 +280,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'b7oh5mz3' /* 12 July, 2022 */,
-                                  ),
+                                  '12 July, 2022',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -422,9 +408,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'assjp1d1' /* Available Time */,
-                                  ),
+                                  'Available Time',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -483,10 +467,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                                   size: 20.0,
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '0cdjduz7' /* Morning */,
-                                                  ),
+                                                  'Morning',
                                                   style:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -558,10 +539,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                                   size: 20.0,
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'twyv3iu9' /* Afternoon */,
-                                                  ),
+                                                  'Afternoon',
                                                   style:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -633,10 +611,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                                   size: 20.0,
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'rsn2ldhx' /* Evening */,
-                                                  ),
+                                                  'Evening',
                                                   style:
                                                       FlutterFlowTheme.of(
                                                               context)
@@ -748,9 +723,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    '6crpkozb' /* Consultation Fees */,
-                                  ),
+                                  'Consultation Fees',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -814,10 +787,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     12.0, 0.0, 0.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'cn9d1uqv' /* Messaging */,
-                                              ),
+                                              'Messaging',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .labelLarge
@@ -839,9 +809,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                           ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            '2dt55wet' /* 5$ */,
-                                          ),
+                                          '5\$',
                                           style: FlutterFlowTheme.of(context)
                                               .titleMedium
                                               .override(
@@ -917,10 +885,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                                   .fromSTEB(
                                                       12.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'rz4jqntd' /* Voice call */,
-                                                ),
+                                                'Voice call',
                                                 style: FlutterFlowTheme.of(
                                                         context)
                                                     .labelLarge
@@ -943,9 +908,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                             ),
                                           ),
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              '5uz8zk89' /* 5$ */,
-                                            ),
+                                            '5\$',
                                             style: FlutterFlowTheme.of(context)
                                                 .titleMedium
                                                 .override(
@@ -1016,10 +979,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     12.0, 0.0, 0.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'ca77u9a5' /* Video call */,
-                                              ),
+                                              'Video call',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .labelLarge
@@ -1041,9 +1001,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                           ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'mjc5l9wg' /* 5$ */,
-                                          ),
+                                          '5\$',
                                           style: FlutterFlowTheme.of(context)
                                               .titleMedium
                                               .override(
@@ -1078,9 +1036,7 @@ class _BookAppointmentWidgetState extends State<BookAppointmentWidget> {
                                       }.withoutNulls,
                                     );
                                   },
-                                  text: FFLocalizations.of(context).getText(
-                                    '6ve3u8fr' /* Continue */,
-                                  ),
+                                  text: 'Continue',
                                   options: FFButtonOptions(
                                     width:
                                         MediaQuery.sizeOf(context).width * 1.0,

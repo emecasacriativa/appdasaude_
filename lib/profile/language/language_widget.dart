@@ -60,9 +60,7 @@ class _LanguageWidgetState extends State<LanguageWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'ymbi1d6w' /* Language */,
-            ),
+            'Language',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -107,9 +105,7 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(
                             0.0, 12.0, 0.0, 12.0),
                         child: Text(
-                          FFLocalizations.of(context).getText(
-                            '9wok7o10' /* English */,
-                          ),
+                          'English',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Nunito',
@@ -138,9 +134,7 @@ class _LanguageWidgetState extends State<LanguageWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(
                             0.0, 12.0, 0.0, 12.0),
                         child: Text(
-                          FFLocalizations.of(context).getText(
-                            '4fqdty30' /* Spanish */,
-                          ),
+                          'Spanish',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Nunito',

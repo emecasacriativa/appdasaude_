@@ -198,9 +198,7 @@ class _MedicineDetailsWidgetState extends State<MedicineDetailsWidget> {
                         Align(
                           alignment: AlignmentDirectional(-1.0, 0.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
-                              'kjo1nlea' /* Get 10% OFF */,
-                            ),
+                            'Get 10% OFF',
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
                                 .override(
@@ -221,24 +219,13 @@ class _MedicineDetailsWidgetState extends State<MedicineDetailsWidget> {
                         FlutterFlowDropDown<String>(
                           controller: _model.dropDownValueController ??=
                               FormFieldController<String>(
-                            _model.dropDownValue ??=
-                                FFLocalizations.of(context).getText(
-                              'mxquixi1' /* 10 Tablets */,
-                            ),
+                            _model.dropDownValue ??= '10 Tablets',
                           ),
                           options: [
-                            FFLocalizations.of(context).getText(
-                              'sr4i1vg4' /* 10 Tablets */,
-                            ),
-                            FFLocalizations.of(context).getText(
-                              'ovemhpzy' /* 20 Tablets */,
-                            ),
-                            FFLocalizations.of(context).getText(
-                              '5jb2jib4' /* 30 Tablets */,
-                            ),
-                            FFLocalizations.of(context).getText(
-                              'hmlx35h7' /* 40 Tablets */,
-                            )
+                            '10 Tablets',
+                            '20 Tablets',
+                            '30 Tablets',
+                            '40 Tablets'
                           ],
                           onChanged: (val) =>
                               safeSetState(() => _model.dropDownValue = val),
@@ -249,9 +236,7 @@ class _MedicineDetailsWidgetState extends State<MedicineDetailsWidget> {
                                     fontFamily: 'Nunito',
                                     letterSpacing: 0.0,
                                   ),
-                          hintText: FFLocalizations.of(context).getText(
-                            'q3x4ze91' /* Please select... */,
-                          ),
+                          hintText: 'Please select...',
                           icon: Icon(
                             Icons.keyboard_arrow_down_rounded,
                             color: FlutterFlowTheme.of(context).secondaryText,
@@ -338,9 +323,7 @@ class _MedicineDetailsWidgetState extends State<MedicineDetailsWidget> {
                             ),
                             collapsed: Container(),
                             expanded: Text(
-                              FFLocalizations.of(context).getText(
-                                'yryfqqw8' /* • Fever */,
-                              ),
+                              '• Fever',
                               style: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
@@ -385,9 +368,7 @@ class _MedicineDetailsWidgetState extends State<MedicineDetailsWidget> {
                             ),
                             collapsed: Container(),
                             expanded: Text(
-                              FFLocalizations.of(context).getText(
-                                '8afkcieb' /* • No common side effects seen */,
-                              ),
+                              '• No common side effects seen',
                               style: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
@@ -433,9 +414,7 @@ class _MedicineDetailsWidgetState extends State<MedicineDetailsWidget> {
                               ),
                               collapsed: Container(),
                               expanded: Text(
-                                FFLocalizations.of(context).getText(
-                                  '5cvlwbg5' /* Take this medicine in the dose... */,
-                                ),
+                                'Take this medicine in the dose and duration as advised by your doctor. Swallow it as a whole. Do not chew, crush or break it. Napa Extend is to be taken with food.',
                                 style: FlutterFlowTheme.of(context)
                                     .labelMedium
                                     .override(
@@ -460,9 +439,7 @@ class _MedicineDetailsWidgetState extends State<MedicineDetailsWidget> {
                       onPressed: () async {
                         context.pushNamed('MyCart');
                       },
-                      text: FFLocalizations.of(context).getText(
-                        'tdbilx59' /* View Cart */,
-                      ),
+                      text: 'View Cart',
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 50.0,

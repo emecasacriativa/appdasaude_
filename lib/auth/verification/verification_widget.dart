@@ -63,9 +63,7 @@ class _VerificationWidgetState extends State<VerificationWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'trqhth19' /* Verification */,
-            ),
+            'Verification',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -86,9 +84,7 @@ class _VerificationWidgetState extends State<VerificationWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Text(
-                  FFLocalizations.of(context).getText(
-                    'bdwh51nz' /* Lorem ipsum dolor sit amet, co... */,
-                  ),
+                  'Lorem ipsum dolor sit amet, consectetur adi piscing elit. Quis sapien arcu',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).secondaryText,
@@ -147,9 +143,7 @@ class _VerificationWidgetState extends State<VerificationWidget> {
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 8.0, 0.0),
                         child: Text(
-                          FFLocalizations.of(context).getText(
-                            'dilvm2h6' /* You can request OTP after */,
-                          ),
+                          'You can request OTP after',
                           style: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -194,9 +188,7 @@ class _VerificationWidgetState extends State<VerificationWidget> {
                     onPressed: () async {
                       context.pushNamed('HomePage');
                     },
-                    text: FFLocalizations.of(context).getText(
-                      'qw0p06th' /* Verify */,
-                    ),
+                    text: 'Verify',
                     options: FFButtonOptions(
                       width: double.infinity,
                       height: 50.0,

@@ -68,9 +68,7 @@ class _CongratulationsWidgetState extends State<CongratulationsWidget> {
                 ),
               ),
               Text(
-                FFLocalizations.of(context).getText(
-                  'xyxn4exj' /* Congratulation! */,
-                ),
+                'Congratulation!',
                 style: FlutterFlowTheme.of(context).headlineLarge.override(
                       fontFamily: 'Nunito',
                       fontSize: 28.0,
@@ -83,27 +81,21 @@ class _CongratulationsWidgetState extends State<CongratulationsWidget> {
                 text: TextSpan(
                   children: [
                     TextSpan(
-                      text: FFLocalizations.of(context).getText(
-                        'yjknbl7d' /* Your appointment booking compl... */,
-                      ),
+                      text: 'Your appointment booking completed. ',
                       style: TextStyle(
                         color: FlutterFlowTheme.of(context).secondaryText,
                         fontWeight: FontWeight.normal,
                       ),
                     ),
                     TextSpan(
-                      text: FFLocalizations.of(context).getText(
-                        '2ynfqy21' /* Dr. Josiah Toor  */,
-                      ),
+                      text: 'Dr. Josiah Toor ',
                       style: TextStyle(
                         color: FlutterFlowTheme.of(context).primary,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
                     TextSpan(
-                      text: FFLocalizations.of(context).getText(
-                        'gp5wxhkg' /* will video call you soon. */,
-                      ),
+                      text: 'will video call you soon.',
                       style: TextStyle(),
                     )
                   ],
@@ -130,9 +122,7 @@ class _CongratulationsWidgetState extends State<CongratulationsWidget> {
                           size: 20.0,
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
-                            'l66ic36f' /* Guy Hawkins */,
-                          ),
+                          'Guy Hawkins',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Nunito',
@@ -150,9 +140,7 @@ class _CongratulationsWidgetState extends State<CongratulationsWidget> {
                           size: 20.0,
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
-                            'erl1gi5a' /* $15 USD */,
-                          ),
+                          '\$15 USD',
                           style:
                               FlutterFlowTheme.of(context).bodyMedium.override(
                                     fontFamily: 'Nunito',
@@ -177,9 +165,7 @@ class _CongratulationsWidgetState extends State<CongratulationsWidget> {
                         size: 20.0,
                       ),
                       Text(
-                        FFLocalizations.of(context).getText(
-                          'khs8d3xv' /* 12 July 2022 */,
-                        ),
+                        '12 July 2022',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Nunito',
                               letterSpacing: 0.0,
@@ -196,9 +182,7 @@ class _CongratulationsWidgetState extends State<CongratulationsWidget> {
                         size: 20.0,
                       ),
                       Text(
-                        FFLocalizations.of(context).getText(
-                          'eu1arv3a' /* 01:00 PM */,
-                        ),
+                        '01:00 PM',
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'Nunito',
                               letterSpacing: 0.0,
@@ -222,9 +206,7 @@ class _CongratulationsWidgetState extends State<CongratulationsWidget> {
                       }.withoutNulls,
                     );
                   },
-                  text: FFLocalizations.of(context).getText(
-                    'e9t5y7fs' /* See Appointment */,
-                  ),
+                  text: 'See Appointment',
                   options: FFButtonOptions(
                     width: double.infinity,
                     height: 50.0,
@@ -253,9 +235,7 @@ class _CongratulationsWidgetState extends State<CongratulationsWidget> {
                 onPressed: () async {
                   context.goNamed('HomePage');
                 },
-                text: FFLocalizations.of(context).getText(
-                  'tb0h1cjj' /* Back to Home */,
-                ),
+                text: 'Back to Home',
                 options: FFButtonOptions(
                   width: double.infinity,
                   height: 50.0,

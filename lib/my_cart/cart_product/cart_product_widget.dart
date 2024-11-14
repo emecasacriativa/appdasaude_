@@ -143,9 +143,7 @@ class _CartProductWidgetState extends State<CartProductWidget> {
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
-                                    'ye71kpt9' /* 01 Bottel */,
-                                  ),
+                                  '01 Bottel',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(

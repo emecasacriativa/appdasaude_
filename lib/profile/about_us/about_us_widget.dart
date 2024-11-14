@@ -60,9 +60,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'gmw2mnva' /* About Us */,
-            ),
+            'About Us',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -103,9 +101,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 24.0, 0.0, 12.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
-                              'arcz9jfs' /* About Us */,
-                            ),
+                            'About Us',
                             style: FlutterFlowTheme.of(context)
                                 .labelLarge
                                 .override(
@@ -118,9 +114,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                           ),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
-                            '845n6joz' /* Lorem ipsum dolor sit amet, co... */,
-                          ),
+                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec tincidunt lectus turpis feugiat amet, nibh. Mauris mattis aliquam et, amet, consequat vulputate. Est condimentum a ut condime',
                           style: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -134,9 +128,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 24.0, 0.0, 12.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
-                              'ilpua4ne' /* Our Vision */,
-                            ),
+                            'Our Vision',
                             style: FlutterFlowTheme.of(context)
                                 .labelLarge
                                 .override(
@@ -149,9 +141,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                           ),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
-                            'tyyjz72n' /* Lorem ipsum dolor sit amet, co... */,
-                          ),
+                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec tincidunt lectus turpis feugiat amet, nibh. Mauris mattis aliquam et, amet, consequat vulputate. Est condimentum a ut condime Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec tincidunt lectus turpis feugiat amet, nibh. Mauris mattis aliquam et, amet, consequat vulputate. Est condimentum a ut condime',
                           style: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(
@@ -165,9 +155,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 24.0, 0.0, 12.0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
-                              '1gealgrf' /* Our Mission */,
-                            ),
+                            'Our Mission',
                             style: FlutterFlowTheme.of(context)
                                 .labelLarge
                                 .override(
@@ -180,9 +168,7 @@ class _AboutUsWidgetState extends State<AboutUsWidget> {
                           ),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
-                            'yars4i4d' /* Lorem ipsum dolor sit amet, co... */,
-                          ),
+                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec tincidunt lectus turpis feugiat amet, nibh. Mauris mattis aliquam et, amet, consequat vulputate. Est condimentum a ut condime Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec tincidunt lectus turpis feugiat amet, nibh. Mauris mattis aliquam et, amet, consequat vulputate. Est condimentum a ut condime',
                           style: FlutterFlowTheme.of(context)
                               .bodyMedium
                               .override(

@@ -71,9 +71,7 @@ class _OnlineAppointmentDetailsWidgetState
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'fm8b9ktg' /* Online Appointments Details */,
-            ),
+            'Online Appointments Details',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -121,9 +119,7 @@ class _OnlineAppointmentDetailsWidgetState
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
-                                    '1n1ql3mr' /* Dr. Josiah Toor */,
-                                  ),
+                                  'Dr. Josiah Toor',
                                   style: FlutterFlowTheme.of(context)
                                       .headlineSmall
                                       .override(
@@ -133,9 +129,7 @@ class _OnlineAppointmentDetailsWidgetState
                                       ),
                                 ),
                                 Text(
-                                  FFLocalizations.of(context).getText(
-                                    'lvkv5t2p' /* National Institute of Cardiolo... */,
-                                  ),
+                                  'National Institute of Cardiology Research\n& Hospital, (Cardiology Specialist)',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
@@ -231,10 +225,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                   .fromSTEB(
                                                       12.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  '3avnbtv0' /* Video call */,
-                                                ),
+                                                'Video call',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -318,10 +309,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                   .fromSTEB(
                                                       12.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  '6r9z48qp' /* Send message */,
-                                                ),
+                                                'Send message',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -367,9 +355,7 @@ class _OnlineAppointmentDetailsWidgetState
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              '3t35qcy4' /* Hospital  */,
-                                            ),
+                                            'Hospital ',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -382,9 +368,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                 ),
                                           ),
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'p0c7sa8q' /* National Institute of Cancer R... */,
-                                            ),
+                                            'National Institute of Cancer Research& Hospital',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -424,9 +408,7 @@ class _OnlineAppointmentDetailsWidgetState
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'db3ptipw' /* Visit time */,
-                                          ),
+                                          'Visit time',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -439,9 +421,7 @@ class _OnlineAppointmentDetailsWidgetState
                                               ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'vb9kz3eo' /* Afternoon */,
-                                          ),
+                                          'Afternoon',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -453,9 +433,7 @@ class _OnlineAppointmentDetailsWidgetState
                                               ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'tovd0i66' /* Today - 12 July, 2022 */,
-                                          ),
+                                          'Today - 12 July, 2022',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -467,9 +445,7 @@ class _OnlineAppointmentDetailsWidgetState
                                               ),
                                         ),
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'gymjiova' /* 01:00 PM */,
-                                          ),
+                                          '01:00 PM',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
@@ -509,9 +485,7 @@ class _OnlineAppointmentDetailsWidgetState
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            'bp7gkf2g' /* Patient information */,
-                                          ),
+                                          'Patient information',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -532,10 +506,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'f2notu1y' /* Name */,
-                                                  ),
+                                                  'Name',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -549,10 +520,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'imm3izzr' /* Age */,
-                                                  ),
+                                                  'Age',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -566,10 +534,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '3wq6shqe' /* Gender */,
-                                                  ),
+                                                  'Gender',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -583,10 +548,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'pd5wns6g' /* Phone */,
-                                                  ),
+                                                  'Phone',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -607,10 +569,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'pp3whtm3' /* : */,
-                                                  ),
+                                                  ':',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -624,10 +583,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '3zjxiv5u' /* : */,
-                                                  ),
+                                                  ':',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -641,10 +597,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'pak32lzj' /* : */,
-                                                  ),
+                                                  ':',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -658,10 +611,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '3yy3pls7' /* : */,
-                                                  ),
+                                                  ':',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -682,10 +632,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'zmhxj424' /* Guy Hawkins */,
-                                                  ),
+                                                  'Guy Hawkins',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -699,10 +646,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'zlec6s44' /* 25 */,
-                                                  ),
+                                                  '25',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -716,10 +660,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '4ikgpizb' /* Male */,
-                                                  ),
+                                                  'Male',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -733,10 +674,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'k47s3sab' /* 01855671645 */,
-                                                  ),
+                                                  '01855671645',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -781,9 +719,7 @@ class _OnlineAppointmentDetailsWidgetState
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          FFLocalizations.of(context).getText(
-                                            't9yi14at' /* Consultation Fees */,
-                                          ),
+                                          'Consultation Fees',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -804,10 +740,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '3timwudc' /* Paid */,
-                                                  ),
+                                                  'Paid',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -821,51 +754,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    's8p7k29j' /* Fees */,
-                                                  ),
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Nunito',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
-                                                ),
-                                              ].divide(SizedBox(height: 4.0)),
-                                            ),
-                                            Column(
-                                              mainAxisSize: MainAxisSize.max,
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.start,
-                                              children: [
-                                                Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    't2ovz4s5' /* : */,
-                                                  ),
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'Nunito',
-                                                        color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .secondaryText,
-                                                        letterSpacing: 0.0,
-                                                      ),
-                                                ),
-                                                Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    '64vncg6d' /* : */,
-                                                  ),
+                                                  'Fees',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -886,10 +775,42 @@ class _OnlineAppointmentDetailsWidgetState
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'vjl9vk7u' /* Video Call */,
-                                                  ),
+                                                  ':',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        fontFamily: 'Nunito',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .secondaryText,
+                                                        letterSpacing: 0.0,
+                                                      ),
+                                                ),
+                                                Text(
+                                                  ':',
+                                                  style: FlutterFlowTheme.of(
+                                                          context)
+                                                      .bodyMedium
+                                                      .override(
+                                                        fontFamily: 'Nunito',
+                                                        color:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .secondaryText,
+                                                        letterSpacing: 0.0,
+                                                      ),
+                                                ),
+                                              ].divide(SizedBox(height: 4.0)),
+                                            ),
+                                            Column(
+                                              mainAxisSize: MainAxisSize.max,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
+                                              children: [
+                                                Text(
+                                                  'Video Call',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -903,10 +824,7 @@ class _OnlineAppointmentDetailsWidgetState
                                                       ),
                                                 ),
                                                 Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'y03ify98' /* $15 */,
-                                                  ),
+                                                  '\$15',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -960,9 +878,7 @@ class _OnlineAppointmentDetailsWidgetState
                             onPressed: () async {
                               context.pushNamed('BookAppointment');
                             },
-                            text: FFLocalizations.of(context).getText(
-                              '20447oz4' /* Cancel */,
-                            ),
+                            text: 'Cancel',
                             options: FFButtonOptions(
                               width: 200.0,
                               height: 50.0,
@@ -995,9 +911,7 @@ class _OnlineAppointmentDetailsWidgetState
                             onPressed: () async {
                               context.pushNamed('BookAppointment');
                             },
-                            text: FFLocalizations.of(context).getText(
-                              'e8yscac4' /* Reschedule */,
-                            ),
+                            text: 'Reschedule',
                             options: FFButtonOptions(
                               width: 200.0,
                               height: 50.0,

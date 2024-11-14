@@ -65,9 +65,7 @@ class _AllNearbyHospitalWidgetState extends State<AllNearbyHospitalWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'g4ksml10' /* Nearby Hospital */,
-            ),
+            'Nearby Hospital',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,

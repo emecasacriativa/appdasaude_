@@ -74,9 +74,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                   ),
                   Expanded(
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        'x53wwmiz' /* Book Ambulance */,
-                      ),
+                      'Book Ambulance',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
                             color: FlutterFlowTheme.of(context).primaryText,
@@ -162,10 +160,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  '944uhzo7' /* General Ambulance */,
-                                                ),
+                                                'General Ambulance',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -232,10 +227,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'qx6kc0fo' /* ICU Ambulance */,
-                                                ),
+                                                'ICU Ambulance',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -302,10 +294,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  '6e5a4yeg' /* Freezing Ambulance */,
-                                                ),
+                                                'Freezing Ambulance',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -336,9 +325,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 8.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'e62t0ps4' /* Map Direction  */,
-                                  ),
+                                  'Map Direction ',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -363,9 +350,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 8.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'jzys7vby' /* Pickup Point:  */,
-                                  ),
+                                  'Pickup Point: ',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -378,9 +363,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                 ),
                               ),
                               Text(
-                                FFLocalizations.of(context).getText(
-                                  'c9riuhkv' /* Badda, 8 Bukit Batok Street 41... */,
-                                ),
+                                'Badda, 8 Bukit Batok Street 41, Bangladesh, 361025',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -394,9 +377,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 8.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'sxgd05qv' /* Destination Point: */,
-                                  ),
+                                  'Destination Point:',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -409,9 +390,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                 ),
                               ),
                               Text(
-                                FFLocalizations.of(context).getText(
-                                  '6knd912r' /* House # 34/35, Road # 14/A (Ne... */,
-                                ),
+                                'House # 34/35, Road # 14/A (New), Dhanmondi R/A, Dhaka-1209',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -425,9 +404,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 8.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'ig8ow4g0' /* Price */,
-                                  ),
+                                  'Price',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -440,9 +417,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                 ),
                               ),
                               Text(
-                                FFLocalizations.of(context).getText(
-                                  'wcuq41gt' /* $250 */,
-                                ),
+                                '\$250',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -479,9 +454,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                     onPressed: () async {
                                       context.pushNamed('Ambulance');
                                     },
-                                    text: FFLocalizations.of(context).getText(
-                                      'qufwclg7' /* Cancel */,
-                                    ),
+                                    text: 'Cancel',
                                     options: FFButtonOptions(
                                       width: 200.0,
                                       height: 50.0,
@@ -517,9 +490,7 @@ class _AmbulanceDetailsWidgetState extends State<AmbulanceDetailsWidget> {
                                     onPressed: () async {
                                       context.goNamed('Ambulance');
                                     },
-                                    text: FFLocalizations.of(context).getText(
-                                      's5pj0ity' /* Reschedule */,
-                                    ),
+                                    text: 'Reschedule',
                                     options: FFButtonOptions(
                                       width: 200.0,
                                       height: 50.0,

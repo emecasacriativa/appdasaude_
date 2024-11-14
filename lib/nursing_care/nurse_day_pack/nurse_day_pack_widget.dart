@@ -133,9 +133,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'vwak9h40' /* Select Service */,
-                                  ),
+                                  'Select Service',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -148,14 +146,8 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                 ),
                               ),
                               FlutterFlowRadioButton(
-                                options: [
-                                  FFLocalizations.of(context).getText(
-                                    'a9e1obd1' /* Home Care */,
-                                  ),
-                                  FFLocalizations.of(context).getText(
-                                    'zczd2fsm' /* Hospital Care */,
-                                  )
-                                ].toList(),
+                                options:
+                                    ['Home Care', 'Hospital Care'].toList(),
                                 onChanged: (val) => safeSetState(() {}),
                                 controller:
                                     _model.radioButtonValueController ??=
@@ -191,9 +183,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    '05eyu7cw' /* Select Service */,
-                                  ),
+                                  'Select Service',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -223,9 +213,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     ),
                                     Expanded(
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'tcd8fs1n' /* Nurse will be present in the w... */,
-                                        ),
+                                        'Nurse will be present in the workplace on time.',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -258,9 +246,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     ),
                                     Expanded(
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'f3tp21ou' /* Lorem ipsum dolor sit amet, co... */,
-                                        ),
+                                        'Lorem ipsum dolor sit amet, consectetur adipisc ing elit. Felis volutpat dictumst',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -293,9 +279,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     ),
                                     Expanded(
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'o57c1xz3' /* pellentesque enim, libero augu... */,
-                                        ),
+                                        'pellentesque enim, libero augue sed. Sagittis ult rices quisque purus id euismod diam orci cura bitur sodales Et sollicitudin',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -328,9 +312,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     ),
                                     Expanded(
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'k9c7e3jo' /* Lorem ipsum dolor sit amet, co... */,
-                                        ),
+                                        'Lorem ipsum dolor sit amet, consectetur adipisc ing elit. Felis volutpat dictumst',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -363,9 +345,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     ),
                                     Expanded(
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'y2qp1pvd' /* pellentesque enim, libero augu... */,
-                                        ),
+                                        'pellentesque enim, libero augue sed. Sagittis ult rices quisque purus id euismod diam orci cura bitur sodales Et sollicitudin',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -398,9 +378,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     ),
                                     Expanded(
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'i09kc8xm' /* Lorem ipsum dolor sit amet, co... */,
-                                        ),
+                                        'Lorem ipsum dolor sit amet, consectetur adipisc ing elit. Felis volutpat dictumst',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -433,9 +411,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     ),
                                     Expanded(
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'upydyeyd' /* Nurse will be present in the w... */,
-                                        ),
+                                        'Nurse will be present in the workplace on time.',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -468,9 +444,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     ),
                                     Expanded(
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'i0xi597o' /* pellentesque enim, libero augu... */,
-                                        ),
+                                        'pellentesque enim, libero augue sed. Sagittis ult rices quisque purus id euismod diam orci cura bitur sodales Et sollicitudin',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -503,9 +477,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     ),
                                     Expanded(
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'uk3o832z' /* pellentesque enim, libero augu... */,
-                                        ),
+                                        'pellentesque enim, libero augue sed. Sagittis ult rices quisque purus id euismod diam orci cura bitur sodales Et sollicitudin',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -538,9 +510,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     ),
                                     Expanded(
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          's7jco4dm' /* pellentesque enim, libero augu... */,
-                                        ),
+                                        'pellentesque enim, libero augue sed. Sagittis ult rices quisque purus id euismod diam orci cura bitur sodales Et sollicitudin',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -591,12 +561,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                         style: TextStyle(),
                                       ),
                                       TextSpan(
-                                        text:
-                                            FFLocalizations.of(context).getText(
-                                          'iing0mpa' /* 
- */
-                                          ,
-                                        ),
+                                        text: '\n',
                                         style: TextStyle(
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
@@ -626,9 +591,7 @@ class _NurseDayPackWidgetState extends State<NurseDayPackWidget> {
                                     onPressed: () async {
                                       context.pushNamed('NurseBook');
                                     },
-                                    text: FFLocalizations.of(context).getText(
-                                      'nav9tzuv' /* Book Now */,
-                                    ),
+                                    text: 'Book Now',
                                     options: FFButtonOptions(
                                       width: 200.0,
                                       height: 50.0,

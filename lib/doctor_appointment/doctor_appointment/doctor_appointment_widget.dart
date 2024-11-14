@@ -91,9 +91,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                           ),
                           Expanded(
                             child: Text(
-                              FFLocalizations.of(context).getText(
-                                'zss8bi0t' /* Doctor Appointment */,
-                              ),
+                              'Doctor Appointment',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -139,9 +137,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                           autofocus: false,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: FFLocalizations.of(context).getText(
-                              '3ztqpko0' /* Search */,
-                            ),
+                            labelText: 'Search',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -269,9 +265,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                           alignment:
                                               AlignmentDirectional(-1.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'j47k47e8' /* Say Hello Doctor */,
-                                            ),
+                                            'Say Hello Doctor',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -291,10 +285,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 8.0, 0.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'u3sa8jkl' /* 30% OFF */,
-                                              ),
+                                              '30% OFF',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -317,10 +308,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                             onPressed: () {
                                               print('Button pressed ...');
                                             },
-                                            text: FFLocalizations.of(context)
-                                                .getText(
-                                              '8y354p6u' /* See Doctor */,
-                                            ),
+                                            text: 'See Doctor',
                                             options: FFButtonOptions(
                                               height: 40.0,
                                               padding: EdgeInsetsDirectional
@@ -379,9 +367,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                           alignment:
                                               AlignmentDirectional(-1.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'x5zauoq1' /* Say Hello Doctor */,
-                                            ),
+                                            'Say Hello Doctor',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -401,10 +387,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0.0, 8.0, 0.0, 0.0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'n9r7wcb6' /* 30% OFF */,
-                                              ),
+                                              '30% OFF',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -427,10 +410,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                             onPressed: () {
                                               print('Button pressed ...');
                                             },
-                                            text: FFLocalizations.of(context)
-                                                .getText(
-                                              'zrt68kz7' /* See Doctor */,
-                                            ),
+                                            text: 'See Doctor',
                                             options: FFButtonOptions(
                                               height: 40.0,
                                               padding: EdgeInsetsDirectional
@@ -489,9 +469,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'liq3trb8' /* Categories */,
-                                      ),
+                                      'Categories',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -505,9 +483,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'o1990wwt' /* View All */,
-                                    ),
+                                    'View All',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -677,9 +653,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'kpjfh6g0' /* Popular Doctor */,
-                                      ),
+                                      'Popular Doctor',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -693,9 +667,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      '3h3dzlc0' /* View All */,
-                                    ),
+                                    'View All',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -770,9 +742,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'zsusmmxo' /* Nearby Hospital */,
-                                      ),
+                                      'Nearby Hospital',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -786,9 +756,7 @@ class _DoctorAppointmentWidgetState extends State<DoctorAppointmentWidget> {
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'cnzj1ed2' /* View All */,
-                                    ),
+                                    'View All',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(

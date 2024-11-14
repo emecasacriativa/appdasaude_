@@ -64,9 +64,7 @@ class _ProductItemWidgetState extends State<ProductItemWidget> {
             child: Padding(
               padding: EdgeInsetsDirectional.fromSTEB(10.0, 10.0, 10.0, 0.0),
               child: Text(
-                FFLocalizations.of(context).getText(
-                  'lrm4bzqu' /* Relapsing Multiple Sclerosis */,
-                ),
+                'Relapsing Multiple Sclerosis',
                 style: FlutterFlowTheme.of(context).bodyMedium.override(
                       fontFamily: 'Nunito',
                       color: FlutterFlowTheme.of(context).primaryText,
@@ -83,9 +81,7 @@ class _ProductItemWidgetState extends State<ProductItemWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Text(
-                  FFLocalizations.of(context).getText(
-                    'jt6tq88z' /* $6.99 */,
-                  ),
+                  '\$6.99',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).success,
@@ -95,9 +91,7 @@ class _ProductItemWidgetState extends State<ProductItemWidget> {
                       ),
                 ),
                 Text(
-                  FFLocalizations.of(context).getText(
-                    'ec5d8wjl' /* $6.99 */,
-                  ),
+                  '\$6.99',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).secondaryText,
@@ -114,9 +108,7 @@ class _ProductItemWidgetState extends State<ProductItemWidget> {
             onPressed: () {
               print('Button pressed ...');
             },
-            text: FFLocalizations.of(context).getText(
-              'bad81ekg' /* Order now */,
-            ),
+            text: 'Order now',
             options: FFButtonOptions(
               width: double.infinity,
               height: 34.0,

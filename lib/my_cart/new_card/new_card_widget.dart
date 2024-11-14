@@ -77,9 +77,7 @@ class _NewCardWidgetState extends State<NewCardWidget> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    FFLocalizations.of(context).getText(
-                      '17qwbt0w' /* Add New Card */,
-                    ),
+                    'Add New Card',
                     style: FlutterFlowTheme.of(context).bodyLarge.override(
                           fontFamily: 'Nunito',
                           letterSpacing: 0.0,
@@ -124,9 +122,7 @@ class _NewCardWidgetState extends State<NewCardWidget> {
                 autofocus: false,
                 obscureText: false,
                 decoration: InputDecoration(
-                  labelText: FFLocalizations.of(context).getText(
-                    'manh1584' /* Full Name */,
-                  ),
+                  labelText: 'Full Name',
                   labelStyle: FlutterFlowTheme.of(context).labelMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).primaryText,
@@ -187,9 +183,7 @@ class _NewCardWidgetState extends State<NewCardWidget> {
                   autofocus: false,
                   obscureText: false,
                   decoration: InputDecoration(
-                    labelText: FFLocalizations.of(context).getText(
-                      '25tcc8qh' /* Card Number */,
-                    ),
+                    labelText: 'Card Number',
                     labelStyle:
                         FlutterFlowTheme.of(context).labelMedium.override(
                               fontFamily: 'Nunito',
@@ -259,9 +253,7 @@ class _NewCardWidgetState extends State<NewCardWidget> {
                         autofocus: false,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            '7hafhz75' /* Expire Date */,
-                          ),
+                          labelText: 'Expire Date',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -330,9 +322,7 @@ class _NewCardWidgetState extends State<NewCardWidget> {
                         autofocus: false,
                         obscureText: false,
                         decoration: InputDecoration(
-                          labelText: FFLocalizations.of(context).getText(
-                            'i6enuas6' /* CVV */,
-                          ),
+                          labelText: 'CVV',
                           labelStyle: FlutterFlowTheme.of(context)
                               .labelMedium
                               .override(
@@ -396,9 +386,7 @@ class _NewCardWidgetState extends State<NewCardWidget> {
                 onPressed: () async {
                   Navigator.pop(context);
                 },
-                text: FFLocalizations.of(context).getText(
-                  'pfnraslu' /* Save */,
-                ),
+                text: 'Save',
                 options: FFButtonOptions(
                   width: double.infinity,
                   height: 50.0,

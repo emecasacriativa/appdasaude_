@@ -67,9 +67,7 @@ class _PopularDoctorWidgetState extends State<PopularDoctorWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              '662e1vl1' /* Popular Doctor */,
-            ),
+            'Popular Doctor',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -101,9 +99,7 @@ class _PopularDoctorWidgetState extends State<PopularDoctorWidget> {
                                 fontFamily: 'Nunito',
                                 letterSpacing: 0.0,
                               ),
-                      hintText: FFLocalizations.of(context).getText(
-                        'f3szg832' /* Search... */,
-                      ),
+                      hintText: 'Search...',
                       hintStyle:
                           FlutterFlowTheme.of(context).labelLarge.override(
                                 fontFamily: 'Nunito',

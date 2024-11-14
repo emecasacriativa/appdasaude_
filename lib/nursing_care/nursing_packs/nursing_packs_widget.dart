@@ -188,10 +188,7 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      '6yvrt9uv' /* 1 Day Packs */,
-                                                    ),
+                                                    '1 Day Packs',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelLarge
@@ -212,19 +209,11 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     text: TextSpan(
                                                       children: [
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            '28bsd6ka' /* Price:  */,
-                                                          ),
+                                                          text: 'Price: ',
                                                           style: TextStyle(),
                                                         ),
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            'bzyfe7cp' /* $500 */,
-                                                          ),
+                                                          text: '\$500',
                                                           style: TextStyle(
                                                             color: FlutterFlowTheme
                                                                     .of(context)
@@ -322,10 +311,7 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      'fws64ath' /* 3 Day Packs */,
-                                                    ),
+                                                    '3 Day Packs',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelLarge
@@ -346,19 +332,11 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     text: TextSpan(
                                                       children: [
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            'p3sznkca' /* Price:  */,
-                                                          ),
+                                                          text: 'Price: ',
                                                           style: TextStyle(),
                                                         ),
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            '0pwj8rrz' /* $700 */,
-                                                          ),
+                                                          text: '\$700',
                                                           style: TextStyle(
                                                             color: FlutterFlowTheme
                                                                     .of(context)
@@ -456,10 +434,7 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      'iixlqzqd' /* 5 Day Packs */,
-                                                    ),
+                                                    '5 Day Packs',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelLarge
@@ -480,19 +455,11 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     text: TextSpan(
                                                       children: [
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            'a6x5rwlk' /* Price:  */,
-                                                          ),
+                                                          text: 'Price: ',
                                                           style: TextStyle(),
                                                         ),
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            'majshcuu' /* $800 */,
-                                                          ),
+                                                          text: '\$800',
                                                           style: TextStyle(
                                                             color: FlutterFlowTheme
                                                                     .of(context)
@@ -590,10 +557,7 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      'slw560wu' /* 7 Day Packs */,
-                                                    ),
+                                                    '7 Day Packs',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelLarge
@@ -614,19 +578,11 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     text: TextSpan(
                                                       children: [
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            'u98m9hh7' /* Price:  */,
-                                                          ),
+                                                          text: 'Price: ',
                                                           style: TextStyle(),
                                                         ),
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            '0vulwu0v' /* $900 */,
-                                                          ),
+                                                          text: '\$900',
                                                           style: TextStyle(
                                                             color: FlutterFlowTheme
                                                                     .of(context)
@@ -724,10 +680,7 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      'vbvua26t' /* 10 Day Packs */,
-                                                    ),
+                                                    '10 Day Packs',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelLarge
@@ -748,19 +701,11 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     text: TextSpan(
                                                       children: [
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            'aqugo4j7' /* Price:  */,
-                                                          ),
+                                                          text: 'Price: ',
                                                           style: TextStyle(),
                                                         ),
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            '90y17a86' /* $1200 */,
-                                                          ),
+                                                          text: '\$1200',
                                                           style: TextStyle(
                                                             color: FlutterFlowTheme
                                                                     .of(context)
@@ -858,10 +803,7 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      '7h07wd14' /* 15 Day Packs */,
-                                                    ),
+                                                    '15 Day Packs',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelLarge
@@ -882,19 +824,11 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     text: TextSpan(
                                                       children: [
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            'xmmtc4dk' /* Price:  */,
-                                                          ),
+                                                          text: 'Price: ',
                                                           style: TextStyle(),
                                                         ),
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            'igmp35zq' /* $1500 */,
-                                                          ),
+                                                          text: '\$1500',
                                                           style: TextStyle(
                                                             color: FlutterFlowTheme
                                                                     .of(context)
@@ -992,10 +926,7 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      'heny57ic' /* 20 Day Packs */,
-                                                    ),
+                                                    '20 Day Packs',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelLarge
@@ -1016,19 +947,11 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     text: TextSpan(
                                                       children: [
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            '3qbo2ptu' /* Price:  */,
-                                                          ),
+                                                          text: 'Price: ',
                                                           style: TextStyle(),
                                                         ),
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            'ugmlhk7t' /* $1700 */,
-                                                          ),
+                                                          text: '\$1700',
                                                           style: TextStyle(
                                                             color: FlutterFlowTheme
                                                                     .of(context)
@@ -1126,10 +1049,7 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   Text(
-                                                    FFLocalizations.of(context)
-                                                        .getText(
-                                                      'tczm8qc7' /* 30 Day Packs */,
-                                                    ),
+                                                    '30 Day Packs',
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .labelLarge
@@ -1150,19 +1070,11 @@ class _NursingPacksWidgetState extends State<NursingPacksWidget> {
                                                     text: TextSpan(
                                                       children: [
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            '5uktrw6g' /* Price:  */,
-                                                          ),
+                                                          text: 'Price: ',
                                                           style: TextStyle(),
                                                         ),
                                                         TextSpan(
-                                                          text: FFLocalizations
-                                                                  .of(context)
-                                                              .getText(
-                                                            'ajorz5yr' /* $2000 */,
-                                                          ),
+                                                          text: '\$2000',
                                                           style: TextStyle(
                                                             color: FlutterFlowTheme
                                                                     .of(context)

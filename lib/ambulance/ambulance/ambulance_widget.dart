@@ -69,9 +69,7 @@ class _AmbulanceWidgetState extends State<AmbulanceWidget> {
                   ),
                   Expanded(
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        'yw8vwoxn' /* Ambulance */,
-                      ),
+                      'Ambulance',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
                             color: FlutterFlowTheme.of(context).primaryText,
@@ -172,10 +170,7 @@ class _AmbulanceWidgetState extends State<AmbulanceWidget> {
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'hrzufdwd' /* General Ambulance */,
-                                                ),
+                                                'General Ambulance',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -258,10 +253,7 @@ class _AmbulanceWidgetState extends State<AmbulanceWidget> {
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'xdz1eilu' /* ICU Ambulance */,
-                                                ),
+                                                'ICU Ambulance',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge
@@ -344,10 +336,7 @@ class _AmbulanceWidgetState extends State<AmbulanceWidget> {
                                                   .fromSTEB(
                                                       20.0, 0.0, 0.0, 0.0),
                                               child: Text(
-                                                FFLocalizations.of(context)
-                                                    .getText(
-                                                  'vc30ddqt' /* Freezing Ambulance */,
-                                                ),
+                                                'Freezing Ambulance',
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .labelLarge

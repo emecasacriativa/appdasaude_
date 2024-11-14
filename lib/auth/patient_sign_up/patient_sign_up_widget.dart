@@ -77,9 +77,7 @@ class _PatientSignUpWidgetState extends State<PatientSignUpWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              '4p8i56qt' /* Sign up */,
-            ),
+            'Sign up',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -100,9 +98,7 @@ class _PatientSignUpWidgetState extends State<PatientSignUpWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Text(
-                  FFLocalizations.of(context).getText(
-                    'amm1uie2' /* Lorem ipsum dolor sit amet, co... */,
-                  ),
+                  'Lorem ipsum dolor sit amet, consectetur adi piscing elit. Quis sapien arcu',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).secondaryText,
@@ -125,9 +121,7 @@ class _PatientSignUpWidgetState extends State<PatientSignUpWidget> {
                       autofocus: false,
                       obscureText: false,
                       decoration: InputDecoration(
-                        labelText: FFLocalizations.of(context).getText(
-                          'kh6cug0z' /* Full name */,
-                        ),
+                        labelText: 'Full name',
                         labelStyle: FlutterFlowTheme.of(context)
                             .labelMedium
                             .override(
@@ -198,9 +192,7 @@ class _PatientSignUpWidgetState extends State<PatientSignUpWidget> {
                       autofocus: false,
                       obscureText: false,
                       decoration: InputDecoration(
-                        labelText: FFLocalizations.of(context).getText(
-                          'i6g8tnuc' /* Email */,
-                        ),
+                        labelText: 'Email',
                         labelStyle: FlutterFlowTheme.of(context)
                             .labelMedium
                             .override(
@@ -271,9 +263,7 @@ class _PatientSignUpWidgetState extends State<PatientSignUpWidget> {
                       autofocus: false,
                       obscureText: false,
                       decoration: InputDecoration(
-                        labelText: FFLocalizations.of(context).getText(
-                          've7abtaj' /* Mobile Number */,
-                        ),
+                        labelText: 'Mobile Number',
                         labelStyle: FlutterFlowTheme.of(context)
                             .labelMedium
                             .override(
@@ -344,9 +334,7 @@ class _PatientSignUpWidgetState extends State<PatientSignUpWidget> {
                       autofocus: false,
                       obscureText: !_model.passwordVisibility1,
                       decoration: InputDecoration(
-                        labelText: FFLocalizations.of(context).getText(
-                          '1bp56c0q' /* Password */,
-                        ),
+                        labelText: 'Password',
                         labelStyle: FlutterFlowTheme.of(context)
                             .labelMedium
                             .override(
@@ -431,9 +419,7 @@ class _PatientSignUpWidgetState extends State<PatientSignUpWidget> {
                       autofocus: false,
                       obscureText: !_model.passwordVisibility2,
                       decoration: InputDecoration(
-                        labelText: FFLocalizations.of(context).getText(
-                          '8kma0o0z' /* Confirm Password */,
-                        ),
+                        labelText: 'Confirm Password',
                         labelStyle: FlutterFlowTheme.of(context)
                             .labelMedium
                             .override(
@@ -549,18 +535,14 @@ class _PatientSignUpWidgetState extends State<PatientSignUpWidget> {
                             text: TextSpan(
                               children: [
                                 TextSpan(
-                                  text: FFLocalizations.of(context).getText(
-                                    'ai03xpuz' /* I have read and agree to the  */,
-                                  ),
+                                  text: 'I have read and agree to the ',
                                   style: TextStyle(
                                     color: FlutterFlowTheme.of(context)
                                         .primaryText,
                                   ),
                                 ),
                                 TextSpan(
-                                  text: FFLocalizations.of(context).getText(
-                                    'osrr1azv' /* privacy policy & Termes & Cond... */,
-                                  ),
+                                  text: 'privacy policy & Termes & Conditions',
                                   style: TextStyle(
                                     color: FlutterFlowTheme.of(context).primary,
                                     fontSize: 13.0,
@@ -589,9 +571,7 @@ class _PatientSignUpWidgetState extends State<PatientSignUpWidget> {
                     onPressed: () async {
                       context.pushNamed('Verification');
                     },
-                    text: FFLocalizations.of(context).getText(
-                      'jhobe3yg' /* Sign Up */,
-                    ),
+                    text: 'Sign Up',
                     options: FFButtonOptions(
                       width: double.infinity,
                       height: 50.0,
@@ -630,15 +610,11 @@ class _PatientSignUpWidgetState extends State<PatientSignUpWidget> {
                     text: TextSpan(
                       children: [
                         TextSpan(
-                          text: FFLocalizations.of(context).getText(
-                            'a7ajreq1' /* Already have an account?  */,
-                          ),
+                          text: 'Already have an account? ',
                           style: TextStyle(),
                         ),
                         TextSpan(
-                          text: FFLocalizations.of(context).getText(
-                            'q6m1ztl5' /* Sign in */,
-                          ),
+                          text: 'Sign in',
                           style: TextStyle(
                             color: FlutterFlowTheme.of(context).primary,
                             fontSize: 13.0,

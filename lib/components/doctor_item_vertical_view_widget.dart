@@ -199,9 +199,7 @@ class _DoctorItemVerticalViewWidgetState
                           }.withoutNulls,
                         );
                       },
-                      text: FFLocalizations.of(context).getText(
-                        '6uct7v9e' /* Book Now */,
-                      ),
+                      text: 'Book Now',
                       options: FFButtonOptions(
                         width: double.infinity,
                         height: 34.0,

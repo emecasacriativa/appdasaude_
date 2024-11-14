@@ -61,9 +61,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                     context.pushNamed('ChooseRole');
                   },
                   child: Text(
-                    FFLocalizations.of(context).getText(
-                      'nm0ifyzv' /* Skip */,
-                    ),
+                    'Skip',
                     style: FlutterFlowTheme.of(context).bodyMedium.override(
                           fontFamily: 'Nunito',
                           color: FlutterFlowTheme.of(context).secondaryText,
@@ -113,9 +111,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 40.0, 0.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      '79uqe6bc' /* Find Your Doctor */,
-                                    ),
+                                    'Find Your Doctor',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -130,9 +126,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       20.0, 12.0, 20.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      '40xd6w50' /* Lorem ipsum dolor sit amet, co... */,
-                                    ),
+                                    'Lorem ipsum dolor sit amet, consectetur adipi scing elit. Lectus sed vel vitae ali quet that \nfist and consectetur ipsum',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -162,9 +156,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 40.0, 0.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'jzwokwsi' /* Order Your medicine */,
-                                    ),
+                                    'Order Your medicine',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -179,9 +171,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       20.0, 12.0, 20.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'ktxc4qjd' /* Lorem ipsum dolor sit amet, co... */,
-                                    ),
+                                    'Lorem ipsum dolor sit amet, consectetur adipi scing elit. Lectus sed vel vitae ali quet that \nfist and consectetur ipsum',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -211,9 +201,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 40.0, 0.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'xr1jp6a6' /* Lab Tests at home */,
-                                    ),
+                                    'Lab Tests at home',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -228,9 +216,7 @@ class _OnboardingWidgetState extends State<OnboardingWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       20.0, 12.0, 20.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'e6nhwb13' /* Lorem ipsum dolor sit amet, co... */,
-                                    ),
+                                    'Lorem ipsum dolor sit amet, consectetur adipi scing elit. Lectus sed vel vitae ali quet that \nfist and consectetur ipsum',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium

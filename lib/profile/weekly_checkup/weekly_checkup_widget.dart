@@ -60,9 +60,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'ffprq52z' /* Weekly Checkup */,
-            ),
+            'Weekly Checkup',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -98,9 +96,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 44.0, 0.0, 20.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        '98injida' /* Select Current Symptoms */,
-                      ),
+                      'Select Current Symptoms',
                       style: FlutterFlowTheme.of(context).bodyLarge.override(
                             fontFamily: 'Nunito',
                             letterSpacing: 0.0,
@@ -136,9 +132,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
-                              'o1v4j01r' /* Cough */,
-                            ),
+                            'Cough',
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -164,9 +158,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
-                              'g5f31rrk' /* Pain */,
-                            ),
+                            'Pain',
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -192,9 +184,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
-                              'vlg6rcsy' /* Fever */,
-                            ),
+                            'Fever',
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -220,9 +210,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
-                              'x02sykjf' /* Heart */,
-                            ),
+                            'Heart',
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -248,9 +236,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
-                              'ukv9xeb0' /* Kidney */,
-                            ),
+                            'Kidney',
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -276,9 +262,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
-                              'kz1vipk4' /* Dental */,
-                            ),
+                            'Dental',
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -304,9 +288,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
-                              '5f59q5ht' /* Lungs */,
-                            ),
+                            'Lungs',
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -332,9 +314,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
-                              'ne1j73e3' /* Liver */,
-                            ),
+                            'Liver',
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -360,9 +340,7 @@ class _WeeklyCheckupWidgetState extends State<WeeklyCheckupWidget> {
                             ),
                           ),
                           Text(
-                            FFLocalizations.of(context).getText(
-                              'o4xsbvin' /* Asthma */,
-                            ),
+                            'Asthma',
                             style: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(

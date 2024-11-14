@@ -60,9 +60,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'vlg0elp8' /* Notifications */,
-            ),
+            'Notifications',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -100,9 +98,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            FFLocalizations.of(context).getText(
-                              'pwen4zwo' /* Today - 12 July 2022 */,
-                            ),
+                            'Today - 12 July 2022',
                             style: FlutterFlowTheme.of(context)
                                 .labelLarge
                                 .override(
@@ -156,10 +152,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'fmadhpq0' /* Reminder */,
-                                              ),
+                                              'Reminder',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .labelLarge
@@ -173,10 +166,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                                   ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'sarsuhg8' /* 1 min ago  */,
-                                              ),
+                                              '1 min ago ',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -244,10 +234,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'f9qrwxsw' /* Appointment Alarm */,
-                                              ),
+                                              'Appointment Alarm',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .labelLarge
@@ -261,10 +248,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                                   ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'eo0ii1r4' /* 5 min ago  */,
-                                              ),
+                                              '5 min ago ',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -332,10 +316,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'l576mdhx' /* Appointment Confirmed */,
-                                              ),
+                                              'Appointment Confirmed',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .labelLarge
@@ -349,10 +330,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                                   ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'pyikkv6s' /* 20 min ago  */,
-                                              ),
+                                              '20 min ago ',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -379,9 +357,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 12.0, 0.0, 0.0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
-                                'yjdhdhin' /* Today - 12 July 2022 */,
-                              ),
+                              'Today - 12 July 2022',
                               style: FlutterFlowTheme.of(context)
                                   .labelLarge
                                   .override(
@@ -436,10 +412,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '3l0hf1l5' /* Appointment Confirmed */,
-                                              ),
+                                              'Appointment Confirmed',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .labelLarge
@@ -453,10 +426,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                                   ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'hmc3gnqr' /* 20 min ago  */,
-                                              ),
+                                              '20 min ago ',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -524,10 +494,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'friu6rqg' /* Appointment Alarm */,
-                                              ),
+                                              'Appointment Alarm',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .labelLarge
@@ -541,10 +508,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                                   ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '1f5g0ghb' /* 5 min ago  */,
-                                              ),
+                                              '5 min ago ',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -612,10 +576,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                               CrossAxisAlignment.start,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                '501gww0w' /* Reminder */,
-                                              ),
+                                              'Reminder',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .labelLarge
@@ -629,10 +590,7 @@ class _NotificationsWidgetState extends State<NotificationsWidget> {
                                                   ),
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'x1fq95cl' /* 1 min ago  */,
-                                              ),
+                                              '1 min ago ',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium

@@ -64,9 +64,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'tvrq9w8o' /* Order Details */,
-            ),
+            'Order Details',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -113,9 +111,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
                                 Align(
                                   alignment: AlignmentDirectional(-1.0, 0.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      '4u1qwjxb' /* 12 February, 2024 */,
-                                    ),
+                                    '12 February, 2024',
                                     style: FlutterFlowTheme.of(context)
                                         .labelMedium
                                         .override(
@@ -291,11 +287,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
                                                                       .spaceBetween,
                                                               children: [
                                                                 Text(
-                                                                  FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    'e76m4b9a' /* 01 Bottel */,
-                                                                  ),
+                                                                  '01 Bottel',
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
                                                                       .bodyMedium
@@ -311,11 +303,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
                                                                       ),
                                                                 ),
                                                                 Text(
-                                                                  FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    'i4oi5jn5' /* Qty: 01 */,
-                                                                  ),
+                                                                  'Qty: 01',
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
                                                                       .bodyMedium
@@ -352,9 +340,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 30.0, 0.0, 16.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'iiffg6xc' /* Order Details */,
-                                      ),
+                                      'Order Details',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -376,9 +362,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
                                       alignment:
                                           AlignmentDirectional(-1.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'jmmsv2kn' /* Your order Number: */,
-                                        ),
+                                        'Your order Number:',
                                         style: FlutterFlowTheme.of(context)
                                             .labelMedium
                                             .override(
@@ -388,9 +372,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
                                       ),
                                     ),
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        '5ydl6tyg' /* #s5jc-226 */,
-                                      ),
+                                      '#s5jc-226',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -412,9 +394,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
                                         alignment:
                                             AlignmentDirectional(-1.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            '3ht6jymf' /* Your order from: */,
-                                          ),
+                                          'Your order from:',
                                           style: FlutterFlowTheme.of(context)
                                               .labelMedium
                                               .override(
@@ -424,9 +404,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
                                         ),
                                       ),
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          '8fvi1ziq' /* Maan Pharmacy Ltd. */,
-                                        ),
+                                        'Maan Pharmacy Ltd.',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -447,9 +425,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
                                       alignment:
                                           AlignmentDirectional(-1.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'w83y3a0r' /* Delivery Addesss: */,
-                                        ),
+                                        'Delivery Addesss:',
                                         style: FlutterFlowTheme.of(context)
                                             .labelMedium
                                             .override(
@@ -459,11 +435,7 @@ class _OrderDetailsWidgetState extends State<OrderDetailsWidget> {
                                       ),
                                     ),
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        '1k4e7zgp' /* 8 Bukit Batok Street 41, 
-Bang... */
-                                        ,
-                                      ),
+                                      '8 Bukit Batok Street 41, \nBangladesh, 361025',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -479,9 +451,7 @@ Bang... */
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 24.0, 0.0, 12.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        '0b6tz2pe' /* Payment Method */,
-                                      ),
+                                      'Payment Method',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -514,9 +484,7 @@ Bang... */
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          'zalv515w' /* Total (incl. VAT) */,
-                                        ),
+                                        'Total (incl. VAT)',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
@@ -526,9 +494,7 @@ Bang... */
                                             ),
                                       ),
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          'ul3t4yke' /* $14.98 */,
-                                        ),
+                                        '\$14.98',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyLarge
                                             .override(
@@ -571,9 +537,7 @@ Bang... */
                           onPressed: () async {
                             context.pushNamed('HomePage');
                           },
-                          text: FFLocalizations.of(context).getText(
-                            '10x7p44o' /* Cancel */,
-                          ),
+                          text: 'Cancel',
                           options: FFButtonOptions(
                             width: 200.0,
                             height: 50.0,
@@ -610,9 +574,7 @@ Bang... */
                               }(),
                             );
                           },
-                          text: FFLocalizations.of(context).getText(
-                            'z2mos9w7' /* Track My Order */,
-                          ),
+                          text: 'Track My Order',
                           options: FFButtonOptions(
                             width: 200.0,
                             height: 50.0,

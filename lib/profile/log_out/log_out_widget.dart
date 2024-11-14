@@ -54,9 +54,7 @@ class _LogOutWidgetState extends State<LogOutWidget> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Text(
-                FFLocalizations.of(context).getText(
-                  'lvg4l13y' /* Log Out */,
-                ),
+                'Log Out',
                 style: FlutterFlowTheme.of(context).headlineLarge.override(
                       fontFamily: 'Nunito',
                       fontSize: 28.0,
@@ -69,9 +67,7 @@ class _LogOutWidgetState extends State<LogOutWidget> {
                 text: TextSpan(
                   children: [
                     TextSpan(
-                      text: FFLocalizations.of(context).getText(
-                        '6ry5ls85' /* Are you sure you want to Log O... */,
-                      ),
+                      text: 'Are you sure you want to Log Out?',
                       style: TextStyle(
                         color: FlutterFlowTheme.of(context).secondaryText,
                         fontWeight: FontWeight.normal,
@@ -92,9 +88,7 @@ class _LogOutWidgetState extends State<LogOutWidget> {
                   onPressed: () async {
                     context.goNamed('Onboarding');
                   },
-                  text: FFLocalizations.of(context).getText(
-                    'bpk22kd9' /* Log Out */,
-                  ),
+                  text: 'Log Out',
                   options: FFButtonOptions(
                     width: double.infinity,
                     height: 50.0,
@@ -125,9 +119,7 @@ class _LogOutWidgetState extends State<LogOutWidget> {
                   onPressed: () async {
                     Navigator.pop(context);
                   },
-                  text: FFLocalizations.of(context).getText(
-                    'jel8l9cc' /* Cancel */,
-                  ),
+                  text: 'Cancel',
                   options: FFButtonOptions(
                     width: double.infinity,
                     height: 50.0,

@@ -47,9 +47,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
           backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
           automaticallyImplyLeading: false,
           title: Text(
-            FFLocalizations.of(context).getText(
-              'mmx8sl3t' /* Profile */,
-            ),
+            'Profile',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -114,9 +112,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'tb6mie2u' /* Ibne Riead */,
-                                    ),
+                                    'Ibne Riead',
                                     style: FlutterFlowTheme.of(context)
                                         .titleLarge
                                         .override(
@@ -129,9 +125,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'tp73t6t2' /* Phone Number: 01855671615 */,
-                                    ),
+                                    'Phone Number: 01855671615',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -143,9 +137,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                         ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'jk5bot1m' /* User ID: #74957485 */,
-                                    ),
+                                    'User ID: #74957485',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -217,9 +209,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         16.0, 0.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'b7kk4ax2' /* My Profile */,
-                                      ),
+                                      'My Profile',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -271,9 +261,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         16.0, 0.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'r7bhu1gq' /* History */,
-                                      ),
+                                      'History',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -325,9 +313,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         16.0, 0.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'ug0j8tj6' /* Language */,
-                                      ),
+                                      'Language',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -378,9 +364,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         16.0, 0.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        '3od7x9b1' /* Weekly checkup */,
-                                      ),
+                                      'Weekly checkup',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -432,9 +416,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         16.0, 0.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'xem2swn4' /* Medicine Reminders */,
-                                      ),
+                                      'Medicine Reminders',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -486,9 +468,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         16.0, 0.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'e7448whm' /* Rate Us */,
-                                      ),
+                                      'Rate Us',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -539,9 +519,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         16.0, 0.0, 0.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'iyn0ruv6' /* About Us */,
-                                      ),
+                                      'About Us',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -611,9 +589,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           16.0, 0.0, 0.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'q91m6o0k' /* Log Out */,
-                                        ),
+                                        'Log Out',
                                         style: FlutterFlowTheme.of(context)
                                             .labelLarge
                                             .override(

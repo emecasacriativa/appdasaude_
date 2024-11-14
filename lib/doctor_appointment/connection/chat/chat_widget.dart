@@ -91,9 +91,7 @@ class _ChatWidgetState extends State<ChatWidget> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      FFLocalizations.of(context).getText(
-                        'dk4s962e' /* Dr. Josiah Toor */,
-                      ),
+                      'Dr. Josiah Toor',
                       style:
                           FlutterFlowTheme.of(context).headlineSmall.override(
                                 fontFamily: 'Nunito',
@@ -103,9 +101,7 @@ class _ChatWidgetState extends State<ChatWidget> {
                               ),
                     ),
                     Text(
-                      FFLocalizations.of(context).getText(
-                        'z7m356xv' /* •Online */,
-                      ),
+                      '•Online',
                       style: FlutterFlowTheme.of(context).bodyMedium.override(
                             fontFamily: 'Nunito',
                             color: Color(0xFF4AAF4F),
@@ -244,10 +240,7 @@ class _ChatWidgetState extends State<ChatWidget> {
                                           mainAxisSize: MainAxisSize.max,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'xdc3u5dk' /* Hi, dont worry I am here. Let ... */,
-                                              ),
+                                              'Hi, dont worry I am here. Let me know your situation now.',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -264,10 +257,7 @@ class _ChatWidgetState extends State<ChatWidget> {
                                                     .fromSTEB(
                                                         0.0, 4.0, 0.0, 0.0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'i8rtp9ip' /* 09:41 AM */,
-                                                  ),
+                                                  '09:41 AM',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -317,10 +307,7 @@ class _ChatWidgetState extends State<ChatWidget> {
                                           mainAxisSize: MainAxisSize.max,
                                           children: [
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'olisagb8' /* Hi Doctor, I am a fever patien... */,
-                                              ),
+                                              'Hi Doctor, I am a fever patient. This is my prescription',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
@@ -340,10 +327,7 @@ class _ChatWidgetState extends State<ChatWidget> {
                                                     .fromSTEB(
                                                         0.0, 4.0, 0.0, 0.0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'bccehpix' /* 09:43 AM */,
-                                                  ),
+                                                  '09:43 AM',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -437,9 +421,7 @@ class _ChatWidgetState extends State<ChatWidget> {
                             autofocus: false,
                             obscureText: false,
                             decoration: InputDecoration(
-                              hintText: FFLocalizations.of(context).getText(
-                                'f42kyklt' /* |  Message... */,
-                              ),
+                              hintText: '|  Message...',
                               hintStyle: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(

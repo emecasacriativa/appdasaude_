@@ -63,9 +63,7 @@ class _YourOrderSuccessfullyWidgetState
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'yenhlqod' /* Your Order Successfully Placed... */,
-            ),
+            'Your Order Successfully Placed!',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -109,9 +107,7 @@ class _YourOrderSuccessfullyWidgetState
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Text(
-                                FFLocalizations.of(context).getText(
-                                  'vv5ze004' /* Estimated Delivery Time */,
-                                ),
+                                'Estimated Delivery Time',
                                 style: FlutterFlowTheme.of(context)
                                     .labelLarge
                                     .override(
@@ -123,9 +119,7 @@ class _YourOrderSuccessfullyWidgetState
                                     ),
                               ),
                               Text(
-                                FFLocalizations.of(context).getText(
-                                  'z3u2jtmb' /* 35 - 50 Mins */,
-                                ),
+                                '35 - 50 Mins',
                                 style: FlutterFlowTheme.of(context)
                                     .headlineMedium
                                     .override(
@@ -148,9 +142,7 @@ class _YourOrderSuccessfullyWidgetState
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 30.0, 0.0, 16.0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'iiy134u5' /* Order Details */,
-                                    ),
+                                    'Order Details',
                                     style: FlutterFlowTheme.of(context)
                                         .labelLarge
                                         .override(
@@ -171,9 +163,7 @@ class _YourOrderSuccessfullyWidgetState
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'c28beo0m' /* Your order Number: */,
-                                      ),
+                                      'Your order Number:',
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
@@ -183,9 +173,7 @@ class _YourOrderSuccessfullyWidgetState
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'ndipnqao' /* #s5jc-226 */,
-                                    ),
+                                    '#s5jc-226',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -207,9 +195,7 @@ class _YourOrderSuccessfullyWidgetState
                                       alignment:
                                           AlignmentDirectional(-1.0, 0.0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'sd3i9cy7' /* Your order from: */,
-                                        ),
+                                        'Your order from:',
                                         style: FlutterFlowTheme.of(context)
                                             .labelMedium
                                             .override(
@@ -219,9 +205,7 @@ class _YourOrderSuccessfullyWidgetState
                                       ),
                                     ),
                                     Text(
-                                      FFLocalizations.of(context).getText(
-                                        '2tz1v961' /* Maan Pharmacy Ltd. */,
-                                      ),
+                                      'Maan Pharmacy Ltd.',
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .override(
@@ -241,9 +225,7 @@ class _YourOrderSuccessfullyWidgetState
                                   Align(
                                     alignment: AlignmentDirectional(-1.0, 0.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'wrh2s5ks' /* Delivery Addesss: */,
-                                      ),
+                                      'Delivery Addesss:',
                                       style: FlutterFlowTheme.of(context)
                                           .labelMedium
                                           .override(
@@ -253,11 +235,7 @@ class _YourOrderSuccessfullyWidgetState
                                     ),
                                   ),
                                   Text(
-                                    FFLocalizations.of(context).getText(
-                                      'upt00ojd' /* 8 Bukit Batok Street 41, 
-Bang... */
-                                      ,
-                                    ),
+                                    '8 Bukit Batok Street 41, \nBangladesh, 361025',
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .override(
@@ -287,9 +265,7 @@ Bang... */
                                         alignment:
                                             AlignmentDirectional(-1.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'ulu7jbkt' /* Total (incl. VAT) */,
-                                          ),
+                                          'Total (incl. VAT)',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -306,9 +282,7 @@ Bang... */
                                         alignment:
                                             AlignmentDirectional(-1.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'vv0nmqpg' /* $13.59 */,
-                                          ),
+                                          '\$13.59',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -349,9 +323,7 @@ Bang... */
                                         alignment:
                                             AlignmentDirectional(-1.0, 0.0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            '8n3mztd9' /* View Details (3 items) */,
-                                          ),
+                                          'View Details (3 items)',
                                           style: FlutterFlowTheme.of(context)
                                               .labelLarge
                                               .override(
@@ -416,9 +388,7 @@ Bang... */
                               }(),
                             );
                           },
-                          text: FFLocalizations.of(context).getText(
-                            'gadgnx0y' /* Track My Order */,
-                          ),
+                          text: 'Track My Order',
                           options: FFButtonOptions(
                             width: double.infinity,
                             height: 50.0,
@@ -453,9 +423,7 @@ Bang... */
                             }(),
                           );
                         },
-                        text: FFLocalizations.of(context).getText(
-                          'flqjz6k4' /* Back to Home */,
-                        ),
+                        text: 'Back to Home',
                         options: FFButtonOptions(
                           width: double.infinity,
                           height: 50.0,

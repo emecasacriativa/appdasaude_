@@ -75,9 +75,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'oukj02nk' /* Doctor Details */,
-            ),
+            'Doctor Details',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -210,9 +208,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'lnbwa727' /* Experiences */,
-                                            ),
+                                            'Experiences',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -267,9 +263,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              '5r8gop1t' /* 5,000+ */,
-                                            ),
+                                            '5,000+',
                                             style: FlutterFlowTheme.of(context)
                                                 .titleSmall
                                                 .override(
@@ -282,9 +276,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                                 ),
                                           ),
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'yfe3vw1z' /* Patient */,
-                                            ),
+                                            'Patient',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -327,9 +319,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'p18prik6' /* Biography */,
-                                  ),
+                                  'Biography',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -342,9 +332,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                 ),
                               ),
                               Text(
-                                FFLocalizations.of(context).getText(
-                                  'ekwlffe3' /* Dr. Josiah Toor treated more t... */,
-                                ),
+                                'Dr. Josiah Toor treated more than 5,000 cancer pati-ent who had been written off as incurable by other doctors. He claimed no miracle cures, but the succes\ns record of his revolutionary whole body treatment was extraordinary. This is the story of a tempestuous life; his Ringberg Clinic in Bavaria, ',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -358,9 +346,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'rvtw2xkc' /* Gallery */,
-                                  ),
+                                  'Gallery',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -441,10 +427,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                               size: 24.0,
                                             ),
                                             Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'n7ygbvay' /* View More */,
-                                              ),
+                                              'View More',
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyMedium
@@ -468,9 +451,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 24.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'qo20067m' /* Availability */,
-                                  ),
+                                  'Availability',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -483,9 +464,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                 ),
                               ),
                               Text(
-                                FFLocalizations.of(context).getText(
-                                  'ikpwd8sl' /* Mon - Fri 09.00 AM - 08.00 PM */,
-                                ),
+                                'Mon - Fri 09.00 AM - 08.00 PM',
                                 style: FlutterFlowTheme.of(context)
                                     .bodyMedium
                                     .override(
@@ -504,9 +483,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0.0, 24.0, 0.0, 12.0),
                                     child: Text(
-                                      FFLocalizations.of(context).getText(
-                                        'frxqn110' /* Reviews(60) */,
-                                      ),
+                                      'Reviews(60)',
                                       style: FlutterFlowTheme.of(context)
                                           .labelLarge
                                           .override(
@@ -600,11 +577,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                                                   0.0,
                                                                   4.0),
                                                       child: Text(
-                                                        FFLocalizations.of(
-                                                                context)
-                                                            .getText(
-                                                          'hpj8xa2o' /* Jerome Bell */,
-                                                        ),
+                                                        'Jerome Bell',
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -667,9 +640,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                             ],
                                           ),
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              '1yd66em7' /* 31 Min Ago */,
-                                            ),
+                                            '31 Min Ago',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyMedium
                                                 .override(
@@ -684,9 +655,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                                         ],
                                       ),
                                       Text(
-                                        FFLocalizations.of(context).getText(
-                                          'iaiztxw1' /* Lorem ipsum dolor sit amet, co... */,
-                                        ),
+                                        'Lorem ipsum dolor sit amet, consectetur adi piscing elit. Quis sapien arco',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
@@ -749,9 +718,7 @@ class _DoctorDetailsWidgetState extends State<DoctorDetailsWidget> {
                           onPressed: () async {
                             context.pushNamed('BookAppointment');
                           },
-                          text: FFLocalizations.of(context).getText(
-                            '8pcigpfm' /* Book Appointment */,
-                          ),
+                          text: 'Book Appointment',
                           options: FFButtonOptions(
                             width: 200.0,
                             height: 50.0,

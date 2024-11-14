@@ -58,9 +58,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
               Align(
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  FFLocalizations.of(context).getText(
-                    'o2h0zgub' /* My Cart */,
-                  ),
+                  'My Cart',
                   style: FlutterFlowTheme.of(context).bodyMedium.override(
                         fontFamily: 'Nunito',
                         color: FlutterFlowTheme.of(context).primaryText,
@@ -71,9 +69,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                 ),
               ),
               Text(
-                FFLocalizations.of(context).getText(
-                  '6x6maynk' /* Total 2 items */,
-                ),
+                'Total 2 items',
                 style: FlutterFlowTheme.of(context).labelSmall.override(
                       fontFamily: 'Nunito',
                       fontSize: 13.0,
@@ -112,9 +108,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                               safeSetState(() {});
                             },
                             child: Text(
-                              FFLocalizations.of(context).getText(
-                                '8ch1rmd8' /* Cancel  */,
-                              ),
+                              'Cancel ',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -139,9 +133,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                               safeSetState(() {});
                             },
                             child: Text(
-                              FFLocalizations.of(context).getText(
-                                '0z9lkn1s' /* Edit */,
-                              ),
+                              'Edit',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -178,9 +170,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 44.0, 0.0, 12.0),
                     child: Text(
-                      FFLocalizations.of(context).getText(
-                        '7mak5qom' /* Promo Code */,
-                      ),
+                      'Promo Code',
                       style: FlutterFlowTheme.of(context).bodyLarge.override(
                             fontFamily: 'Nunito',
                             letterSpacing: 0.0,
@@ -203,9 +193,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                           autofocus: false,
                           obscureText: false,
                           decoration: InputDecoration(
-                            labelText: FFLocalizations.of(context).getText(
-                              '3uyv33cm' /* Coupon code */,
-                            ),
+                            labelText: 'Coupon code',
                             labelStyle: FlutterFlowTheme.of(context)
                                 .labelMedium
                                 .override(
@@ -291,9 +279,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                         onPressed: () {
                           print('Button pressed ...');
                         },
-                        text: FFLocalizations.of(context).getText(
-                          'z0x52z7a' /* Apply */,
-                        ),
+                        text: 'Apply',
                         options: FFButtonOptions(
                           height: 51.0,
                           padding: EdgeInsetsDirectional.fromSTEB(
@@ -335,9 +321,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'mltw77vp' /* Subtotal */,
-                              ),
+                              'Subtotal',
                               style: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
@@ -346,9 +330,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                                   ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'tvqzrequ' /* $12.98 */,
-                              ),
+                              '\$12.98',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -367,9 +349,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'bv8us8yp' /* Delivery Fee */,
-                              ),
+                              'Delivery Fee',
                               style: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
@@ -378,9 +358,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                                   ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'op3449fz' /* $2.00 */,
-                              ),
+                              '\$2.00',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -399,9 +377,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'aqif8229' /* VAT */,
-                              ),
+                              'VAT',
                               style: FlutterFlowTheme.of(context)
                                   .labelMedium
                                   .override(
@@ -410,9 +386,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                                   ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'hxzmmzrb' /* $0.00 */,
-                              ),
+                              '\$0.00',
                               style: FlutterFlowTheme.of(context)
                                   .bodyMedium
                                   .override(
@@ -435,9 +409,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
-                                '9xjdm7w5' /* Total Amount */,
-                              ),
+                              'Total Amount',
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
@@ -447,9 +419,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                                   ),
                             ),
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'ly9n5w4f' /* $14.98 */,
-                              ),
+                              '\$14.98',
                               style: FlutterFlowTheme.of(context)
                                   .bodyLarge
                                   .override(
@@ -467,9 +437,7 @@ class _MyCartWidgetState extends State<MyCartWidget> {
                     onPressed: () async {
                       context.pushNamed('CheckOut');
                     },
-                    text: FFLocalizations.of(context).getText(
-                      '66kyypcw' /* Check out */,
-                    ),
+                    text: 'Check out',
                     options: FFButtonOptions(
                       width: double.infinity,
                       height: 50.0,

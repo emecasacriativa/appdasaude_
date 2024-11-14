@@ -64,9 +64,7 @@ class _ShippingAddressWidgetState extends State<ShippingAddressWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'yw0e1bof' /* Shipping Address */,
-            ),
+            'Shipping Address',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -112,9 +110,7 @@ class _ShippingAddressWidgetState extends State<ShippingAddressWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 0.0, 12.0),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'rp2gjfqh' /* Select Shipping Address */,
-                                  ),
+                                  'Select Shipping Address',
                                   style: FlutterFlowTheme.of(context)
                                       .labelLarge
                                       .override(
@@ -215,11 +211,7 @@ class _ShippingAddressWidgetState extends State<ShippingAddressWidget> {
                                                                   ),
                                                             ),
                                                             Text(
-                                                              FFLocalizations.of(
-                                                                      context)
-                                                                  .getText(
-                                                                'vx7rbstl' /* Change */,
-                                                              ),
+                                                              'Change',
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyMedium
@@ -319,9 +311,7 @@ class _ShippingAddressWidgetState extends State<ShippingAddressWidget> {
                               },
                             ).then((value) => safeSetState(() {}));
                           },
-                          text: FFLocalizations.of(context).getText(
-                            'oia33tlx' /* Add New Address */,
-                          ),
+                          text: 'Add New Address',
                           options: FFButtonOptions(
                             width: 200.0,
                             height: 50.0,

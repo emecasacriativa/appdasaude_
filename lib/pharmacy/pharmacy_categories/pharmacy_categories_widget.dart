@@ -63,9 +63,7 @@ class _PharmacyCategoriesWidgetState extends State<PharmacyCategoriesWidget> {
             },
           ),
           title: Text(
-            FFLocalizations.of(context).getText(
-              'lpp8cjzv' /* Categories */,
-            ),
+            'Categories',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,

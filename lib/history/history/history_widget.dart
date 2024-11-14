@@ -45,9 +45,7 @@ class _HistoryWidgetState extends State<HistoryWidget> {
           backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
           automaticallyImplyLeading: false,
           title: Text(
-            FFLocalizations.of(context).getText(
-              'fp9rorcz' /* My History */,
-            ),
+            'My History',
             style: FlutterFlowTheme.of(context).bodyMedium.override(
                   fontFamily: 'Nunito',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -145,9 +143,7 @@ class _HistoryWidgetState extends State<HistoryWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'mpaat22s' /* Appointment History */,
-                                            ),
+                                            'Appointment History',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -234,9 +230,7 @@ class _HistoryWidgetState extends State<HistoryWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'tbz2fb1p' /* Diagnostic History */,
-                                            ),
+                                            'Diagnostic History',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -323,9 +317,7 @@ class _HistoryWidgetState extends State<HistoryWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              '579ae3bv' /* Prescription History */,
-                                            ),
+                                            'Prescription History',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -412,9 +404,7 @@ class _HistoryWidgetState extends State<HistoryWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              '7whv352h' /* Nursing Care History */,
-                                            ),
+                                            'Nursing Care History',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
@@ -501,9 +491,7 @@ class _HistoryWidgetState extends State<HistoryWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   20.0, 0.0, 0.0, 0.0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              '13u2fay5' /* Ambulance History */,
-                                            ),
+                                            'Ambulance History',
                                             style: FlutterFlowTheme.of(context)
                                                 .labelLarge
                                                 .override(
