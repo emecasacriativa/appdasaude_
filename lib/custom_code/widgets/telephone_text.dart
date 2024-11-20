@@ -79,7 +79,7 @@ class _TelephoneTextState extends State<TelephoneText> {
   void initState() {
     countryList = countries;
     if (widget.initialValue == null || widget.initialValue == '')
-      FFAppState().ttTelephoneNumber = '';
+      FFAppState().phoneNumber = '';
     else {
       FFAppState().ttTelephoneNumber = widget.initialValue!;
       if (widget.initialValue!.startsWith('+')) {

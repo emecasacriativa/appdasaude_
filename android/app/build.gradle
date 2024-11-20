@@ -1,9 +1,7 @@
 plugins {
-   id "com.android.application"
-   id "kotlin-android"
-   id "dev.flutter.flutter-gradle-plugin"
-   
-   
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
 }
 
 def localProperties = new Properties()
@@ -14,66 +12,51 @@ if (localPropertiesFile.exists()) {
     }
 }
 
-def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
-if (flutterVersionCode == null) {
-    flutterVersionCode = '1'
-}
+// Caminho do SDK do Flutter
+def flutterRoot = localProperties.getProperty('flutter.sdk')
 
-def flutterVersionName = localProperties.getProperty('flutter.versionName')
-if (flutterVersionName == null) {
-    flutterVersionName = '1.0'
-}
-
-def keystoreProperties = new Properties()
-def keystorePropertiesFile = rootProject.file('key.properties')
-if (keystorePropertiesFile.exists()) {
-    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
-}
+// Código e nome da versão do Flutter
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode', '1').toInteger()
+def flutterVersionName = localProperties.getProperty('flutter.versionName', '1.0')
 
 android {
-    compileSdkVersion 34
-    
-
-    sourceSets {
-        main.java.srcDirs += 'src/main/kotlin'
+    namespace "com.mycompany.appdasaude"
+    compileSdkVersion 34 // Atualize se necessário
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
-
-    lintOptions {
-        disable 'InvalidPackage'
-        checkReleaseBuilds false
+    kotlinOptions {
+        jvmTarget = "11"
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.mycompany.appdasaude"
-        minSdkVersion 23
-        targetSdkVersion 34
-        versionCode flutterVersionCode.toInteger()
+        applicationId "com.mycompany.appdasaude" // Substitua pelo seu Application ID
+        minSdkVersion 23 // Ajuste conforme os requisitos do projeto
+        targetSdkVersion 34 // Atualize conforme a versão-alvo
+        versionCode flutterVersionCode
         versionName flutterVersionName
     }
 
-   signingConfigs {
-       release {
-           keyAlias keystoreProperties['keyAlias']
-           keyPassword keystoreProperties['keyPassword']
-           storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-           storePassword keystoreProperties['storePassword']
-       }
-   }
-
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig signingConfigs.debug
+            // Configuração para build de release
+            signingConfig signingConfigs.debug // Alterar para `release` caso assine o APK
+            minifyEnabled true // Ativa o ProGuard para compactação de código
+            shrinkResources true // Mantém a remoção de recursos não utilizados
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin' // Inclui suporte para código em Kotlin
     }
 }
 
 flutter {
-    source '../..'
+    source '../..' // Caminho para o diretório raiz do projeto Flutter
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10" // Dependência Kotlin
 }
