@@ -1,3 +1,67 @@
+// plugins {
+//     id "com.android.application"
+//     id "kotlin-android"
+//     id "dev.flutter.flutter-gradle-plugin"
+// }
+
+// def localProperties = new Properties()
+// def localPropertiesFile = rootProject.file('local.properties')
+// if (localPropertiesFile.exists()) {
+//     localPropertiesFile.withReader('UTF-8') { reader ->
+//         localProperties.load(reader)
+//     }
+// }
+
+// // Caminho do SDK do Flutter
+// def flutterRoot = localProperties.getProperty('flutter.sdk')
+
+// // Código e nome da versão do Flutter
+// def flutterVersionCode = localProperties.getProperty('flutter.versionCode', '1').toInteger()
+// def flutterVersionName = localProperties.getProperty('flutter.versionName', '1.0')
+
+// android {
+//     namespace "com.appdasaude.appdasaude"
+//     compileSdkVersion 34 // Atualize se necessário
+//     compileOptions {
+//         sourceCompatibility JavaVersion.VERSION_11
+//         targetCompatibility JavaVersion.VERSION_11
+//     }
+//     kotlinOptions {
+//         jvmTarget = "11"
+//     }
+
+//     defaultConfig {
+//         applicationId "com.appdasaude.appdasaude" // Substitua pelo seu Application ID
+//         minSdkVersion 23 // Ajuste conforme os requisitos do projeto
+//         targetSdkVersion 34 // Atualize conforme a versão-alvo
+//         versionCode 1 // Incrementar para cada atualização
+//         versionName "1.0" // Nome amigável para o usuário
+//     }
+
+//     buildTypes {
+//         release {
+//             // Configuração para build de release
+//             signingConfig signingConfigs.debug // Alterar para `release` caso assine o APK
+//             minifyEnabled true // Ativa o ProGuard para compactação de código
+//             shrinkResources true // Mantém a remoção de recursos não utilizados
+//             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+//         }
+//     }
+
+//     sourceSets {
+//         main.java.srcDirs += 'src/main/kotlin' // Inclui suporte para código em Kotlin
+//     }
+// }
+
+// flutter {
+//     source '../..' // Caminho para o diretório raiz do projeto Flutter
+// }
+
+// dependencies {
+//     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.10" // Última versão em novembro de 2024
+// }
+
+
 plugins {
     id "com.android.application"
     id "kotlin-android"
@@ -34,17 +98,29 @@ android {
         applicationId "com.appdasaude.appdasaude" // Substitua pelo seu Application ID
         minSdkVersion 23 // Ajuste conforme os requisitos do projeto
         targetSdkVersion 34 // Atualize conforme a versão-alvo
-        versionCode 1 // Incrementar para cada atualização
-        versionName "1.0" // Nome amigável para o usuário
+        versionCode flutterVersionCode // Integrado ao Flutter
+        versionName flutterVersionName // Integrado ao Flutter
+    }
+
+    signingConfigs {
+        release {
+            // Configuração de assinatura com o keystore gerado
+            storeFile file("/home/marlacabral/my-release-key.jks") // Caminho completo para o keystore
+            storePassword "appdasaude" // Substitua pela senha que você forneceu ao criar o keystore
+            keyAlias "my-key-alias" // Alias configurado ao gerar o keystore
+            keyPassword "appdasaude" // Substitua pela senha da chave
+        }
     }
 
     buildTypes {
         release {
-            // Configuração para build de release
-            signingConfig signingConfigs.debug // Alterar para `release` caso assine o APK
+            signingConfig signingConfigs.release // Ativa a assinatura do release
             minifyEnabled true // Ativa o ProGuard para compactação de código
-            shrinkResources true // Mantém a remoção de recursos não utilizados
+            shrinkResources true // Remove recursos não utilizados
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.debug // Mantém a configuração para builds de debug
         }
     }
 

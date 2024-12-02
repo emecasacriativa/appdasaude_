@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.appdasaude.appdasaude"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permissões -->
     <uses-permission android:name="android.permission.INTERNET" />
     <!-- Permissão necessária para versões antigas do Android -->
     <uses-permission
@@ -11,7 +12,8 @@
     <application
         android:icon="@mipmap/ic_launcher"
         android:debuggable="false"
-        tools:replace="android:label">
+        tools:replace="android:label"
+        android:label="App da Saúde">
 
         <!-- Compatibilidade com armazenamento legado (Android 10) -->
         <meta-data
@@ -48,4 +50,5 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+
 </manifest>
