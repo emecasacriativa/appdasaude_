@@ -20,7 +20,7 @@ def flutterVersionCode = localProperties.getProperty('flutter.versionCode', '1')
 def flutterVersionName = localProperties.getProperty('flutter.versionName', '1.0')
 
 android {
-    namespace "com.mycompany.appdasaude"
+    namespace "com.appdasaude.appdasaude"
     compileSdkVersion 34 // Atualize se necessário
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
@@ -31,11 +31,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mycompany.appdasaude" // Substitua pelo seu Application ID
+        applicationId "com.appdasaude.appdasaude" // Substitua pelo seu Application ID
         minSdkVersion 23 // Ajuste conforme os requisitos do projeto
         targetSdkVersion 34 // Atualize conforme a versão-alvo
-        versionCode flutterVersionCode
-        versionName flutterVersionName
+        versionCode 1 // Incrementar para cada atualização
+        versionName "1.0" // Nome amigável para o usuário
     }
 
     buildTypes {
@@ -58,5 +58,5 @@ flutter {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.10" // Dependência Kotlin
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.10" // Última versão em novembro de 2024
 }

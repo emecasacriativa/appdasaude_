@@ -1,4 +1,4 @@
-package com.mycompany.appdasaude
+package com.appdasaude.appdasaude
 
 import io.flutter.embedding.android.FlutterActivity
 
